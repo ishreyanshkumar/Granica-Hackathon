@@ -39,7 +39,7 @@
 
   <section id="setup" class="card">
     <div class="row">
-      <div><label>Mess code</label><input id="mess" value="MESSA"></div>
+      <div><label>Mess code</label><input id="mess" value="BRAHMAPUTRA"></div>
       <div><label>Meal</label><select id="meal"><option>breakfast</option><option>lunch</option><option>dinner</option></select></div>
     </div>
     <div class="row">
@@ -104,7 +104,7 @@ const today = () => { const d = new Date(); return `${d.getFullYear()}-${pad(d.g
 const KEY = "messTapLogger.v1";
 let S;
 try { S = JSON.parse(localStorage.getItem(KEY)) || null; } catch (e) { S = null; }
-if (!S) S = { meta: { mess:"MESSA", meal:"breakfast", date:today(), open:"07:15", close:"09:30", dish:"", ipp:2, obs:"", notes:"" },
+if (!S) S = { meta: { mess:"BRAHMAPUTRA", meal:"breakfast", date:today(), open:"07:15", close:"09:30", dish:"", ipp:2, obs:"", notes:"" },
               io: [], srv: [], seq: 0 };
 if (!S.srv) S.srv = [];
 const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) {} };

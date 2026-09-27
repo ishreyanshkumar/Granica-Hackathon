@@ -19,7 +19,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 from src.config import ALERT_AMBER_MAX, ALERT_GREEN_MAX, HORIZONS, INTERVAL_MIN, TARGET_WAIT_MIN  # noqa: E402
 
-st.set_page_config(page_title="Smart Mess", page_icon=":stew:", layout="wide")
+st.set_page_config(page_title="Smart Mess — Brahmaputra Hostel", page_icon=":stew:", layout="wide")
 COL = {"GREEN": "#2b8a3e", "AMBER": "#e67700", "RED": "#c92a2a"}
 st.markdown("""<style>
 .block-container{padding-top:3.2rem;padding-bottom:0.5rem}
@@ -48,6 +48,7 @@ if default_sid not in sessions:
 
 with st.sidebar:
     st.header("Smart Mess")
+    st.caption("Brahmaputra Hostel · IIT Guwahati")
     sid = st.selectbox("Meal session", sessions, index=sessions.index(default_sid))
     g = pred[pred.session_id == sid].sort_values("slot_idx").reset_index(drop=True)
     slot = st.slider("Replay time (5-min steps)", 0, len(g) - 1,

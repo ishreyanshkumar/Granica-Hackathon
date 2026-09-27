@@ -2,6 +2,6 @@ session_id,date,weekday,meal,mess,open_time,close_time,main_dish,items_per_perso
 MESSA_breakfast_2026-09-26,2026-09-26,Saturday,breakfast,MESS_A,08:00,10:15,Dosa,2,5,team (observed),0,real weekend session converted from weekend_slot_tables.xlsx
 MESSA_lunch_2026-09-26,2026-09-26,Saturday,lunch,MESS_A,12:15,14:30,Rice/Dal/Roti,4,5,team (observed),0,real weekend session converted from weekend_slot_tables.xlsx
 MESSA_dinner_2026-09-26,2026-09-26,Saturday,dinner,MESS_A,20:00,22:00,Roti/Sabzi,4,5,team (observed),0,real weekend session converted from weekend_slot_tables.xlsx
-MESSA_breakfast_2026-09-27,2026-09-27,Sunday,breakfast,MESS_A,08:00,10:15,Dosa,2,5,team (observed),0,real weekend session converted from weekend_slot_tables.xlsx
-MESSA_lunch_2026-09-27,2026-09-27,Sunday,lunch,MESS_A,12:15,14:30,Rice/Dal/Roti,4,5,team (observed),0,real weekend session converted from weekend_slot_tables.xlsx
-MESSA_dinner_2026-09-27,2026-09-27,Sunday,dinner,MESS_A,20:00,22:00,Roti/Sabzi,4,5,team (observed),0,real weekend session converted from weekend_slot_tables.xlsx
+SYN_breakfast_2026-09-07,2026-09-07,Monday,breakfast,MESS_A,07:15,09:30,Idli/Vada,3,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
+SYN_lunch_2026-09-07,2026-09-07,Monday,lunch,MESS_A,12:00,14:00,Rice/Dal/Roti,4,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
+SYN_dinner_2026-09-07,2026-09-07,Monday,dinner,MESS_A,19:30,21:45,Roti/Sabzi,4,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
