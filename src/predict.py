@@ -53,7 +53,7 @@ def out_of_sample():
 
     out.to_parquet(REPORTS / "predictions_dashboard.parquet", index=False)
     keep = ["session_id", "interval_end", "main_dish", "meal", "weekday", "in_count", "out_count",
-            "queue_len", "queue_now", "mu", "wait_now",
+            "queue_phys", "queue_now", "mu", "wait_now",
             "q_pred1", "q_pred2", "q_pred3", "q_lo3", "q_hi3",
             "wait_pred1", "wait_pred2", "wait_pred3",
             "alert", "service_rate_required", "items_rate_required", "service_gap_pct",

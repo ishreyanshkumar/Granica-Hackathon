@@ -1,6 +1,15 @@
 """
 Stage 2 - physics layer and feature engineering (5-minute grain).
 
+Queue length is NOT an observed input.  It is derived entirely from the
+conservation law at every interval:
+
+    queue(t) = max(0, queue(t-1) + in_count(t) - served_people(t))
+
+Only two sensor streams are used:
+  - in_count / out_count   door tap counts per 5-min interval
+  - items_made             service counter (5-min grouped)
+
 Everything at row t uses only information available at interval_end of t (no look-ahead).
 Anything learned across sessions (dish speed prior, arrival profile) is fitted on TRAINING
 sessions only and passed in, so evaluation never leaks.
@@ -24,20 +33,46 @@ def heuristic_queue(in_count, items_made):
     return np.where((in_count > 0) & (in_count < 4), 1.0, q)
 
 
+def derive_session_queue(g: pd.DataFrame, default_sp_cap: float = 40.0) -> list:
+    """Conservation law: queue(t) = max(0, queue(t-1) + in_count(t) - served_people(t)).
+    Only two sensor inputs are used: in_count and items_made."""
+    ipp = g["items_per_person"].iloc[0] if "items_per_person" in g.columns else 1.0
+    sp_col = (g["items_made"] / ipp) if "items_made" in g.columns else pd.Series(np.nan, index=g.index)
+    q, qs = 0.0, []
+    for inc, sp in zip(g["in_count"], sp_col):
+        sp = sp if not (pd.isna(sp) or np.isnan(sp)) else min(q + inc, default_sp_cap)
+        q = max(0.0, q + inc - sp)
+        qs.append(q)
+    return qs
+
+
 # ---------------------------------------------------------------- priors fitted on train only
 def fit_priors(train: pd.DataFrame) -> dict:
     """Dish service capacity (people/min, busy intervals only) and the historical arrival
-    profile (mean in_count by meal x weekday x slot)."""
+    profile (mean in_count by meal x weekday x slot).
+
+    Queue length is derived entirely from the conservation law across training sessions.
+    """
     t = train.copy()
-    q_prev = t.groupby("session_id")["queue_len"].shift(1)
-    busy = (t["queue_len"].fillna(0) >= BUSY_QUEUE) | (q_prev.fillna(0) >= BUSY_QUEUE)
+    if "queue_phys" not in t.columns:
+        qs_all = {}
+        for _, g in t.groupby("session_id", sort=False):
+            g_sorted = g.sort_values("slot_idx")
+            qs = derive_session_queue(g_sorted)
+            for idx, q_val in zip(g_sorted.index, qs):
+                qs_all[idx] = q_val
+        t["queue_phys"] = pd.Series(qs_all)
+    q_col = "queue_phys"
+
+    q_prev = t.groupby("session_id")[q_col].shift(1)
+    busy = (t[q_col].fillna(0) >= BUSY_QUEUE) | (q_prev.fillna(0) >= BUSY_QUEUE)
     cap = t.loc[busy, ["main_dish", "service_rate_people_per_min"]].dropna()
     dish = cap.groupby("main_dish")["service_rate_people_per_min"].median().to_dict()
     glob = float(cap["service_rate_people_per_min"].median()) if len(cap) else 8.0
     prof = t.groupby(["meal", "weekday", "slot_idx"])["in_count"].mean().to_dict()
     prof_meal = t.groupby(["meal", "slot_idx"])["in_count"].mean().to_dict()
-    qprof = t.groupby(["meal", "weekday", "slot_idx"])["queue_len"].mean().to_dict()
-    qprof_meal = t.groupby(["meal", "slot_idx"])["queue_len"].mean().to_dict()
+    qprof = t.groupby(["meal", "weekday", "slot_idx"])[q_col].mean().to_dict()
+    qprof_meal = t.groupby(["meal", "slot_idx"])[q_col].mean().to_dict()
     return {"dish_mu": dish, "global_mu": glob, "in_profile": prof, "in_profile_meal": prof_meal,
             "queue_profile": qprof, "queue_profile_meal": qprof_meal}
 
@@ -64,26 +99,18 @@ def add_features(df: pd.DataFrame, priors: dict) -> pd.DataFrame:
         meal, wd, dish = g["meal"].iloc[0], g["weekday"].iloc[0], g["main_dish"].iloc[0]
         ipp = g["items_per_person"].iloc[0]
 
-        # service rate: measured capacity only in busy intervals (line >= BUSY_QUEUE at start or end)
-        q_prev_obs = g["queue_len"].shift(1)
-        busy = (g["queue_len"].fillna(0) >= BUSY_QUEUE) | (q_prev_obs.fillna(0) >= BUSY_QUEUE)
-        cap = g["service_rate_people_per_min"].where(busy).rolling(3, min_periods=1).mean().ffill()
+        # service rate: measured capacity only in busy intervals.
+        cap_raw = g["service_rate_people_per_min"].rolling(3, min_periods=1).mean().ffill()
         dish_mu = priors["dish_mu"].get(dish, priors["global_mu"])
         g["dish_mu"] = dish_mu
-        g["mu"] = cap.fillna(dish_mu).clip(lower=MU_FLOOR)                   # people/min
-        g["served_people"] = (g["items_made"] / ipp)                          # people / 5 min
-        g["lam"] = g["in_count"] / INTERVAL_MIN                                # people/min
+        g["mu"] = cap_raw.fillna(dish_mu).clip(lower=MU_FLOOR)             # people/min
+        g["served_people"] = (g["items_made"] / ipp)                        # people / 5 min
+        g["lam"] = g["in_count"] / INTERVAL_MIN                              # people/min
 
-        # conservation law, re-anchored to every counted queue
-        q, qs = 0.0, []
-        for inc, sp, obs in zip(g["in_count"], g["served_people"], g["queue_len"]):
-            sp = sp if not np.isnan(sp) else min(q + inc, float(g["mu"].median()) * INTERVAL_MIN)
-            q = max(0.0, q + inc - sp)
-            if not np.isnan(obs):
-                q = float(obs)
-            qs.append(q)
-        g["queue_phys"] = qs
-        g["queue_now"] = g["queue_len"].fillna(g["queue_phys"])
+        # conservation law — pure physics, no observer re-anchoring
+        # queue(t) = max(0, queue(t-1) + in_count(t) - served_people(t))
+        g["queue_phys"] = derive_session_queue(g, default_sp_cap=float(g["mu"].median()) * INTERVAL_MIN)
+        g["queue_now"] = g["queue_phys"]   # queue_now IS queue_phys — no observed anchor
         g["queue_heur"] = heuristic_queue(g["in_count"], g["items_made"])
         g["cum_in"] = g["in_count"].cumsum()
         g["cum_out"] = g["out_count"].cumsum()
@@ -111,11 +138,11 @@ def add_features(df: pd.DataFrame, priors: dict) -> pd.DataFrame:
         close_slot = g.loc[g["after_close"] == 0, "slot_idx"].max()
         g["min_to_close"] = ((close_slot + 1 - g["slot_idx"]) * INTERVAL_MIN).clip(lower=0)
 
-        # targets: counted queue h steps ahead; the model learns the change
+        # targets: physics-derived queue h steps ahead; the model learns the change
         for h in HORIZONS:
-            g[f"y_q{h}"] = g["queue_len"].shift(-h)
+            g[f"y_q{h}"] = g["queue_phys"].shift(-h)   # physics queue, no observer
             g[f"y_d{h}"] = g[f"y_q{h}"] - g["queue_now"]
-            g[f"mu_fut{h}"] = g["mu"].shift(-h).fillna(g["mu"])                  # for true wait
+            g[f"mu_fut{h}"] = g["mu"].shift(-h).fillna(g["mu"])              # for wait MAE
         out.append(g)
     return pd.concat(out, ignore_index=True)
 

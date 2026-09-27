@@ -4,9 +4,9 @@ XGBoost, congested-interval MAE (people, true line >= 10), forward out-of-sample
 
 | features        |   5 min |   10 min |   15 min |
 |:----------------|--------:|---------:|---------:|
-| + queue profile |   10.03 |    15.24 |    21.81 |
-| model features  |    9.4  |    14.12 |    19.32 |
+| + queue profile |    8.63 |    14.5  |    20.15 |
+| model features  |    8.23 |    13.74 |    18.83 |
 
-Mean over horizons: + queue profile **15.69**, model features **14.28**
+Mean over horizons: + queue profile **14.43**, model features **13.6**
 
 Decision: the queue-profile features are **left out** of the model (they fit past queues too closely and forecast worse on unseen days).

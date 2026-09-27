@@ -1,7 +1,8 @@
 """
 Stage 4 - train and evaluate forecasting models.
 
-Target: counted queue length 5 / 10 / 15 min ahead (model learns the change from now).
+Target: physics-derived queue length 5 / 10 / 15 min ahead (model learns the change from now).
+Queue is never observed directly — it is the conservation-law estimate (cum_in − cum_served).
 Models compared:
   persistence           queue in h = queue now
   seasonal_profile      mean queue for the same meal, weekday and time slot in training weeks
@@ -174,10 +175,10 @@ def main():
     fig.savefig(FIGS / "model_1_mae.png"); plt.close(fig)
 
     # example forecast on the most congested held-out session
-    sid = fwd_pred.groupby("session_id")["queue_len"].max().idxmax()
+    sid = fwd_pred.groupby("session_id")["queue_now"].max().idxmax()
     e = fwd_pred[fwd_pred.session_id == sid]
     fig, ax = plt.subplots(figsize=(10, 3.4))
-    ax.plot(e.interval_end, e.queue_len, "ko-", ms=3, lw=1, label="counted queue")
+    ax.plot(e.interval_end, e.queue_now, "ko-", ms=3, lw=1, label="physics queue (derived)")
     tgt = e.interval_end + pd.Timedelta(minutes=10)
     ax.plot(tgt, e.q_pred2, color="#d9480f", lw=1.6, label="forecast made 10 min earlier")
     ax.fill_between(tgt, e.q_lo2, e.q_hi2, color="#d9480f", alpha=.15, label="80% band")

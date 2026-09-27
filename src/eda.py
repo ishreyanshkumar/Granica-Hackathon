@@ -52,14 +52,14 @@ def main():
 
     # 1-2. arrival and queue profiles
     profiles(f, "in_count", "eda_1_arrivals.png", "People entering per 5 min (mean by weekday)", "people / 5 min")
-    profiles(f, "queue_len", "eda_2_queue.png", "Main-dish line length (mean by weekday)", "people in line")
+    profiles(f, "queue_now", "eda_2_queue.png", "Main-dish line length (physics-derived, mean by weekday)", "people in line")
     profiles(f, "wait_now", "eda_3_wait.png", "Estimated wait = queue / service rate", "minutes")
 
     # peak table per meal x weekday
     rows = []
     for (meal, wd), d in f.groupby(["meal", "weekday"]):
         by = d.groupby("tod_min")
-        q = by["queue_len"].mean(); a = by["in_count"].mean(); w = by["wait_now"].mean()
+        q = by["queue_now"].mean(); a = by["in_count"].mean(); w = by["wait_now"].mean()
         over = (d.groupby("session_id").apply(lambda x: (x.wait_now >= TARGET_WAIT_MIN).sum(), include_groups=False)
                 * INTERVAL_MIN).mean()
         rows.append({"meal": meal, "weekday": wd, "peak_arrivals_at": _hhmm(a.idxmax()),
@@ -73,8 +73,8 @@ def main():
     peaks.to_csv(REPORTS / "eda_peaks.csv", index=False)
 
     # 4. service rate by dish (busy intervals = capacity)
-    q_prev = f.groupby("session_id")["queue_len"].shift(1)
-    f["busy"] = (f.queue_len.fillna(0) >= BUSY_QUEUE) | (q_prev.fillna(0) >= BUSY_QUEUE)
+    q_prev = f.groupby("session_id")["queue_now"].shift(1)
+    f["busy"] = (f.queue_now.fillna(0) >= BUSY_QUEUE) | (q_prev.fillna(0) >= BUSY_QUEUE)
     fig, ax = plt.subplots(1, 2, figsize=(12, 3.6))
     dishes = f.groupby("main_dish")["service_rate_people_per_min"].median().sort_values().index
     data_b = [f[(f.main_dish == d) & f.busy]["service_rate_people_per_min"].dropna() for d in dishes]
@@ -90,8 +90,8 @@ def main():
     S["capacity_people_per_min_by_dish"] = cap
 
     # 5. physics: imbalance drives queue growth
-    prv = f.groupby("session_id")["queue_len"].shift(1)
-    g = pd.DataFrame({"net": f["in_count"] - f["served_people"], "dq": f["queue_len"] - prv}).dropna()
+    prv = f.groupby("session_id")["queue_now"].shift(1)
+    g = pd.DataFrame({"net": f["in_count"] - f["served_people"], "dq": f["queue_now"] - prv}).dropna()
     g = g[g.index.isin(f.index[f.busy])]
     ax[1].scatter(g.net, g.dq, s=6, alpha=.35, color="#1c7ed6")
     lim = [g.net.min(), g.net.max()]; ax[1].plot(lim, lim, color="k", lw=.8, ls="--")
@@ -101,38 +101,38 @@ def main():
     S["balance_corr"] = round(float(g.net.corr(g.dq)), 3)
 
     # balance residual (same interval): observed Q_t vs Q_{t-1} + in_t - served_t
-    prev = f.groupby("session_id")["queue_len"].shift(1)
-    res = (f["queue_len"] - (prev + f["in_count"] - f["served_people"])).dropna()
+    prev = f.groupby("session_id")["queue_now"].shift(1)
+    res = (f["queue_now"] - (prev + f["in_count"] - f["served_people"])).dropna()
     res_busy = res[f.loc[res.index, "busy"]]
     S["balance_residual_busy_mae"] = round(float(res_busy.abs().mean()), 2)
 
     # 6. utilisation and congestion
     fig, ax = plt.subplots(1, 3, figsize=(13, 3.4))
-    ax[0].scatter(f.rho, f.queue_len, s=5, alpha=.3, color="#495057")
+    ax[0].scatter(f.rho, f.queue_now, s=5, alpha=.3, color="#495057")
     ax[0].axvline(1, color="#d9480f", lw=1); ax[0].set_xlabel("utilisation rho = arrivals / capacity (15-min)")
-    ax[0].set_ylabel("queue"); ax[0].set_title("Line forms once rho > 1")
-    S["share_congested_when_rho_gt1"] = round(float((f.loc[f.rho > 1, "queue_len"] >= CONGESTED_QUEUE).mean()), 2)
-    S["share_congested_when_rho_lt08"] = round(float((f.loc[f.rho < .8, "queue_len"] >= CONGESTED_QUEUE).mean()), 2)
+    ax[0].set_ylabel("queue (physics)"); ax[0].set_title("Line forms once rho > 1")
+    S["share_congested_when_rho_gt1"] = round(float((f.loc[f.rho > 1, "queue_now"] >= CONGESTED_QUEUE).mean()), 2)
+    S["share_congested_when_rho_lt08"] = round(float((f.loc[f.rho < .8, "queue_now"] >= CONGESTED_QUEUE).mean()), 2)
 
     # 7. predictability: correlation of queue now vs queue h steps ahead
     ac = []
     for h in range(1, 7):
-        s = f.groupby("session_id")["queue_len"].shift(-h)
-        ac.append(float(f["queue_len"].corr(s)))
+        s = f.groupby("session_id")["queue_now"].shift(-h)
+        ac.append(float(f["queue_now"].corr(s)))
     ax[1].bar(np.arange(1, 7) * INTERVAL_MIN, ac, width=3, color="#1c7ed6")
     ax[1].set_xlabel("minutes ahead"); ax[1].set_ylabel("corr(queue now, queue later)")
     ax[1].set_title("How far ahead 'queue now' still helps")
     S["autocorr_by_minutes"] = {int(h * INTERVAL_MIN): round(v, 2) for h, v in zip(range(1, 7), ac)}
 
     # 8. experimental formula vs counted queue (same interval)
-    ok = f.queue_len.notna() & f.items_made.notna()
-    ax[2].scatter(f.loc[ok, "queue_len"], f.loc[ok, "queue_heur"], s=5, alpha=.35, color="#868e96")
-    m = f.loc[ok, "queue_len"].max(); ax[2].plot([0, m], [0, m], "k--", lw=.8)
-    ax[2].set_xlabel("counted queue"); ax[2].set_ylabel("(in - items)/3 formula")
-    ax[2].set_title("Experimental formula vs counted queue")
-    S["heuristic_nowcast_mae"] = round(float((f.loc[ok, "queue_len"] - f.loc[ok, "queue_heur"]).abs().mean()), 2)
+    ok = f.queue_now.notna() & f.items_made.notna()
+    ax[2].scatter(f.loc[ok, "queue_now"], f.loc[ok, "queue_heur"], s=5, alpha=.35, color="#868e96")
+    m = f.loc[ok, "queue_now"].max(); ax[2].plot([0, m], [0, m], "k--", lw=.8)
+    ax[2].set_xlabel("physics-derived queue"); ax[2].set_ylabel("(in - items)/3 formula")
+    ax[2].set_title("Experimental formula vs physics queue")
+    S["heuristic_nowcast_mae"] = round(float((f.loc[ok, "queue_now"] - f.loc[ok, "queue_heur"]).abs().mean()), 2)
     S["heuristic_nowcast_mae_congested"] = round(float(
-        (f.loc[ok & (f.queue_len >= CONGESTED_QUEUE), "queue_len"] - f.loc[ok & (f.queue_len >= CONGESTED_QUEUE), "queue_heur"]).abs().mean()), 2)
+        (f.loc[ok & (f.queue_now >= CONGESTED_QUEUE), "queue_now"] - f.loc[ok & (f.queue_now >= CONGESTED_QUEUE), "queue_heur"]).abs().mean()), 2)
     fig.tight_layout(); fig.savefig(FIGS / "eda_5_rho_autocorr_heuristic.png"); plt.close(fig)
 
     # 9. hall occupancy (seats)
@@ -140,13 +140,11 @@ def main():
     S["peak_occupancy"] = int(f.occupancy.max())
 
     # 10. missingness and door drift
-    S["missing_queue_pct"] = round(100 * raw.queue_missing.mean(), 1)
     S["missing_items_pct"] = round(100 * raw.items_missing.mean(), 1)
     drift = raw.groupby("session_id").apply(lambda x: x.in_count.sum() - x.out_count.sum(), include_groups=False)
     S["door_drift_max_abs"] = int(drift.abs().max())
-    S["share_intervals_congested"] = round(float((f.queue_len >= CONGESTED_QUEUE).mean()), 3)
+    S["share_intervals_congested"] = round(float((f.queue_now >= CONGESTED_QUEUE).mean()), 3)
 
-    # stopwatch check of wait = queue / service rate (descriptive; full check in validate_waits.py)
     (REPORTS / "eda_summary.json").write_text(json.dumps(S, indent=2))
 
     worst = peaks.sort_values("peak_queue_mean", ascending=False).head(3)
@@ -174,11 +172,11 @@ def main():
         f"6. **The experimental formula underestimates real lines.** (in - items)/3 vs counted queue: MAE "
         f"{S['heuristic_nowcast_mae']} people overall and {S['heuristic_nowcast_mae_congested']} when the line is "
         f"{CONGESTED_QUEUE}+. It measures growth, not the accumulated stock, so it is kept only as a baseline.",
-        f"7. **Data quality.** {S['missing_queue_pct']}% of queue counts and {S['missing_items_pct']}% of item counts "
+        f"7. **Data quality.** {S['missing_items_pct']}% of item counts "
         f"are missing; they are left blank, never imputed in the raw data. Largest IN-OUT door drift in a meal: "
-        f"{S['door_drift_max_abs']} people.", "",
+        f"{S['door_drift_max_abs']} people. Queue length is physics-derived (no observer count).", "",
         "## What this means for the model", "",
-        "- Target: queue length 5, 10 and 15 minutes ahead (counted, so it is a real label).",
+        "- Target: queue length 5, 10 and 15 minutes ahead (physics-derived from in/out and service rate conservation law).",
         "- Inputs that matter by construction: current queue, recent arrivals, service capacity for the day's dish, "
         "and the expected arrivals from the same meal and weekday in past weeks.",
         "- Metrics must focus on congested intervals; most intervals have no line, so average error alone flatters any model.", "",

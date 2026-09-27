@@ -4,7 +4,7 @@
   "tables": [
     {
       "file": "data/parquet/inout.parquet",
-      "rows": 82362,
+      "rows": 122592,
       "title": "One row per person crossing the dining-hall door.",
       "grain": "event",
       "columns": [
@@ -21,7 +21,7 @@
         {
           "name": "event",
           "type": "large_string",
-          "description": "IN = entered the hall, OUT = left the hall"
+          "description": "IN = entered mess, OUT = left mess, SERVED = left food counter with dish"
         },
         {
           "name": "is_synthetic",
@@ -49,12 +49,7 @@
         {
           "name": "interval_end",
           "type": "timestamp[us]",
-          "description": "end of the window, IST; the line is counted at this moment"
-        },
-        {
-          "name": "queue_len",
-          "type": "int64",
-          "description": "people standing in the main-dish line at interval_end (null = count missed)"
+          "description": "end of the window, IST"
         },
         {
           "name": "items_made",
@@ -65,44 +60,6 @@
           "name": "is_synthetic",
           "type": "int64",
           "description": "1 = simulated row, 0 = counted in the mess"
-        }
-      ]
-    },
-    {
-      "file": "data/parquet/waits.parquet",
-      "rows": 849,
-      "title": "One row per stopwatch sample: one person timed from joining the line to getting the dish.",
-      "grain": "person",
-      "columns": [
-        {
-          "name": "session_id",
-          "type": "large_string",
-          "description": "meal session id"
-        },
-        {
-          "name": "tag",
-          "type": "large_string",
-          "description": "anonymous label (S01, S02...)"
-        },
-        {
-          "name": "join_ts",
-          "type": "timestamp[us]",
-          "description": "person joined the main-dish line, IST"
-        },
-        {
-          "name": "served_ts",
-          "type": "timestamp[us]",
-          "description": "person received the main dish, IST"
-        },
-        {
-          "name": "wait_min",
-          "type": "double",
-          "description": "served_ts - join_ts in minutes (inferred)"
-        },
-        {
-          "name": "is_synthetic",
-          "type": "int64",
-          "description": "1 = simulated, 0 = measured"
         }
       ]
     },
@@ -309,14 +266,14 @@
           "description": "OUT taps in the window (observed)"
         },
         {
-          "name": "queue_len",
-          "type": "double",
-          "description": "line at interval_end (observed; null = missed)"
+          "name": "served_count",
+          "type": "int64",
+          "description": "SERVED taps at counter in the window (observed)"
         },
         {
           "name": "items_made",
           "type": "double",
-          "description": "units made (observed; null = missed)"
+          "description": "units made (observed/inferred; null = missed)"
         },
         {
           "name": "service_rate_items_per_min",
@@ -362,11 +319,6 @@
           "name": "after_close",
           "type": "int64",
           "description": "1 = window starts after closing time (inferred)"
-        },
-        {
-          "name": "queue_missing",
-          "type": "int64",
-          "description": "1 = line count missed (inferred)"
         },
         {
           "name": "items_missing",

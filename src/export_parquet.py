@@ -1,8 +1,8 @@
 """
 Open-format export (the PS prefers Parquet).
 
-Writes every table of the dataset - raw logs, per-5-minute slot tables, the modelling table and
-the stopwatch samples - to data/parquet/, one file per table. Each file carries its schema inside:
+Writes every table of the dataset - raw logs, per-5-minute slot tables, the modelling table -
+to data/parquet/, one file per table. Each file carries its schema inside:
   * typed columns (timestamps are real timestamps, counts are integers, missing counts are nulls)
   * a description on every column (Parquet field metadata, key "description")
   * table metadata: title, grain, source, observed/inferred/synthetic tags, generator + version
@@ -30,19 +30,14 @@ DESCR = {
     "inout": ("One row per person crossing the dining-hall door.", "event", {
         "session_id": "meal session id <MESS>_<meal>_<YYYY-MM-DD>; SYN_ prefix = synthetic",
         "ts": "tap time, IST, second precision",
-        "event": "IN = entered the hall, OUT = left the hall",
+        "event": "IN = entered mess, OUT = left mess, SERVED = left food counter with dish",
         "is_synthetic": "1 = simulated row, 0 = counted in the mess"}),
     "intervals": ("One row per 5-minute interval at the main-dish counter.", "5 min", {
         "session_id": "meal session id",
         "interval_start": "start of the 5-minute window, IST",
-        "interval_end": "end of the window, IST; the line is counted at this moment",
-        "queue_len": "people standing in the main-dish line at interval_end (null = count missed)",
+        "interval_end": "end of the window, IST",
         "items_made": "main-dish units made in the window, e.g. dosas (null = count missed)",
         "is_synthetic": "1 = simulated row, 0 = counted in the mess"}),
-    "waits": ("One row per stopwatch sample: one person timed from joining the line to getting the dish.", "person", {
-        "session_id": "meal session id", "tag": "anonymous label (S01, S02...)",
-        "join_ts": "person joined the main-dish line, IST", "served_ts": "person received the main dish, IST",
-        "wait_min": "served_ts - join_ts in minutes (inferred)", "is_synthetic": "1 = simulated, 0 = measured"}),
     "sessions_meta": ("One row per meal session.", "meal", {
         "session_id": "meal session id", "date": "calendar date", "weekday": "day name", "meal": "breakfast / lunch / dinner",
         "mess": "mess code", "open_time": "official opening HH:MM", "close_time": "official closing HH:MM",
@@ -64,13 +59,14 @@ DESCR = {
     "sessions_5min": ("Modelling table built by src/ingest.py: door counts joined onto the 5-minute counter log.", "5 min", {
         "session_id": "meal session id", "interval_start": "window start, IST", "interval_end": "window end, IST",
         "in_count": "IN taps in the window (observed)", "out_count": "OUT taps in the window (observed)",
-        "queue_len": "line at interval_end (observed; null = missed)", "items_made": "units made (observed; null = missed)",
+        "served_count": "SERVED taps at counter in the window (observed)",
+        "items_made": "units made (observed/inferred; null = missed)",
         "service_rate_items_per_min": "items_made / 5 (inferred)",
         "service_rate_people_per_min": "/ items_per_person (inferred)", "main_dish": "from meta (observed)",
         "items_per_person": "from meta (observed)", "meal": "from meta", "weekday": "from meta",
         "slot_idx": "interval index since opening (inferred)", "tod_min": "minutes since midnight (inferred)",
         "after_close": "1 = window starts after closing time (inferred)",
-        "queue_missing": "1 = line count missed (inferred)", "items_missing": "1 = item count missed (inferred)",
+        "items_missing": "1 = item count missed (inferred)",
         "is_synthetic": "1 = simulated row"}),
 }
 
@@ -99,20 +95,13 @@ def write(name, df):
 
 
 def build_raw():
-    io, iv, wt, meta = [], [], [], []
+    io, meta = [], []
     for folder in (SYNTHETIC, REAL):
-        for m, i, v, w, _ in load_source(folder):
+        for m, i, _ in load_source(folder):
             if i is None:
                 continue
             flag = int(m["is_synthetic"])
             io.append(i.assign(session_id=m["session_id"], is_synthetic=flag)[["session_id", "ts", "event", "is_synthetic"]])
-            v = v.assign(session_id=m["session_id"], is_synthetic=flag)
-            v["queue_len"] = v["queue_len"].astype("Int64"); v["items_made"] = v["items_made"].astype("Int64")
-            iv.append(v[["session_id", "interval_start", "interval_end", "queue_len", "items_made", "is_synthetic"]])
-            if w is not None and len(w):
-                w = w.assign(session_id=m["session_id"], is_synthetic=flag,
-                             wait_min=(w["served_ts"] - w["join_ts"]).dt.total_seconds() / 60)
-                wt.append(w[["session_id", "tag", "join_ts", "served_ts", "wait_min", "is_synthetic"]])
             meta.append(m.to_frame().T)
     ms = pd.concat(meta, ignore_index=True)
     ms["date"] = pd.to_datetime(ms["date"]).dt.date
@@ -120,50 +109,52 @@ def build_raw():
         ms[c] = pd.to_numeric(ms[c]).astype("int64")
     for c in ("observers", "notes", "main_dish", "mess", "weekday", "meal", "open_time", "close_time", "session_id"):
         ms[c] = ms[c].astype(str)
-    return (pd.concat(io, ignore_index=True), pd.concat(iv, ignore_index=True),
-            pd.concat(wt, ignore_index=True), ms)
+
+    proc = pd.read_parquet(PROCESSED / "sessions_5min.parquet")
+    iv = proc[["session_id", "interval_start", "interval_end", "items_made", "is_synthetic"]].copy()
+    iv["items_made"] = iv["items_made"].astype("Int64")
+
+    return (pd.concat(io, ignore_index=True), iv, ms)
 
 
-def real_slot_table(iv, io, m):
-    """Slot table for real sessions (the generator makes them for synthetic ones)."""
-    edges = list(iv["interval_start"]) + [iv["interval_end"].iloc[-1]]
-    t = pd.DataFrame({"session_id": m["session_id"], "day": m["weekday"], "meal": m["meal"],
-                      "time_slot": [f"{a:%H:%M}-{b:%H:%M}" for a, b in zip(iv.interval_start, iv.interval_end)]})
-    for ev, col in (("IN", "people_in"), ("OUT", "people_out")):
-        t[col] = pd.cut(io.loc[io.event == ev, "ts"], bins=edges, right=False).value_counts(sort=False).values
-    t["cumulative_in"] = t.people_in.cumsum(); t["cumulative_out"] = t.people_out.cumsum()
-    t["queue_total"] = iv["queue_len"].astype(float).values
-    t["avg_queue_per_counter"] = np.round(t.queue_total / 3, 1)
+def make_slot_tables(proc: pd.DataFrame) -> pd.DataFrame:
+    """Generate human-readable slot table per session from sessions_5min."""
+    t = pd.DataFrame()
+    t["session_id"] = proc["session_id"]
+    t["day"] = proc["weekday"]
+    t["meal"] = proc["meal"]
+    t["time_slot"] = [f"{a:%H:%M}-{b:%H:%M}" for a, b in zip(proc["interval_start"], proc["interval_end"])]
+    t["people_in"] = proc["in_count"]
+    t["people_out"] = proc["out_count"]
+
+    t["cumulative_in"] = proc.groupby("session_id")["in_count"].cumsum()
+    t["cumulative_out"] = proc.groupby("session_id")["out_count"].cumsum()
+    cum_srv = proc.groupby("session_id")["served_count"].cumsum()
+    t["queue_total"] = (t["cumulative_in"] - cum_srv).clip(lower=0).astype(float)
+    t["avg_queue_per_counter"] = np.round(t["queue_total"] / 3.0, 1)
     t["longest_counter_queue"] = np.nan
-    floor = (t.people_in > 0) & (t.people_in < 4)
+    floor = (t["people_in"] > 0) & (t["people_in"] < 4)
     t.loc[floor, "avg_queue_per_counter"] = np.maximum(t.loc[floor, "avg_queue_per_counter"].fillna(1), 1.0)
-    t["sitting"] = t.cumulative_in - t.cumulative_out - t.queue_total
-    t["main_dish"] = m["main_dish"]
-    items = iv["items_made"].astype(float).values
-    t["items_made_5min"] = items
-    t["serving_rate_items_per_min"] = np.round(items / INTERVAL_MIN, 1)
-    t["serving_rate_people_per_min"] = np.round(items / INTERVAL_MIN / float(m["items_per_person"]), 1)
-    t["formula_estimate_per_counter"] = np.round(((t.people_in - items / float(m["items_per_person"])) / 3).clip(lower=0), 1)
+    t["sitting"] = (t["cumulative_in"] - t["cumulative_out"] - t["queue_total"]).clip(lower=0).astype(float)
+    t["main_dish"] = proc["main_dish"]
+    t["items_made_5min"] = proc["items_made"].astype(float)
+    t["serving_rate_items_per_min"] = np.round(proc["service_rate_items_per_min"].astype(float), 1)
+    t["serving_rate_people_per_min"] = np.round(proc["service_rate_people_per_min"].astype(float), 1)
+    t["formula_estimate_per_counter"] = np.round(((t["people_in"] - proc["served_count"]) / 3.0).clip(lower=0), 1)
     t.loc[floor, "formula_estimate_per_counter"] = 1.0
-    t["is_synthetic"] = 0
+    t["is_synthetic"] = proc["is_synthetic"]
     return t
 
 
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     global DATA_THROUGH
-    io, iv, wt, ms = build_raw()
+    io, iv, ms = build_raw()
     DATA_THROUGH = str(max(ms["date"]))
-    slots = [pd.read_csv(SYNTHETIC / "slot_tables_all.csv")] if (SYNTHETIC / "slot_tables_all.csv").exists() else []
-    for m, i, v, _, _ in load_source(REAL):
-        if i is not None:
-            slots.append(real_slot_table(v, i, m))
-    st = pd.concat(slots, ignore_index=True)
-    for c in ("queue_total", "avg_queue_per_counter", "longest_counter_queue", "sitting", "items_made_5min",
-              "serving_rate_items_per_min", "serving_rate_people_per_min", "formula_estimate_per_counter"):
-        st[c] = st[c].astype(float)
     proc = pd.read_parquet(PROCESSED / "sessions_5min.parquet")
-    catalog = [write("inout", io), write("intervals", iv), write("waits", wt),
+    st = make_slot_tables(proc)
+    st.to_csv(PROCESSED / "slot_tables_all.csv", index=False)
+    catalog = [write("inout", io), write("intervals", iv),
                write("sessions_meta", ms), write("slot_tables", st), write("sessions_5min", proc)]
 
     # verify: every file reads back with the same rows, typed timestamps and documented columns

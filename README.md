@@ -49,13 +49,12 @@ Synthetic sessions were generated from direct observations (meal patterns, servi
 ## Pipeline
 
 ```
-src/ingest.py          → reads data/real/ + data/synthetic/, merges, validates
+src/ingest.py          → reads data/real/ + data/synthetic/ taps (IN, OUT, SERVED), bins & derives queue
 src/export_parquet.py  → writes data/parquet/ with embedded schema metadata
 src/eda.py             → reports/eda_report.md + reports/figures/eda_*.png
 src/train.py           → forward split evaluation, model selection, saves models/queue_forecaster.joblib
 src/ablation.py        → feature ablation on forward split → reports/ablation_queue_profile.md
 src/predict.py         → out-of-sample predictions → reports/predictions_dashboard.parquet
-src/validate_waits.py  → stopwatch vs formula check → reports/wait_validation.json
 dashboard/app.py       → Streamlit dashboard (replay + live forecast)
 ```
 
@@ -68,9 +67,9 @@ smartmess_submission/
 ├── run_all.py                  # One-command rebuild
 ├── requirements.txt
 ├── data/
-│   ├── real/                   # 6 real weekend sessions (is_synthetic=0)
-│   ├── synthetic/              # 45 synthetic weekday sessions (is_synthetic=1)
-│   ├── processed/              # Auto-generated merged parquet
+│   ├── real/                   # 6 real weekend sessions (inout taps + meta)
+│   ├── synthetic/              # 45 synthetic weekday sessions (inout taps + meta)
+│   ├── processed/              # Auto-generated derived 5-min intervals & slot tables
 │   └── parquet/                # Open-access parquet export
 ├── src/                        # Pipeline modules
 ├── dashboard/app.py            # Streamlit dashboard
@@ -88,6 +87,5 @@ smartmess_submission/
 |---|---|---|
 | MAE, all intervals (10 min) | reported in `reports/model_results.md` | — |
 | MAE, congested intervals ≥10 ppl (10 min) | `reports/model_results.md` | — |
-| Wait-time MAE (min) | `reports/wait_validation.json` | — |
 
 Run `python run_all.py` to regenerate all numbers from scratch.

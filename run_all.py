@@ -21,7 +21,6 @@ STEPS = [
     ("train + evaluate (forward split)",[sys.executable, "-m", "src.train"]),
     ("feature ablation",               [sys.executable, "-m", "src.ablation"]),
     ("out-of-sample predictions",      [sys.executable, "-m", "src.predict"]),
-    ("stopwatch wait validation",      [sys.executable, "-m", "src.validate_waits"]),
 ]
 
 

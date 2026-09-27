@@ -42,7 +42,7 @@ def load():
 pred, summ = load()
 sessions = list(pred.session_id.unique())
 qp = st.query_params
-default_sid = qp.get("session", pred.groupby("session_id").queue_len.max().idxmax())
+default_sid = qp.get("session", pred.groupby("session_id").queue_now.max().idxmax())
 if default_sid not in sessions:
     default_sid = sessions[0]
 
@@ -89,9 +89,9 @@ with tab_live:
         base_x = alt.X("interval_end:T", title=None, axis=alt.Axis(format="%H:%M"),
                        scale=alt.Scale(domain=[g.interval_end.min(), g.interval_end.max()]))
         if reveal:
-            act = g.iloc[slot:][["interval_end", "queue_len"]].dropna()
+            act = g.iloc[slot:][["interval_end", "queue_now"]].rename(columns={"queue_now": "queue_actual"})
             layers.append(alt.Chart(act).mark_line(color="#adb5bd", strokeDash=[4, 3]).encode(
-                x=base_x, y="queue_len:Q"))
+                x=base_x, y="queue_actual:Q"))
         layers += [
             alt.Chart(fut).mark_area(color="#d9480f", opacity=.15).encode(x=base_x, y="lo:Q", y2="hi:Q"),
             alt.Chart(past).mark_line(color="#212529", point=alt.OverlayMarkDef(color="#212529")).encode(
@@ -119,7 +119,7 @@ with tab_report:
     first_red = g[g.alert == "RED"]
     lead = None
     if len(first_red):
-        cong = g[g.queue_len >= 10]
+        cong = g[g.queue_now >= 10]
         if len(cong):
             lead = (cong.interval_end.iloc[0] - first_red.interval_end.iloc[0]).total_seconds() / 60
     a, b, c, d = st.columns(4)

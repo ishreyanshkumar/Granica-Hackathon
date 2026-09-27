@@ -34,7 +34,6 @@
     <button data-tab="setup" class="on">Setup</button>
     <button data-tab="door">Door</button>
     <button data-tab="counter">Counter</button>
-    <button data-tab="watch">Stopwatch</button>
     <button data-tab="export">Export</button>
   </div>
 
@@ -73,39 +72,25 @@
   </section>
 
   <section id="counter" class="hidden">
-    <div class="card">
-      <div class="muted">Current 5-min interval</div>
-      <div class="count" id="ivLabel">--</div>
-      <div class="muted" style="text-align:center">closes in <b id="ivLeft">--</b></div>
+    <div class="card"><div class="row">
+      <div><div class="muted">SERVED</div><div class="count" id="nServed" style="color:#d9480f">0</div></div>
+      <div><div class="muted">Dish units</div><div class="count" id="nUnits">0</div></div>
+      <div><div class="muted">Rate (p/min)</div><div class="count" id="rateServed">0.0</div></div>
+    </div></div>
+    <p class="muted" style="text-align:center">Tap each time a student leaves the counter with their dish</p>
+    <div style="margin-bottom:12px">
+      <button class="big acc" id="tapServed" style="background:#d9480f">SERVED</button>
     </div>
-    <div class="card">
-      <div class="muted">Units of the main dish made this interval</div>
-      <div class="count" id="items">0</div>
-      <div class="row"><button class="acc" id="plus1">+1</button><button id="plus5">+5</button><button id="minus1">-1</button></div>
+    <button id="undoCounter">Undo last tap</button>
+    <div class="card" style="margin-top:14px">
+      <div class="muted">Recent served taps</div>
+      <table id="srvTable"><thead><tr><th>time</th><th>event</th><th>cumulative</th></tr></thead><tbody></tbody></table>
     </div>
-    <div class="card">
-      <label>People in the main-dish line at the end of the interval</label>
-      <input id="qlen" type="number" min="0" inputmode="numeric" placeholder="count at the bell">
-      <p class="muted">The phone vibrates at each 5-minute mark. Count the line, type it, press Record. Missed it? Press Missed: the cell stays blank. Never guess.</p>
-      <div class="row"><button class="acc" id="record">Record interval</button><button id="missed">Missed</button></div>
-    </div>
-    <div class="card"><table id="ivTable"><thead><tr><th>interval</th><th>queue</th><th>items</th></tr></thead><tbody></tbody></table></div>
-  </section>
-
-  <section id="watch" class="hidden">
-    <div class="card">
-      <p class="muted">Pick someone as they join the main-dish line. Press Start. Press their tag when they get the dish. Aim for 10+ per meal. No names or photos.</p>
-      <button class="acc" id="wStart">Start - person joined line</button>
-    </div>
-    <div class="card"><div class="muted">Waiting</div><div id="pending"></div></div>
-    <div class="card"><table id="wTable"><thead><tr><th>tag</th><th>joined</th><th>served</th><th>min</th></tr></thead><tbody></tbody></table></div>
   </section>
 
   <section id="export" class="hidden card">
-    <p>Files use the exact dataset format. Put them in <b>data/real/</b> (inout/, intervals/, waits/) and add the meta row to <b>data/real/sessions_meta.csv</b>.</p>
-    <button class="acc" id="exIo">Download inout/&lt;session&gt;.csv</button><br><br>
-    <button class="acc" id="exIv">Download intervals/&lt;session&gt;.csv</button><br><br>
-    <button class="acc" id="exW">Download waits/&lt;session&gt;.csv</button><br><br>
+    <p>Files use the exact dataset format. Physical Bronze inputs are timestamped taps (IN, OUT, SERVED).</p>
+    <button class="acc" id="exIo">Download inout/&lt;session&gt;.csv (All taps: IN, SERVED, OUT)</button><br><br>
     <button id="exMeta">Download sessions_meta row</button><br><br>
     <button id="reset" style="color:#c92a2a">Clear this session from the phone</button>
     <p class="muted" id="exInfo"></p>
@@ -120,14 +105,15 @@ const KEY = "messTapLogger.v1";
 let S;
 try { S = JSON.parse(localStorage.getItem(KEY)) || null; } catch (e) { S = null; }
 if (!S) S = { meta: { mess:"MESSA", meal:"breakfast", date:today(), open:"07:15", close:"09:30", dish:"", ipp:2, obs:"", notes:"" },
-              io: [], iv: [], items: 0, waits: [], seq: 0 };
+              io: [], srv: [], seq: 0 };
+if (!S.srv) S.srv = [];
 const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) {} };
 const sid = () => `${S.meta.mess}_${S.meta.meal}_${S.meta.date}`;
 
 // ---------- tabs
 document.querySelectorAll(".tabs button").forEach(b => b.onclick = () => {
   document.querySelectorAll(".tabs button").forEach(x => x.classList.toggle("on", x === b));
-  ["setup","door","counter","watch","export"].forEach(t => $(t).classList.toggle("hidden", t !== b.dataset.tab));
+  ["setup","door","counter","export"].forEach(t => $(t).classList.toggle("hidden", t !== b.dataset.tab));
   render();
 });
 
@@ -143,43 +129,20 @@ function tap(ev) { S.io.push([stamp(new Date()), ev]); save(); if (navigator.vib
 $("tapIn").onclick = () => tap("IN"); $("tapOut").onclick = () => tap("OUT");
 $("undoDoor").onclick = () => { S.io.pop(); save(); render(); };
 
-// ---------- counter (5-minute grid anchored at opening time)
-function ivStart(now) {
-  const [h, m] = S.meta.open.split(":").map(Number);
-  const o = new Date(`${S.meta.date}T${pad(h)}:${pad(m)}:00`);
-  const k = Math.max(0, Math.floor((now - o) / 300000));
-  return new Date(o.getTime() + k * 300000);
-}
-let lastIv = null;
-$("plus1").onclick = () => { S.items += 1; save(); render(); };
-$("plus5").onclick = () => { S.items += 5; save(); render(); };
-$("minus1").onclick = () => { S.items = Math.max(0, S.items - 1); save(); render(); };
-function record(missed) {
-  const now = new Date();
-  // the interval that just ended (recording happens at or just after the bell)
-  let st = ivStart(new Date(now.getTime() - 60000));
-  const en = new Date(st.getTime() + 300000);
-  const q = missed ? "" : $("qlen").value.trim();
-  const row = [stamp(st), stamp(en), q, String(S.items)];
-  const i = S.iv.findIndex(r => r[0] === row[0]);
-  if (i >= 0) S.iv[i] = row; else S.iv.push(row);
-  S.iv.sort((a, b) => a[0] < b[0] ? -1 : 1);
-  S.items = 0; $("qlen").value = ""; save(); render();
-}
-$("record").onclick = () => record(false); $("missed").onclick = () => record(true);
-
-// ---------- stopwatch
-$("wStart").onclick = () => { S.seq += 1; S.waits.push([`S${pad(S.seq)}`, stamp(new Date()), ""]); save(); render(); };
-function served(tag) { const w = S.waits.find(r => r[0] === tag); if (w && !w[2]) { w[2] = stamp(new Date()); save(); render(); } }
+// ---------- counter (timestamped service taps)
+function tapServed() { S.srv.push([stamp(new Date()), "SERVED"]); save(); if (navigator.vibrate) navigator.vibrate(25); render(); }
+$("tapServed").onclick = tapServed;
+$("undoCounter").onclick = () => { S.srv.pop(); save(); render(); };
 
 // ---------- export
 function download(name, rows) {
   const blob = new Blob([rows.map(r => r.join(",")).join("\n") + "\n"], { type: "text/csv" });
   const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = name; a.click();
 }
-$("exIo").onclick = () => download(`${sid()}.csv`, [["ts","event"], ...S.io]);
-$("exIv").onclick = () => download(`${sid()}.csv`, [["interval_start","interval_end","queue_len","items_made"], ...S.iv]);
-$("exW").onclick = () => download(`${sid()}.csv`, [["tag","join_ts","served_ts"], ...S.waits.filter(r => r[2])]);
+$("exIo").onclick = () => {
+  const allTaps = [...S.io, ...S.srv].sort((a, b) => a[0] < b[0] ? -1 : 1);
+  download(`${sid()}.csv`, [["ts","event"], ...allTaps]);
+};
 $("exMeta").onclick = () => {
   const m = S.meta, wd = new Date(m.date + "T12:00:00").toLocaleDateString("en-US", { weekday: "long" });
   const q = s => `"${String(s).replace(/"/g, '""')}"`;
@@ -187,21 +150,23 @@ $("exMeta").onclick = () => {
     [sid(), m.date, wd, m.meal, m.mess, m.open, m.close, q(m.dish), m.ipp, 5, q(m.obs), 0, q(m.notes)]]);
 };
 $("reset").onclick = () => { if (prompt("Type CLEAR to delete this session's taps from the phone") === "CLEAR") {
-  S.io = []; S.iv = []; S.items = 0; S.waits = []; S.seq = 0; save(); render(); } };
+  S.io = []; S.srv = []; S.seq = 0; save(); render(); } };
 
 // ---------- render + clock
 function render() {
-  const nIn = S.io.filter(r => r[1] === "IN").length, nOut = S.io.length - nIn;
+  const nIn = S.io.filter(r => r[1] === "IN").length, nOut = S.io.filter(r => r[1] === "OUT").length;
   $("nIn").textContent = nIn; $("nOut").textContent = nOut; $("nHall").textContent = nIn - nOut;
-  $("items").textContent = S.items;
-  $("ivTable").querySelector("tbody").innerHTML = S.iv.slice(-8).reverse()
-    .map(r => `<tr><td>${r[0].slice(11,16)}-${r[1].slice(11,16)}</td><td>${r[2] === "" ? "<span class=pill>missed</span>" : r[2]}</td><td>${r[3]}</td></tr>`).join("");
-  $("pending").innerHTML = S.waits.filter(r => !r[2]).map(r =>
-    `<button style="margin:4px 0" onclick="served('${r[0]}')">${r[0]} joined ${r[1].slice(11,19)} - tap when served</button>`).join("") || '<span class="muted">none</span>';
-  $("wTable").querySelector("tbody").innerHTML = S.waits.filter(r => r[2]).slice(-10).reverse().map(r => {
-    const m = ((new Date(r[2].replace(" ","T")) - new Date(r[1].replace(" ","T"))) / 60000).toFixed(1);
-    return `<tr><td>${r[0]}</td><td>${r[1].slice(11)}</td><td>${r[2].slice(11)}</td><td>${m}</td></tr>`; }).join("");
-  $("exInfo").textContent = `${sid()}: ${S.io.length} door taps, ${S.iv.length} intervals, ${S.waits.filter(r => r[2]).length} stopwatch samples`;
+  const nServed = S.srv.length;
+  const ipp = Number(S.meta.ipp) || 1;
+  $("nServed").textContent = nServed;
+  $("nUnits").textContent = nServed * ipp;
+  const now = new Date();
+  const fiveMinAgo = stamp(new Date(now.getTime() - 300000));
+  const recentServed = S.srv.filter(r => r[0] >= fiveMinAgo).length;
+  $("rateServed").textContent = (recentServed / 5.0).toFixed(1);
+  $("srvTable").querySelector("tbody").innerHTML = S.srv.slice(-8).reverse()
+    .map((r, i) => `<tr><td>${r[0].slice(11,19)}</td><td><span class=pill style="background:#ffe8cc;color:#d9480f">SERVED</span></td><td>${nServed - i}</td></tr>`).join("");
+  $("exInfo").textContent = `${sid()}: ${S.io.length} door taps, ${S.srv.length} served taps`;
 }
 setInterval(() => {
   const now = new Date(); $("clock").textContent = stamp(now).slice(11);
