@@ -1,0 +1,34 @@
+{
+  "data_used": "real + synthetic",
+  "sessions": 51,
+  "rows": 1616,
+  "capacity_people_per_min_by_dish": {
+    "Dosa": 8.2,
+    "Idli/Vada": 11.7,
+    "Aloo Paratha": 9.6,
+    "Poha": 14.0,
+    "Veg Biryani (special)": 6.8,
+    "Rice/Dal/Roti": 9.3,
+    "Paneer + Roti (special)": 7.0,
+    "Roti/Sabzi": 9.0
+  },
+  "balance_corr": 0.911,
+  "balance_residual_busy_mae": 2.83,
+  "share_congested_when_rho_gt1": 0.65,
+  "share_congested_when_rho_lt08": 0.03,
+  "autocorr_by_minutes": {
+    "5": 0.9,
+    "10": 0.71,
+    "15": 0.52,
+    "20": 0.34,
+    "25": 0.21,
+    "30": 0.09
+  },
+  "heuristic_nowcast_mae": 6.77,
+  "heuristic_nowcast_mae_congested": 36.24,
+  "peak_occupancy": 297,
+  "missing_queue_pct": 3.6,
+  "missing_items_pct": 2.5,
+  "door_drift_max_abs": 0,
+  "share_intervals_congested": 0.169
+}

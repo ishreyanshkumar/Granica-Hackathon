@@ -1,0 +1,7 @@
+session_id,date,weekday,meal,mess,open_time,close_time,main_dish,items_per_person,interval_min,observers,is_synthetic,notes
+MESSA_breakfast_2026-09-26,2026-09-26,Saturday,breakfast,MESS_A,08:00,10:15,Dosa,2,5,team (observed),0,real weekend session converted from weekend_slot_tables.xlsx
+MESSA_lunch_2026-09-26,2026-09-26,Saturday,lunch,MESS_A,12:15,14:30,Rice/Dal/Roti,4,5,team (observed),0,real weekend session converted from weekend_slot_tables.xlsx
+MESSA_dinner_2026-09-26,2026-09-26,Saturday,dinner,MESS_A,20:00,22:00,Roti/Sabzi,4,5,team (observed),0,real weekend session converted from weekend_slot_tables.xlsx
+MESSA_breakfast_2026-09-27,2026-09-27,Sunday,breakfast,MESS_A,08:00,10:15,Dosa,2,5,team (observed),0,real weekend session converted from weekend_slot_tables.xlsx
+MESSA_lunch_2026-09-27,2026-09-27,Sunday,lunch,MESS_A,12:15,14:30,Rice/Dal/Roti,4,5,team (observed),0,real weekend session converted from weekend_slot_tables.xlsx
+MESSA_dinner_2026-09-27,2026-09-27,Sunday,dinner,MESS_A,20:00,22:00,Roti/Sabzi,4,5,team (observed),0,real weekend session converted from weekend_slot_tables.xlsx

@@ -1,0 +1,1420 @@
+session_id,day,meal,time_slot,people_in,people_out,cumulative_in,cumulative_out,queue_total,avg_queue_per_counter,longest_counter_queue,sitting,main_dish,items_made_5min,serving_rate_items_per_min,serving_rate_people_per_min,formula_estimate_per_counter,is_synthetic
+SYN_breakfast_2026-09-07,Monday,breakfast,07:15-07:20,3,0,3,0,0.0,1.0,0.0,3.0,Idli/Vada,9.0,1.8,0.6,1.0,1
+SYN_breakfast_2026-09-07,Monday,breakfast,07:20-07:25,5,0,8,0,0.0,0.0,0.0,8.0,Idli/Vada,15.0,3.0,1.0,0.0,1
+SYN_breakfast_2026-09-07,Monday,breakfast,07:25-07:30,11,0,19,0,0.0,0.0,0.0,19.0,Idli/Vada,33.0,6.6,2.2,0.0,1
+SYN_breakfast_2026-09-07,Monday,breakfast,07:30-07:35,2,3,21,3,0.0,1.0,0.0,18.0,Idli/Vada,5.0,1.0,0.3,1.0,1
+SYN_breakfast_2026-09-07,Monday,breakfast,07:35-07:40,8,2,29,5,0.0,0.0,0.0,24.0,Idli/Vada,24.0,4.8,1.6,0.0,1
+SYN_breakfast_2026-09-07,Monday,breakfast,07:40-07:45,4,2,33,7,0.0,0.0,0.0,26.0,Idli/Vada,11.0,2.2,0.7,0.1,1
+SYN_breakfast_2026-09-07,Monday,breakfast,07:45-07:50,16,7,49,14,0.0,0.0,0.0,35.0,Idli/Vada,49.0,9.8,3.3,0.0,1
+SYN_breakfast_2026-09-07,Monday,breakfast,07:50-07:55,12,6,61,20,0.0,0.0,0.0,41.0,Idli/Vada,35.0,7.0,2.3,0.1,1
+SYN_breakfast_2026-09-07,Monday,breakfast,07:55-08:00,34,7,95,27,0.0,0.0,0.0,68.0,Idli/Vada,102.0,20.4,6.8,0.0,1
+SYN_breakfast_2026-09-07,Monday,breakfast,08:00-08:05,29,11,124,38,0.0,0.0,0.0,86.0,Idli/Vada,87.0,17.4,5.8,0.0,1
+SYN_breakfast_2026-09-07,Monday,breakfast,08:05-08:10,22,9,146,47,0.0,0.0,0.0,99.0,Idli/Vada,66.0,13.2,4.4,0.0,1
+SYN_breakfast_2026-09-07,Monday,breakfast,08:10-08:15,23,16,169,63,0.0,0.0,0.0,106.0,Idli/Vada,67.0,13.4,4.5,0.2,1
+SYN_breakfast_2026-09-07,Monday,breakfast,08:15-08:20,24,23,193,86,0.0,0.0,0.0,107.0,Idli/Vada,72.0,14.4,4.8,0.0,1
+SYN_breakfast_2026-09-07,Monday,breakfast,08:20-08:25,30,31,223,117,0.0,0.0,0.0,106.0,Idli/Vada,89.0,17.8,5.9,0.1,1
+SYN_breakfast_2026-09-07,Monday,breakfast,08:25-08:30,34,29,257,146,0.0,0.0,0.0,111.0,Idli/Vada,102.0,20.4,6.8,0.0,1
+SYN_breakfast_2026-09-07,Monday,breakfast,08:30-08:35,32,19,289,165,0.0,0.0,0.0,124.0,Idli/Vada,96.0,19.2,6.4,0.0,1
+SYN_breakfast_2026-09-07,Monday,breakfast,08:35-08:40,41,29,330,194,0.0,0.0,0.0,136.0,Idli/Vada,124.0,24.8,8.3,0.0,1
+SYN_breakfast_2026-09-07,Monday,breakfast,08:40-08:45,54,28,384,222,0.0,0.0,0.0,162.0,Idli/Vada,163.0,32.6,10.9,0.0,1
+SYN_breakfast_2026-09-07,Monday,breakfast,08:45-08:50,74,34,458,256,17.0,5.7,8.0,185.0,Idli/Vada,170.0,34.0,11.3,5.8,1
+SYN_breakfast_2026-09-07,Monday,breakfast,08:50-08:55,75,37,533,293,35.0,11.7,14.0,205.0,Idli/Vada,171.0,34.2,11.4,6.0,1
+SYN_breakfast_2026-09-07,Monday,breakfast,08:55-09:00,61,41,594,334,25.0,8.3,9.0,235.0,Idli/Vada,220.0,44.0,14.7,0.0,1
+SYN_breakfast_2026-09-07,Monday,breakfast,09:00-09:05,44,52,638,386,0.0,0.0,0.0,252.0,Idli/Vada,201.0,40.2,13.4,0.0,1
+SYN_breakfast_2026-09-07,Monday,breakfast,09:05-09:10,34,52,672,438,0.0,0.0,0.0,234.0,Idli/Vada,103.0,20.6,6.9,0.0,1
+SYN_breakfast_2026-09-07,Monday,breakfast,09:10-09:15,30,70,702,508,,,,,Idli/Vada,90.0,18.0,6.0,0.0,1
+SYN_breakfast_2026-09-07,Monday,breakfast,09:15-09:20,11,62,713,570,0.0,0.0,0.0,143.0,Idli/Vada,32.0,6.4,2.1,0.1,1
+SYN_breakfast_2026-09-07,Monday,breakfast,09:20-09:25,4,66,717,636,0.0,0.0,0.0,81.0,Idli/Vada,12.0,2.4,0.8,0.0,1
+SYN_breakfast_2026-09-07,Monday,breakfast,09:25-09:30,3,37,720,673,0.0,1.0,0.0,47.0,Idli/Vada,9.0,1.8,0.6,1.0,1
+SYN_breakfast_2026-09-07,Monday,breakfast,09:30-09:35,0,23,720,696,0.0,0.0,0.0,24.0,Idli/Vada,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-07,Monday,breakfast,09:35-09:40,0,13,720,709,0.0,0.0,0.0,11.0,Idli/Vada,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-07,Monday,breakfast,09:40-09:45,0,8,720,717,0.0,0.0,0.0,3.0,Idli/Vada,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-07,Monday,breakfast,09:45-09:50,0,2,720,719,0.0,0.0,0.0,1.0,Idli/Vada,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-07,Monday,breakfast,09:50-09:55,0,1,720,720,0.0,0.0,0.0,0.0,Idli/Vada,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-07,Monday,lunch,12:00-12:05,13,0,13,0,0.0,0.0,0.0,13.0,Rice/Dal/Roti,53.0,10.6,2.6,0.0,1
+SYN_lunch_2026-09-07,Monday,lunch,12:05-12:10,21,0,34,0,0.0,0.0,0.0,34.0,Rice/Dal/Roti,85.0,17.0,4.2,0.0,1
+SYN_lunch_2026-09-07,Monday,lunch,12:10-12:15,24,0,58,0,0.0,0.0,0.0,58.0,Rice/Dal/Roti,98.0,19.6,4.9,0.0,1
+SYN_lunch_2026-09-07,Monday,lunch,12:15-12:20,18,6,76,6,,,,,Rice/Dal/Roti,74.0,14.8,3.7,0.0,1
+SYN_lunch_2026-09-07,Monday,lunch,12:20-12:25,24,9,100,15,0.0,0.0,0.0,85.0,Rice/Dal/Roti,95.0,19.0,4.8,0.1,1
+SYN_lunch_2026-09-07,Monday,lunch,12:25-12:30,26,18,126,33,0.0,0.0,0.0,93.0,Rice/Dal/Roti,106.0,21.2,5.3,0.0,1
+SYN_lunch_2026-09-07,Monday,lunch,12:30-12:35,22,23,148,56,0.0,0.0,0.0,92.0,Rice/Dal/Roti,90.0,18.0,4.5,0.0,1
+SYN_lunch_2026-09-07,Monday,lunch,12:35-12:40,34,21,182,77,0.0,0.0,0.0,105.0,Rice/Dal/Roti,137.0,27.4,6.8,0.0,1
+SYN_lunch_2026-09-07,Monday,lunch,12:40-12:45,22,18,204,95,0.0,0.0,0.0,109.0,Rice/Dal/Roti,89.0,17.8,4.4,0.0,1
+SYN_lunch_2026-09-07,Monday,lunch,12:45-12:50,31,34,235,129,0.0,0.0,0.0,106.0,Rice/Dal/Roti,124.0,24.8,6.2,0.0,1
+SYN_lunch_2026-09-07,Monday,lunch,12:50-12:55,58,19,293,148,7.0,2.3,2.0,138.0,Rice/Dal/Roti,203.0,40.6,10.2,2.4,1
+SYN_lunch_2026-09-07,Monday,lunch,12:55-13:00,49,26,342,174,7.0,2.3,3.0,161.0,Rice/Dal/Roti,192.0,38.4,9.6,0.3,1
+SYN_lunch_2026-09-07,Monday,lunch,13:00-13:05,38,30,380,204,0.0,0.0,0.0,176.0,Rice/Dal/Roti,181.0,36.2,9.0,0.0,1
+SYN_lunch_2026-09-07,Monday,lunch,13:05-13:10,29,35,409,239,0.0,0.0,0.0,170.0,Rice/Dal/Roti,117.0,23.4,5.8,0.0,1
+SYN_lunch_2026-09-07,Monday,lunch,13:10-13:15,45,44,454,283,4.0,1.3,2.0,167.0,Rice/Dal/Roti,176.0,35.2,8.8,0.3,1
+SYN_lunch_2026-09-07,Monday,lunch,13:15-13:20,35,48,489,331,0.0,0.0,0.0,158.0,Rice/Dal/Roti,144.0,28.8,7.2,0.0,1
+SYN_lunch_2026-09-07,Monday,lunch,13:20-13:25,39,45,528,376,,,,,Rice/Dal/Roti,,,,,1
+SYN_lunch_2026-09-07,Monday,lunch,13:25-13:30,34,36,562,412,0.0,0.0,0.0,150.0,Rice/Dal/Roti,137.0,27.4,6.8,0.0,1
+SYN_lunch_2026-09-07,Monday,lunch,13:30-13:35,37,34,599,446,6.0,2.0,2.0,147.0,Rice/Dal/Roti,130.0,26.0,6.5,1.5,1
+SYN_lunch_2026-09-07,Monday,lunch,13:35-13:40,37,40,636,486,0.0,0.0,0.0,150.0,Rice/Dal/Roti,168.0,33.6,8.4,0.0,1
+SYN_lunch_2026-09-07,Monday,lunch,13:40-13:45,33,41,669,527,0.0,0.0,0.0,142.0,Rice/Dal/Roti,133.0,26.6,6.6,0.0,1
+SYN_lunch_2026-09-07,Monday,lunch,13:45-13:50,34,35,703,562,0.0,0.0,0.0,141.0,Rice/Dal/Roti,135.0,27.0,6.8,0.1,1
+SYN_lunch_2026-09-07,Monday,lunch,13:50-13:55,54,35,757,597,12.0,4.0,6.0,148.0,Rice/Dal/Roti,168.0,33.6,8.4,4.0,1
+SYN_lunch_2026-09-07,Monday,lunch,13:55-14:00,45,38,802,635,9.0,3.0,3.0,158.0,Rice/Dal/Roti,195.0,39.0,9.8,0.0,1
+SYN_lunch_2026-09-07,Monday,lunch,14:00-14:05,0,31,802,666,0.0,0.0,0.0,136.0,Rice/Dal/Roti,30.0,6.0,1.5,0.0,1
+SYN_lunch_2026-09-07,Monday,lunch,14:05-14:10,0,38,802,704,0.0,0.0,0.0,98.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-07,Monday,lunch,14:10-14:15,0,45,802,749,0.0,0.0,0.0,53.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-07,Monday,lunch,14:15-14:20,0,28,802,777,0.0,0.0,0.0,25.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-07,Monday,lunch,14:20-14:25,0,22,802,799,0.0,0.0,0.0,3.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-07,Monday,lunch,14:25-14:30,0,3,802,802,0.0,0.0,0.0,0.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-07,Monday,dinner,19:30-19:35,1,0,1,0,0.0,1.0,0.0,1.0,Roti/Sabzi,4.0,0.8,0.2,1.0,1
+SYN_dinner_2026-09-07,Monday,dinner,19:35-19:40,4,0,5,0,0.0,0.0,0.0,5.0,Roti/Sabzi,17.0,3.4,0.8,0.0,1
+SYN_dinner_2026-09-07,Monday,dinner,19:40-19:45,1,0,6,0,0.0,1.0,0.0,6.0,Roti/Sabzi,3.0,0.6,0.2,1.0,1
+SYN_dinner_2026-09-07,Monday,dinner,19:45-19:50,2,0,8,0,0.0,1.0,0.0,8.0,Roti/Sabzi,9.0,1.8,0.4,1.0,1
+SYN_dinner_2026-09-07,Monday,dinner,19:50-19:55,2,2,10,2,0.0,1.0,0.0,8.0,Roti/Sabzi,9.0,1.8,0.4,1.0,1
+SYN_dinner_2026-09-07,Monday,dinner,19:55-20:00,6,3,16,5,0.0,0.0,0.0,11.0,Roti/Sabzi,26.0,5.2,1.3,0.0,1
+SYN_dinner_2026-09-07,Monday,dinner,20:00-20:05,35,1,51,6,0.0,0.0,0.0,45.0,Roti/Sabzi,140.0,28.0,7.0,0.0,1
+SYN_dinner_2026-09-07,Monday,dinner,20:05-20:10,32,2,83,8,4.0,1.3,2.0,71.0,Roti/Sabzi,,,,,1
+SYN_dinner_2026-09-07,Monday,dinner,20:10-20:15,32,5,115,13,,,,,Roti/Sabzi,130.0,26.0,6.5,0.0,1
+SYN_dinner_2026-09-07,Monday,dinner,20:15-20:20,29,16,144,29,4.0,1.3,1.0,111.0,Roti/Sabzi,110.0,22.0,5.5,0.5,1
+SYN_dinner_2026-09-07,Monday,dinner,20:20-20:25,31,27,175,56,0.0,0.0,0.0,119.0,Roti/Sabzi,128.0,25.6,6.4,0.0,1
+SYN_dinner_2026-09-07,Monday,dinner,20:25-20:30,32,25,207,81,0.0,0.0,0.0,126.0,Roti/Sabzi,127.0,25.4,6.4,0.1,1
+SYN_dinner_2026-09-07,Monday,dinner,20:30-20:35,33,32,240,113,0.0,0.0,0.0,127.0,Roti/Sabzi,133.0,26.6,6.6,0.0,1
+SYN_dinner_2026-09-07,Monday,dinner,20:35-20:40,40,31,280,144,0.0,0.0,0.0,136.0,Roti/Sabzi,159.0,31.8,8.0,0.1,1
+SYN_dinner_2026-09-07,Monday,dinner,20:40-20:45,37,32,317,176,0.0,0.0,0.0,141.0,Roti/Sabzi,142.0,28.4,7.1,0.5,1
+SYN_dinner_2026-09-07,Monday,dinner,20:45-20:50,16,35,333,211,1.0,0.3,1.0,121.0,Roti/Sabzi,69.0,13.8,3.4,0.0,1
+SYN_dinner_2026-09-07,Monday,dinner,20:50-20:55,27,35,360,246,0.0,0.0,0.0,114.0,Roti/Sabzi,111.0,22.2,5.6,0.0,1
+SYN_dinner_2026-09-07,Monday,dinner,20:55-21:00,24,34,384,280,0.0,0.0,0.0,104.0,Roti/Sabzi,96.0,19.2,4.8,0.0,1
+SYN_dinner_2026-09-07,Monday,dinner,21:00-21:05,42,26,426,306,3.0,1.0,1.0,117.0,Roti/Sabzi,159.0,31.8,8.0,0.8,1
+SYN_dinner_2026-09-07,Monday,dinner,21:05-21:10,43,27,469,333,0.0,0.0,0.0,136.0,Roti/Sabzi,176.0,35.2,8.8,0.0,1
+SYN_dinner_2026-09-07,Monday,dinner,21:10-21:15,45,24,514,357,1.0,0.3,1.0,156.0,Roti/Sabzi,179.0,35.8,9.0,0.1,1
+SYN_dinner_2026-09-07,Monday,dinner,21:15-21:20,39,25,553,382,0.0,0.0,0.0,171.0,Roti/Sabzi,160.0,32.0,8.0,0.0,1
+SYN_dinner_2026-09-07,Monday,dinner,21:20-21:25,47,45,600,427,0.0,0.0,0.0,173.0,Roti/Sabzi,187.0,37.4,9.4,0.1,1
+SYN_dinner_2026-09-07,Monday,dinner,21:25-21:30,33,44,633,471,0.0,0.0,0.0,162.0,Roti/Sabzi,133.0,26.6,6.6,0.0,1
+SYN_dinner_2026-09-07,Monday,dinner,21:30-21:35,61,45,694,516,15.0,5.0,6.0,163.0,Roti/Sabzi,184.0,36.8,9.2,5.0,1
+SYN_dinner_2026-09-07,Monday,dinner,21:35-21:40,24,43,718,559,0.0,0.0,0.0,159.0,Roti/Sabzi,157.0,31.4,7.8,0.0,1
+SYN_dinner_2026-09-07,Monday,dinner,21:40-21:45,24,37,742,596,,,,,Roti/Sabzi,96.0,19.2,4.8,0.0,1
+SYN_dinner_2026-09-07,Monday,dinner,21:45-21:50,0,35,742,631,0.0,0.0,0.0,111.0,Roti/Sabzi,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-07,Monday,dinner,21:50-21:55,0,45,742,676,,,,,Roti/Sabzi,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-07,Monday,dinner,21:55-22:00,0,35,742,711,0.0,0.0,0.0,31.0,Roti/Sabzi,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-07,Monday,dinner,22:00-22:05,0,22,742,733,0.0,0.0,0.0,9.0,Roti/Sabzi,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-07,Monday,dinner,22:05-22:10,0,9,742,742,0.0,0.0,0.0,0.0,Roti/Sabzi,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-08,Tuesday,breakfast,07:15-07:20,4,0,4,0,0.0,0.0,0.0,4.0,Aloo Paratha,8.0,1.6,0.8,0.0,1
+SYN_breakfast_2026-09-08,Tuesday,breakfast,07:20-07:25,5,0,9,0,0.0,0.0,0.0,9.0,Aloo Paratha,10.0,2.0,1.0,0.0,1
+SYN_breakfast_2026-09-08,Tuesday,breakfast,07:25-07:30,3,0,12,0,0.0,1.0,0.0,12.0,Aloo Paratha,8.0,1.6,0.8,1.0,1
+SYN_breakfast_2026-09-08,Tuesday,breakfast,07:30-07:35,5,1,17,1,0.0,0.0,0.0,16.0,Aloo Paratha,9.0,1.8,0.9,0.2,1
+SYN_breakfast_2026-09-08,Tuesday,breakfast,07:35-07:40,3,4,20,5,0.0,1.0,0.0,15.0,Aloo Paratha,,,,1.0,1
+SYN_breakfast_2026-09-08,Tuesday,breakfast,07:40-07:45,3,5,23,10,0.0,1.0,0.0,13.0,Aloo Paratha,6.0,1.2,0.6,1.0,1
+SYN_breakfast_2026-09-08,Tuesday,breakfast,07:45-07:50,15,4,38,14,0.0,0.0,0.0,24.0,Aloo Paratha,29.0,5.8,2.9,0.2,1
+SYN_breakfast_2026-09-08,Tuesday,breakfast,07:50-07:55,20,4,58,18,0.0,0.0,0.0,40.0,Aloo Paratha,39.0,7.8,3.9,0.2,1
+SYN_breakfast_2026-09-08,Tuesday,breakfast,07:55-08:00,19,4,77,22,0.0,0.0,0.0,55.0,Aloo Paratha,40.0,8.0,4.0,0.0,1
+SYN_breakfast_2026-09-08,Tuesday,breakfast,08:00-08:05,15,10,92,32,0.0,0.0,0.0,60.0,Aloo Paratha,30.0,6.0,3.0,0.0,1
+SYN_breakfast_2026-09-08,Tuesday,breakfast,08:05-08:10,18,9,110,41,0.0,0.0,0.0,69.0,Aloo Paratha,35.0,7.0,3.5,0.2,1
+SYN_breakfast_2026-09-08,Tuesday,breakfast,08:10-08:15,28,15,138,56,0.0,0.0,0.0,82.0,Aloo Paratha,57.0,11.4,5.7,0.0,1
+SYN_breakfast_2026-09-08,Tuesday,breakfast,08:15-08:20,21,19,159,75,0.0,0.0,0.0,84.0,Aloo Paratha,41.0,8.2,4.1,0.2,1
+SYN_breakfast_2026-09-08,Tuesday,breakfast,08:20-08:25,34,22,193,97,0.0,0.0,0.0,96.0,Aloo Paratha,66.0,13.2,6.6,0.3,1
+SYN_breakfast_2026-09-08,Tuesday,breakfast,08:25-08:30,29,18,222,115,3.0,1.0,1.0,104.0,Aloo Paratha,56.0,11.2,5.6,0.3,1
+SYN_breakfast_2026-09-08,Tuesday,breakfast,08:30-08:35,41,23,263,138,0.0,0.0,0.0,125.0,Aloo Paratha,85.0,17.0,8.5,0.0,1
+SYN_breakfast_2026-09-08,Tuesday,breakfast,08:35-08:40,53,20,316,158,5.0,1.7,2.0,153.0,Aloo Paratha,97.0,19.4,9.7,1.5,1
+SYN_breakfast_2026-09-08,Tuesday,breakfast,08:40-08:45,59,33,375,191,15.0,5.0,6.0,169.0,Aloo Paratha,96.0,19.2,9.6,3.7,1
+SYN_breakfast_2026-09-08,Tuesday,breakfast,08:45-08:50,55,32,430,223,21.0,7.0,11.0,186.0,Aloo Paratha,100.0,20.0,10.0,1.7,1
+SYN_breakfast_2026-09-08,Tuesday,breakfast,08:50-08:55,84,44,514,267,50.0,16.7,20.0,197.0,Aloo Paratha,110.0,22.0,11.0,9.7,1
+SYN_breakfast_2026-09-08,Tuesday,breakfast,08:55-09:00,35,35,549,302,25.0,8.3,11.0,222.0,Aloo Paratha,127.0,25.4,12.7,0.0,1
+SYN_breakfast_2026-09-08,Tuesday,breakfast,09:00-09:05,45,56,594,358,5.0,1.7,2.0,231.0,Aloo Paratha,124.0,24.8,12.4,0.0,1
+SYN_breakfast_2026-09-08,Tuesday,breakfast,09:05-09:10,38,54,632,412,0.0,0.0,0.0,220.0,Aloo Paratha,85.0,17.0,8.5,0.0,1
+SYN_breakfast_2026-09-08,Tuesday,breakfast,09:10-09:15,17,52,649,464,0.0,0.0,0.0,185.0,Aloo Paratha,33.0,6.6,3.3,0.2,1
+SYN_breakfast_2026-09-08,Tuesday,breakfast,09:15-09:20,8,63,657,527,0.0,0.0,0.0,130.0,Aloo Paratha,15.0,3.0,1.5,0.2,1
+SYN_breakfast_2026-09-08,Tuesday,breakfast,09:20-09:25,8,56,665,583,0.0,0.0,0.0,82.0,Aloo Paratha,16.0,3.2,1.6,0.0,1
+SYN_breakfast_2026-09-08,Tuesday,breakfast,09:25-09:30,1,42,666,625,0.0,1.0,0.0,41.0,Aloo Paratha,2.0,0.4,0.2,1.0,1
+SYN_breakfast_2026-09-08,Tuesday,breakfast,09:30-09:35,0,18,666,643,0.0,0.0,0.0,23.0,Aloo Paratha,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-08,Tuesday,breakfast,09:35-09:40,0,15,666,658,0.0,0.0,0.0,8.0,Aloo Paratha,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-08,Tuesday,breakfast,09:40-09:45,0,6,666,664,0.0,0.0,0.0,2.0,Aloo Paratha,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-08,Tuesday,breakfast,09:45-09:50,0,2,666,666,0.0,0.0,0.0,0.0,Aloo Paratha,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-08,Tuesday,lunch,12:00-12:05,14,0,14,0,0.0,0.0,0.0,14.0,Rice/Dal/Roti,55.0,11.0,2.8,0.1,1
+SYN_lunch_2026-09-08,Tuesday,lunch,12:05-12:10,31,0,45,0,0.0,0.0,0.0,45.0,Rice/Dal/Roti,126.0,25.2,6.3,0.0,1
+SYN_lunch_2026-09-08,Tuesday,lunch,12:10-12:15,26,1,71,1,0.0,0.0,0.0,70.0,Rice/Dal/Roti,105.0,21.0,5.2,0.0,1
+SYN_lunch_2026-09-08,Tuesday,lunch,12:15-12:20,30,5,101,6,0.0,0.0,0.0,95.0,Rice/Dal/Roti,120.0,24.0,6.0,0.0,1
+SYN_lunch_2026-09-08,Tuesday,lunch,12:20-12:25,23,15,124,21,0.0,0.0,0.0,103.0,Rice/Dal/Roti,93.0,18.6,4.6,0.0,1
+SYN_lunch_2026-09-08,Tuesday,lunch,12:25-12:30,28,25,152,46,0.0,0.0,0.0,106.0,Rice/Dal/Roti,113.0,22.6,5.6,0.0,1
+SYN_lunch_2026-09-08,Tuesday,lunch,12:30-12:35,22,23,174,69,0.0,0.0,0.0,105.0,Rice/Dal/Roti,90.0,18.0,4.5,0.0,1
+SYN_lunch_2026-09-08,Tuesday,lunch,12:35-12:40,33,35,207,104,0.0,0.0,0.0,103.0,Rice/Dal/Roti,132.0,26.4,6.6,0.0,1
+SYN_lunch_2026-09-08,Tuesday,lunch,12:40-12:45,41,21,248,125,0.0,0.0,0.0,123.0,Rice/Dal/Roti,164.0,32.8,8.2,0.0,1
+SYN_lunch_2026-09-08,Tuesday,lunch,12:45-12:50,37,18,285,143,0.0,0.0,0.0,142.0,Rice/Dal/Roti,147.0,29.4,7.4,0.1,1
+SYN_lunch_2026-09-08,Tuesday,lunch,12:50-12:55,34,39,319,182,0.0,0.0,0.0,137.0,Rice/Dal/Roti,136.0,27.2,6.8,0.0,1
+SYN_lunch_2026-09-08,Tuesday,lunch,12:55-13:00,36,30,355,212,0.0,0.0,0.0,143.0,Rice/Dal/Roti,144.0,28.8,7.2,0.0,1
+SYN_lunch_2026-09-08,Tuesday,lunch,13:00-13:05,34,38,389,250,2.0,0.7,1.0,137.0,Rice/Dal/Roti,132.0,26.4,6.6,0.3,1
+SYN_lunch_2026-09-08,Tuesday,lunch,13:05-13:10,29,38,418,288,0.0,0.0,0.0,130.0,Rice/Dal/Roti,120.0,24.0,6.0,0.0,1
+SYN_lunch_2026-09-08,Tuesday,lunch,13:10-13:15,41,36,459,324,2.0,0.7,1.0,133.0,Rice/Dal/Roti,156.0,31.2,7.8,0.7,1
+SYN_lunch_2026-09-08,Tuesday,lunch,13:15-13:20,33,36,492,360,0.0,0.0,0.0,132.0,Rice/Dal/Roti,133.0,26.6,6.6,0.0,1
+SYN_lunch_2026-09-08,Tuesday,lunch,13:20-13:25,39,27,531,387,,,,,Rice/Dal/Roti,165.0,33.0,8.2,0.0,1
+SYN_lunch_2026-09-08,Tuesday,lunch,13:25-13:30,36,34,567,421,0.0,0.0,0.0,146.0,Rice/Dal/Roti,145.0,29.0,7.2,0.0,1
+SYN_lunch_2026-09-08,Tuesday,lunch,13:30-13:35,37,40,604,461,0.0,0.0,0.0,143.0,Rice/Dal/Roti,147.0,29.4,7.4,0.1,1
+SYN_lunch_2026-09-08,Tuesday,lunch,13:35-13:40,24,29,628,490,0.0,0.0,0.0,138.0,Rice/Dal/Roti,96.0,19.2,4.8,0.0,1
+SYN_lunch_2026-09-08,Tuesday,lunch,13:40-13:45,50,38,678,528,7.0,2.3,4.0,143.0,Rice/Dal/Roti,177.0,35.4,8.8,1.9,1
+SYN_lunch_2026-09-08,Tuesday,lunch,13:45-13:50,53,36,731,564,9.0,3.0,3.0,158.0,Rice/Dal/Roti,197.0,39.4,9.8,1.2,1
+SYN_lunch_2026-09-08,Tuesday,lunch,13:50-13:55,58,37,789,601,19.0,6.3,8.0,169.0,Rice/Dal/Roti,191.0,38.2,9.6,3.4,1
+SYN_lunch_2026-09-08,Tuesday,lunch,13:55-14:00,42,35,831,636,14.0,4.7,5.0,181.0,Rice/Dal/Roti,178.0,35.6,8.9,0.0,1
+SYN_lunch_2026-09-08,Tuesday,lunch,14:00-14:05,0,36,831,672,0.0,0.0,0.0,159.0,Rice/Dal/Roti,68.0,13.6,3.4,0.0,1
+SYN_lunch_2026-09-08,Tuesday,lunch,14:05-14:10,0,48,831,720,0.0,0.0,0.0,111.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-08,Tuesday,lunch,14:10-14:15,0,44,831,764,0.0,0.0,0.0,67.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-08,Tuesday,lunch,14:15-14:20,0,48,831,812,0.0,0.0,0.0,19.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-08,Tuesday,lunch,14:20-14:25,0,18,831,830,0.0,0.0,0.0,1.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-08,Tuesday,lunch,14:25-14:30,0,1,831,831,0.0,0.0,0.0,0.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-08,Tuesday,dinner,19:30-19:35,5,0,5,0,0.0,0.0,0.0,5.0,Roti/Sabzi,22.0,4.4,1.1,0.0,1
+SYN_dinner_2026-09-08,Tuesday,dinner,19:35-19:40,8,0,13,0,0.0,0.0,0.0,13.0,Roti/Sabzi,30.0,6.0,1.5,0.2,1
+SYN_dinner_2026-09-08,Tuesday,dinner,19:40-19:45,3,2,16,2,,1.0,,,Roti/Sabzi,12.0,2.4,0.6,1.0,1
+SYN_dinner_2026-09-08,Tuesday,dinner,19:45-19:50,7,2,23,4,0.0,0.0,0.0,19.0,Roti/Sabzi,29.0,5.8,1.4,0.0,1
+SYN_dinner_2026-09-08,Tuesday,dinner,19:50-19:55,2,2,25,6,0.0,1.0,0.0,19.0,Roti/Sabzi,9.0,1.8,0.4,1.0,1
+SYN_dinner_2026-09-08,Tuesday,dinner,19:55-20:00,3,4,28,10,0.0,1.0,0.0,18.0,Roti/Sabzi,13.0,2.6,0.6,1.0,1
+SYN_dinner_2026-09-08,Tuesday,dinner,20:00-20:05,39,9,67,19,0.0,0.0,0.0,48.0,Roti/Sabzi,157.0,31.4,7.8,0.0,1
+SYN_dinner_2026-09-08,Tuesday,dinner,20:05-20:10,42,5,109,24,1.0,0.3,0.0,84.0,Roti/Sabzi,154.0,30.8,7.7,1.2,1
+SYN_dinner_2026-09-08,Tuesday,dinner,20:10-20:15,29,3,138,27,0.0,0.0,0.0,111.0,Roti/Sabzi,128.0,25.6,6.4,0.0,1
+SYN_dinner_2026-09-08,Tuesday,dinner,20:15-20:20,36,9,174,36,0.0,0.0,0.0,138.0,Roti/Sabzi,145.0,29.0,7.2,0.0,1
+SYN_dinner_2026-09-08,Tuesday,dinner,20:20-20:25,45,28,219,64,0.0,0.0,0.0,155.0,Roti/Sabzi,176.0,35.2,8.8,0.3,1
+SYN_dinner_2026-09-08,Tuesday,dinner,20:25-20:30,33,36,252,100,0.0,0.0,0.0,152.0,Roti/Sabzi,136.0,27.2,6.8,0.0,1
+SYN_dinner_2026-09-08,Tuesday,dinner,20:30-20:35,51,44,303,144,4.0,1.3,2.0,155.0,Roti/Sabzi,188.0,37.6,9.4,1.3,1
+SYN_dinner_2026-09-08,Tuesday,dinner,20:35-20:40,42,32,345,176,0.0,0.0,0.0,169.0,Roti/Sabzi,184.0,36.8,9.2,0.0,1
+SYN_dinner_2026-09-08,Tuesday,dinner,20:40-20:45,38,39,383,215,0.0,0.0,0.0,168.0,Roti/Sabzi,152.0,30.4,7.6,0.0,1
+SYN_dinner_2026-09-08,Tuesday,dinner,20:45-20:50,28,35,411,250,0.0,0.0,0.0,161.0,Roti/Sabzi,112.0,22.4,5.6,0.0,1
+SYN_dinner_2026-09-08,Tuesday,dinner,20:50-20:55,44,51,455,301,0.0,0.0,0.0,154.0,Roti/Sabzi,175.0,35.0,8.8,0.1,1
+SYN_dinner_2026-09-08,Tuesday,dinner,20:55-21:00,32,41,487,342,0.0,0.0,0.0,145.0,Roti/Sabzi,129.0,25.8,6.4,0.0,1
+SYN_dinner_2026-09-08,Tuesday,dinner,21:00-21:05,40,40,527,382,0.0,0.0,0.0,145.0,Roti/Sabzi,156.0,31.2,7.8,0.3,1
+SYN_dinner_2026-09-08,Tuesday,dinner,21:05-21:10,49,33,576,415,7.0,2.3,3.0,154.0,Roti/Sabzi,176.0,35.2,8.8,1.7,1
+SYN_dinner_2026-09-08,Tuesday,dinner,21:10-21:15,42,40,618,455,3.0,1.0,1.0,160.0,Roti/Sabzi,183.0,36.6,9.2,0.0,1
+SYN_dinner_2026-09-08,Tuesday,dinner,21:15-21:20,40,33,658,488,5.0,1.7,2.0,165.0,Roti/Sabzi,159.0,31.8,8.0,0.1,1
+SYN_dinner_2026-09-08,Tuesday,dinner,21:20-21:25,60,37,718,525,20.0,6.7,7.0,173.0,Roti/Sabzi,176.0,35.2,8.8,5.3,1
+SYN_dinner_2026-09-08,Tuesday,dinner,21:25-21:30,29,49,747,574,5.0,1.7,3.0,168.0,Roti/Sabzi,177.0,35.4,8.8,0.0,1
+SYN_dinner_2026-09-08,Tuesday,dinner,21:30-21:35,32,44,779,618,0.0,0.0,0.0,161.0,Roti/Sabzi,141.0,28.2,7.0,0.0,1
+SYN_dinner_2026-09-08,Tuesday,dinner,21:35-21:40,40,32,819,650,0.0,0.0,0.0,169.0,Roti/Sabzi,160.0,32.0,8.0,0.0,1
+SYN_dinner_2026-09-08,Tuesday,dinner,21:40-21:45,15,45,834,695,0.0,0.0,0.0,139.0,Roti/Sabzi,62.0,12.4,3.1,0.0,1
+SYN_dinner_2026-09-08,Tuesday,dinner,21:45-21:50,0,46,834,741,,,,,Roti/Sabzi,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-08,Tuesday,dinner,21:50-21:55,0,26,834,767,0.0,0.0,0.0,67.0,Roti/Sabzi,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-08,Tuesday,dinner,21:55-22:00,0,40,834,807,,,,,Roti/Sabzi,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-08,Tuesday,dinner,22:00-22:05,0,24,834,831,0.0,0.0,0.0,3.0,Roti/Sabzi,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-08,Tuesday,dinner,22:05-22:10,0,3,834,834,0.0,0.0,0.0,0.0,Roti/Sabzi,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-09,Wednesday,breakfast,07:15-07:20,9,0,9,0,0.0,0.0,0.0,9.0,Dosa,19.0,3.8,1.9,0.0,1
+SYN_breakfast_2026-09-09,Wednesday,breakfast,07:20-07:25,3,0,12,0,0.0,1.0,0.0,12.0,Dosa,6.0,1.2,0.6,1.0,1
+SYN_breakfast_2026-09-09,Wednesday,breakfast,07:25-07:30,4,0,16,0,0.0,0.0,0.0,16.0,Dosa,8.0,1.6,0.8,0.0,1
+SYN_breakfast_2026-09-09,Wednesday,breakfast,07:30-07:35,10,0,26,0,0.0,0.0,0.0,26.0,Dosa,21.0,4.2,2.1,0.0,1
+SYN_breakfast_2026-09-09,Wednesday,breakfast,07:35-07:40,4,5,30,5,0.0,0.0,0.0,25.0,Dosa,9.0,1.8,0.9,0.0,1
+SYN_breakfast_2026-09-09,Wednesday,breakfast,07:40-07:45,4,6,34,11,0.0,0.0,0.0,23.0,Dosa,8.0,1.6,0.8,0.0,1
+SYN_breakfast_2026-09-09,Wednesday,breakfast,07:45-07:50,21,8,55,19,0.0,0.0,0.0,36.0,Dosa,42.0,8.4,4.2,0.0,1
+SYN_breakfast_2026-09-09,Wednesday,breakfast,07:50-07:55,22,7,77,26,0.0,0.0,0.0,51.0,Dosa,43.0,8.6,4.3,0.2,1
+SYN_breakfast_2026-09-09,Wednesday,breakfast,07:55-08:00,27,2,104,28,0.0,0.0,0.0,76.0,Dosa,55.0,11.0,5.5,0.0,1
+SYN_breakfast_2026-09-09,Wednesday,breakfast,08:00-08:05,26,8,130,36,,,,,Dosa,53.0,10.6,5.3,0.0,1
+SYN_breakfast_2026-09-09,Wednesday,breakfast,08:05-08:10,23,20,153,56,0.0,0.0,0.0,97.0,Dosa,,,,,1
+SYN_breakfast_2026-09-09,Wednesday,breakfast,08:10-08:15,27,23,180,79,0.0,0.0,0.0,101.0,Dosa,54.0,10.8,5.4,0.0,1
+SYN_breakfast_2026-09-09,Wednesday,breakfast,08:15-08:20,28,20,208,99,0.0,0.0,0.0,109.0,Dosa,55.0,11.0,5.5,0.2,1
+SYN_breakfast_2026-09-09,Wednesday,breakfast,08:20-08:25,26,28,234,127,0.0,0.0,0.0,107.0,Dosa,51.0,10.2,5.1,0.2,1
+SYN_breakfast_2026-09-09,Wednesday,breakfast,08:25-08:30,33,28,267,155,0.0,0.0,0.0,112.0,Dosa,68.0,13.6,6.8,0.0,1
+SYN_breakfast_2026-09-09,Wednesday,breakfast,08:30-08:35,26,27,293,182,0.0,0.0,0.0,111.0,Dosa,54.0,10.8,5.4,0.0,1
+SYN_breakfast_2026-09-09,Wednesday,breakfast,08:35-08:40,31,27,324,209,0.0,0.0,0.0,115.0,Dosa,62.0,12.4,6.2,0.0,1
+SYN_breakfast_2026-09-09,Wednesday,breakfast,08:40-08:45,46,24,370,233,,,,,Dosa,83.0,16.6,8.3,1.5,1
+SYN_breakfast_2026-09-09,Wednesday,breakfast,08:45-08:50,48,30,418,263,0.0,0.0,0.0,155.0,Dosa,107.0,21.4,10.7,0.0,1
+SYN_breakfast_2026-09-09,Wednesday,breakfast,08:50-08:55,74,35,492,298,27.0,9.0,12.0,167.0,Dosa,95.0,19.0,9.5,8.8,1
+SYN_breakfast_2026-09-09,Wednesday,breakfast,08:55-09:00,60,28,552,326,36.0,12.0,16.0,190.0,Dosa,,,,,1
+SYN_breakfast_2026-09-09,Wednesday,breakfast,09:00-09:05,60,42,612,368,41.0,13.7,16.0,203.0,Dosa,106.0,21.2,10.6,2.3,1
+SYN_breakfast_2026-09-09,Wednesday,breakfast,09:05-09:10,43,45,655,413,35.0,11.7,15.0,207.0,Dosa,107.0,21.4,10.7,0.0,1
+SYN_breakfast_2026-09-09,Wednesday,breakfast,09:10-09:15,29,54,684,467,14.0,4.7,5.0,203.0,Dosa,101.0,20.2,10.1,0.0,1
+SYN_breakfast_2026-09-09,Wednesday,breakfast,09:15-09:20,17,51,701,518,0.0,0.0,0.0,183.0,Dosa,60.0,12.0,6.0,0.0,1
+SYN_breakfast_2026-09-09,Wednesday,breakfast,09:20-09:25,4,46,705,564,0.0,0.0,0.0,141.0,Dosa,6.0,1.2,0.6,0.3,1
+SYN_breakfast_2026-09-09,Wednesday,breakfast,09:25-09:30,2,57,707,621,0.0,1.0,0.0,86.0,Dosa,4.0,0.8,0.4,1.0,1
+SYN_breakfast_2026-09-09,Wednesday,breakfast,09:30-09:35,0,43,707,664,0.0,0.0,0.0,43.0,Dosa,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-09,Wednesday,breakfast,09:35-09:40,0,30,707,694,0.0,0.0,0.0,13.0,Dosa,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-09,Wednesday,breakfast,09:40-09:45,0,11,707,705,0.0,0.0,0.0,2.0,Dosa,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-09,Wednesday,breakfast,09:45-09:50,0,2,707,707,0.0,0.0,0.0,0.0,Dosa,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-09,Wednesday,lunch,12:00-12:05,11,0,11,0,0.0,0.0,0.0,11.0,Rice/Dal/Roti,44.0,8.8,2.2,0.0,1
+SYN_lunch_2026-09-09,Wednesday,lunch,12:05-12:10,16,0,27,0,0.0,0.0,0.0,27.0,Rice/Dal/Roti,64.0,12.8,3.2,0.0,1
+SYN_lunch_2026-09-09,Wednesday,lunch,12:10-12:15,18,2,45,2,0.0,0.0,0.0,43.0,Rice/Dal/Roti,72.0,14.4,3.6,0.0,1
+SYN_lunch_2026-09-09,Wednesday,lunch,12:15-12:20,16,2,61,4,0.0,0.0,0.0,57.0,Rice/Dal/Roti,63.0,12.6,3.2,0.1,1
+SYN_lunch_2026-09-09,Wednesday,lunch,12:20-12:25,25,10,86,14,0.0,0.0,0.0,72.0,Rice/Dal/Roti,99.0,19.8,5.0,0.1,1
+SYN_lunch_2026-09-09,Wednesday,lunch,12:25-12:30,23,19,109,33,,,,,Rice/Dal/Roti,92.0,18.4,4.6,0.0,1
+SYN_lunch_2026-09-09,Wednesday,lunch,12:30-12:35,21,9,130,42,0.0,0.0,0.0,88.0,Rice/Dal/Roti,83.0,16.6,4.2,0.1,1
+SYN_lunch_2026-09-09,Wednesday,lunch,12:35-12:40,26,19,156,61,0.0,0.0,0.0,95.0,Rice/Dal/Roti,105.0,21.0,5.2,0.0,1
+SYN_lunch_2026-09-09,Wednesday,lunch,12:40-12:45,43,22,199,83,0.0,0.0,0.0,116.0,Rice/Dal/Roti,172.0,34.4,8.6,0.0,1
+SYN_lunch_2026-09-09,Wednesday,lunch,12:45-12:50,64,24,263,107,10.0,3.3,4.0,146.0,Rice/Dal/Roti,208.0,41.6,10.4,4.0,1
+SYN_lunch_2026-09-09,Wednesday,lunch,12:50-12:55,98,22,361,129,63.0,21.0,25.0,169.0,Rice/Dal/Roti,189.0,37.8,9.4,16.9,1
+SYN_lunch_2026-09-09,Wednesday,lunch,12:55-13:00,65,38,426,167,78.0,26.0,28.0,181.0,Rice/Dal/Roti,196.0,39.2,9.8,5.3,1
+SYN_lunch_2026-09-09,Wednesday,lunch,13:00-13:05,40,35,466,202,69.0,23.0,31.0,195.0,Rice/Dal/Roti,201.0,40.2,10.0,0.0,1
+SYN_lunch_2026-09-09,Wednesday,lunch,13:05-13:10,38,47,504,249,63.0,21.0,22.0,192.0,Rice/Dal/Roti,171.0,34.2,8.6,0.0,1
+SYN_lunch_2026-09-09,Wednesday,lunch,13:10-13:15,31,49,535,298,51.0,17.0,23.0,186.0,Rice/Dal/Roti,185.0,37.0,9.2,0.0,1
+SYN_lunch_2026-09-09,Wednesday,lunch,13:15-13:20,32,51,567,349,32.0,10.7,13.0,186.0,Rice/Dal/Roti,202.0,40.4,10.1,0.0,1
+SYN_lunch_2026-09-09,Wednesday,lunch,13:20-13:25,25,44,592,393,8.0,2.7,3.0,191.0,Rice/Dal/Roti,183.0,36.6,9.2,0.0,1
+SYN_lunch_2026-09-09,Wednesday,lunch,13:25-13:30,44,43,636,436,11.0,3.7,5.0,189.0,Rice/Dal/Roti,176.0,35.2,8.8,0.0,1
+SYN_lunch_2026-09-09,Wednesday,lunch,13:30-13:35,31,53,667,489,0.0,0.0,0.0,178.0,Rice/Dal/Roti,161.0,32.2,8.0,0.0,1
+SYN_lunch_2026-09-09,Wednesday,lunch,13:35-13:40,28,45,695,534,0.0,0.0,0.0,161.0,Rice/Dal/Roti,111.0,22.2,5.6,0.1,1
+SYN_lunch_2026-09-09,Wednesday,lunch,13:40-13:45,39,50,734,584,0.0,0.0,0.0,150.0,Rice/Dal/Roti,156.0,31.2,7.8,0.0,1
+SYN_lunch_2026-09-09,Wednesday,lunch,13:45-13:50,51,46,785,630,7.0,2.3,3.0,148.0,Rice/Dal/Roti,184.0,36.8,9.2,1.7,1
+SYN_lunch_2026-09-09,Wednesday,lunch,13:50-13:55,57,32,842,662,16.0,5.3,7.0,164.0,Rice/Dal/Roti,183.0,36.6,9.2,3.8,1
+SYN_lunch_2026-09-09,Wednesday,lunch,13:55-14:00,44,37,886,699,16.0,5.3,6.0,171.0,Rice/Dal/Roti,187.0,37.4,9.4,0.0,1
+SYN_lunch_2026-09-09,Wednesday,lunch,14:00-14:05,0,34,886,733,0.0,0.0,0.0,153.0,Rice/Dal/Roti,52.0,10.4,2.6,0.0,1
+SYN_lunch_2026-09-09,Wednesday,lunch,14:05-14:10,0,43,886,776,0.0,0.0,0.0,110.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-09,Wednesday,lunch,14:10-14:15,0,46,886,822,,,,,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-09,Wednesday,lunch,14:15-14:20,0,42,886,864,0.0,0.0,0.0,22.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-09,Wednesday,lunch,14:20-14:25,0,21,886,885,0.0,0.0,0.0,1.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-09,Wednesday,lunch,14:25-14:30,0,1,886,886,0.0,0.0,0.0,0.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-09,Wednesday,dinner,19:30-19:35,37,0,37,0,0.0,0.0,0.0,37.0,Veg Biryani (special),37.0,7.4,7.4,0.0,1
+SYN_dinner_2026-09-09,Wednesday,dinner,19:35-19:40,29,0,66,0,0.0,0.0,0.0,66.0,Veg Biryani (special),30.0,6.0,6.0,0.0,1
+SYN_dinner_2026-09-09,Wednesday,dinner,19:40-19:45,25,0,91,0,0.0,0.0,0.0,91.0,Veg Biryani (special),26.0,5.2,5.2,0.0,1
+SYN_dinner_2026-09-09,Wednesday,dinner,19:45-19:50,13,15,104,15,0.0,0.0,0.0,89.0,Veg Biryani (special),15.0,3.0,3.0,0.0,1
+SYN_dinner_2026-09-09,Wednesday,dinner,19:50-19:55,5,25,109,40,0.0,0.0,0.0,69.0,Veg Biryani (special),6.0,1.2,1.2,0.0,1
+SYN_dinner_2026-09-09,Wednesday,dinner,19:55-20:00,1,28,110,68,0.0,1.0,0.0,42.0,Veg Biryani (special),1.0,0.2,0.2,1.0,1
+SYN_dinner_2026-09-09,Wednesday,dinner,20:00-20:05,37,21,147,89,3.0,1.0,2.0,55.0,Veg Biryani (special),31.0,6.2,6.2,2.0,1
+SYN_dinner_2026-09-09,Wednesday,dinner,20:05-20:10,40,11,187,100,5.0,1.7,3.0,82.0,Veg Biryani (special),40.0,8.0,8.0,0.0,1
+SYN_dinner_2026-09-09,Wednesday,dinner,20:10-20:15,29,11,216,111,0.0,0.0,0.0,105.0,Veg Biryani (special),34.0,6.8,6.8,0.0,1
+SYN_dinner_2026-09-09,Wednesday,dinner,20:15-20:20,35,13,251,124,2.0,0.7,1.0,125.0,Veg Biryani (special),32.0,6.4,6.4,1.0,1
+SYN_dinner_2026-09-09,Wednesday,dinner,20:20-20:25,22,23,273,147,,,,,Veg Biryani (special),23.0,4.6,4.6,0.0,1
+SYN_dinner_2026-09-09,Wednesday,dinner,20:25-20:30,38,32,311,179,8.0,2.7,3.0,124.0,Veg Biryani (special),29.0,5.8,5.8,3.0,1
+SYN_dinner_2026-09-09,Wednesday,dinner,20:30-20:35,34,34,345,213,5.0,1.7,2.0,127.0,Veg Biryani (special),35.0,7.0,7.0,0.0,1
+SYN_dinner_2026-09-09,Wednesday,dinner,20:35-20:40,36,28,381,241,2.0,0.7,1.0,138.0,Veg Biryani (special),40.0,8.0,8.0,0.0,1
+SYN_dinner_2026-09-09,Wednesday,dinner,20:40-20:45,30,32,411,273,0.0,0.0,0.0,138.0,Veg Biryani (special),31.0,6.2,6.2,0.0,1
+SYN_dinner_2026-09-09,Wednesday,dinner,20:45-20:50,25,30,436,303,0.0,0.0,0.0,133.0,Veg Biryani (special),25.0,5.0,5.0,0.0,1
+SYN_dinner_2026-09-09,Wednesday,dinner,20:50-20:55,28,36,464,339,1.0,0.3,0.0,124.0,Veg Biryani (special),,,,,1
+SYN_dinner_2026-09-09,Wednesday,dinner,20:55-21:00,30,42,494,381,0.0,0.0,0.0,113.0,Veg Biryani (special),33.0,6.6,6.6,0.0,1
+SYN_dinner_2026-09-09,Wednesday,dinner,21:00-21:05,29,28,523,409,3.0,1.0,1.0,111.0,Veg Biryani (special),27.0,5.4,5.4,0.7,1
+SYN_dinner_2026-09-09,Wednesday,dinner,21:05-21:10,27,23,550,432,0.0,0.0,0.0,118.0,Veg Biryani (special),27.0,5.4,5.4,0.0,1
+SYN_dinner_2026-09-09,Wednesday,dinner,21:10-21:15,40,33,590,465,6.0,2.0,3.0,119.0,Veg Biryani (special),35.0,7.0,7.0,1.7,1
+SYN_dinner_2026-09-09,Wednesday,dinner,21:15-21:20,35,27,625,492,0.0,0.0,0.0,133.0,Veg Biryani (special),41.0,8.2,8.2,0.0,1
+SYN_dinner_2026-09-09,Wednesday,dinner,21:20-21:25,28,35,653,527,0.0,0.0,0.0,126.0,Veg Biryani (special),28.0,5.6,5.6,0.0,1
+SYN_dinner_2026-09-09,Wednesday,dinner,21:25-21:30,35,27,688,554,3.0,1.0,2.0,131.0,Veg Biryani (special),32.0,6.4,6.4,1.0,1
+SYN_dinner_2026-09-09,Wednesday,dinner,21:30-21:35,41,34,729,588,5.0,1.7,2.0,136.0,Veg Biryani (special),38.0,7.6,7.6,1.0,1
+SYN_dinner_2026-09-09,Wednesday,dinner,21:35-21:40,29,30,758,618,0.0,0.0,0.0,140.0,Veg Biryani (special),31.0,6.2,6.2,0.0,1
+SYN_dinner_2026-09-09,Wednesday,dinner,21:40-21:45,17,32,775,650,0.0,0.0,0.0,125.0,Veg Biryani (special),18.0,3.6,3.6,0.0,1
+SYN_dinner_2026-09-09,Wednesday,dinner,21:45-21:50,0,36,775,686,0.0,0.0,0.0,89.0,Veg Biryani (special),0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-09,Wednesday,dinner,21:50-21:55,0,40,775,726,0.0,0.0,0.0,49.0,Veg Biryani (special),0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-09,Wednesday,dinner,21:55-22:00,0,22,775,748,0.0,0.0,0.0,27.0,Veg Biryani (special),0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-09,Wednesday,dinner,22:00-22:05,0,21,775,769,0.0,0.0,0.0,6.0,Veg Biryani (special),0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-09,Wednesday,dinner,22:05-22:10,0,5,775,774,0.0,0.0,0.0,1.0,Veg Biryani (special),0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-09,Wednesday,dinner,22:10-22:15,0,1,775,775,0.0,0.0,0.0,0.0,Veg Biryani (special),0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-10,Thursday,breakfast,07:15-07:20,5,0,5,0,0.0,0.0,0.0,5.0,Poha,5.0,1.0,1.0,0.0,1
+SYN_breakfast_2026-09-10,Thursday,breakfast,07:20-07:25,3,0,8,0,0.0,1.0,0.0,8.0,Poha,1.0,0.2,0.2,1.0,1
+SYN_breakfast_2026-09-10,Thursday,breakfast,07:25-07:30,6,0,14,0,0.0,0.0,0.0,14.0,Poha,6.0,1.2,1.2,0.0,1
+SYN_breakfast_2026-09-10,Thursday,breakfast,07:30-07:35,2,2,16,2,0.0,1.0,0.0,14.0,Poha,1.0,0.2,0.2,1.0,1
+SYN_breakfast_2026-09-10,Thursday,breakfast,07:35-07:40,5,2,21,4,0.0,0.0,0.0,17.0,Poha,4.0,0.8,0.8,0.3,1
+SYN_breakfast_2026-09-10,Thursday,breakfast,07:40-07:45,9,3,30,7,0.0,0.0,0.0,23.0,Poha,8.0,1.6,1.6,0.3,1
+SYN_breakfast_2026-09-10,Thursday,breakfast,07:45-07:50,19,7,49,14,0.0,0.0,0.0,35.0,Poha,18.0,3.6,3.6,0.3,1
+SYN_breakfast_2026-09-10,Thursday,breakfast,07:50-07:55,19,6,68,20,0.0,0.0,0.0,48.0,Poha,19.0,3.8,3.8,0.0,1
+SYN_breakfast_2026-09-10,Thursday,breakfast,07:55-08:00,13,4,81,24,0.0,0.0,0.0,57.0,Poha,11.0,2.2,2.2,0.7,1
+SYN_breakfast_2026-09-10,Thursday,breakfast,08:00-08:05,20,12,101,36,0.0,0.0,0.0,65.0,Poha,21.0,4.2,4.2,0.0,1
+SYN_breakfast_2026-09-10,Thursday,breakfast,08:05-08:10,25,11,126,47,0.0,0.0,0.0,79.0,Poha,24.0,4.8,4.8,0.3,1
+SYN_breakfast_2026-09-10,Thursday,breakfast,08:10-08:15,22,16,148,63,0.0,0.0,0.0,85.0,Poha,21.0,4.2,4.2,0.3,1
+SYN_breakfast_2026-09-10,Thursday,breakfast,08:15-08:20,22,18,170,81,0.0,0.0,0.0,89.0,Poha,23.0,4.6,4.6,0.0,1
+SYN_breakfast_2026-09-10,Thursday,breakfast,08:20-08:25,24,24,194,105,0.0,0.0,0.0,89.0,Poha,24.0,4.8,4.8,0.0,1
+SYN_breakfast_2026-09-10,Thursday,breakfast,08:25-08:30,38,18,232,123,0.0,0.0,0.0,109.0,Poha,38.0,7.6,7.6,0.0,1
+SYN_breakfast_2026-09-10,Thursday,breakfast,08:30-08:35,40,28,272,151,0.0,0.0,0.0,121.0,Poha,38.0,7.6,7.6,0.7,1
+SYN_breakfast_2026-09-10,Thursday,breakfast,08:35-08:40,43,15,315,166,0.0,0.0,0.0,149.0,Poha,44.0,8.8,8.8,0.0,1
+SYN_breakfast_2026-09-10,Thursday,breakfast,08:40-08:45,46,32,361,198,1.0,0.3,0.0,162.0,Poha,45.0,9.0,9.0,0.3,1
+SYN_breakfast_2026-09-10,Thursday,breakfast,08:45-08:50,94,37,455,235,27.0,9.0,16.0,193.0,Poha,70.0,14.0,14.0,8.0,1
+SYN_breakfast_2026-09-10,Thursday,breakfast,08:50-08:55,99,35,554,270,50.0,16.7,26.0,234.0,Poha,74.0,14.8,14.8,8.3,1
+SYN_breakfast_2026-09-10,Thursday,breakfast,08:55-09:00,43,45,597,315,10.0,3.3,5.0,272.0,Poha,82.0,16.4,16.4,0.0,1
+SYN_breakfast_2026-09-10,Thursday,breakfast,09:00-09:05,61,46,658,361,0.0,0.0,0.0,297.0,Poha,75.0,15.0,15.0,0.0,1
+SYN_breakfast_2026-09-10,Thursday,breakfast,09:05-09:10,46,68,704,429,0.0,0.0,0.0,275.0,Poha,46.0,9.2,9.2,0.0,1
+SYN_breakfast_2026-09-10,Thursday,breakfast,09:10-09:15,29,82,733,511,0.0,0.0,0.0,222.0,Poha,28.0,5.6,5.6,0.3,1
+SYN_breakfast_2026-09-10,Thursday,breakfast,09:15-09:20,23,75,756,586,0.0,0.0,0.0,170.0,Poha,24.0,4.8,4.8,0.0,1
+SYN_breakfast_2026-09-10,Thursday,breakfast,09:20-09:25,10,66,766,652,0.0,0.0,0.0,114.0,Poha,12.0,2.4,2.4,0.0,1
+SYN_breakfast_2026-09-10,Thursday,breakfast,09:25-09:30,1,56,767,708,0.0,1.0,0.0,59.0,Poha,1.0,0.2,0.2,1.0,1
+SYN_breakfast_2026-09-10,Thursday,breakfast,09:30-09:35,0,22,767,730,0.0,0.0,0.0,37.0,Poha,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-10,Thursday,breakfast,09:35-09:40,0,24,767,754,0.0,0.0,0.0,13.0,Poha,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-10,Thursday,breakfast,09:40-09:45,0,8,767,762,0.0,0.0,0.0,5.0,Poha,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-10,Thursday,breakfast,09:45-09:50,0,5,767,767,0.0,0.0,0.0,0.0,Poha,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-10,Thursday,lunch,12:00-12:05,14,0,14,0,0.0,0.0,0.0,14.0,Rice/Dal/Roti,56.0,11.2,2.8,0.0,1
+SYN_lunch_2026-09-10,Thursday,lunch,12:05-12:10,26,0,40,0,0.0,0.0,0.0,40.0,Rice/Dal/Roti,104.0,20.8,5.2,0.0,1
+SYN_lunch_2026-09-10,Thursday,lunch,12:10-12:15,17,0,57,0,0.0,0.0,0.0,57.0,Rice/Dal/Roti,68.0,13.6,3.4,0.0,1
+SYN_lunch_2026-09-10,Thursday,lunch,12:15-12:20,21,2,78,2,0.0,0.0,0.0,76.0,Rice/Dal/Roti,83.0,16.6,4.2,0.1,1
+SYN_lunch_2026-09-10,Thursday,lunch,12:20-12:25,25,14,103,16,0.0,0.0,0.0,87.0,Rice/Dal/Roti,101.0,20.2,5.0,0.0,1
+SYN_lunch_2026-09-10,Thursday,lunch,12:25-12:30,20,22,123,38,0.0,0.0,0.0,85.0,Rice/Dal/Roti,80.0,16.0,4.0,0.0,1
+SYN_lunch_2026-09-10,Thursday,lunch,12:30-12:35,23,21,146,59,0.0,0.0,0.0,87.0,Rice/Dal/Roti,90.0,18.0,4.5,0.2,1
+SYN_lunch_2026-09-10,Thursday,lunch,12:35-12:40,38,20,184,79,0.0,0.0,0.0,105.0,Rice/Dal/Roti,,,,,1
+SYN_lunch_2026-09-10,Thursday,lunch,12:40-12:45,38,28,222,107,0.0,0.0,0.0,115.0,Rice/Dal/Roti,156.0,31.2,7.8,0.0,1
+SYN_lunch_2026-09-10,Thursday,lunch,12:45-12:50,77,21,299,128,29.0,9.7,10.0,142.0,Rice/Dal/Roti,196.0,39.2,9.8,9.3,1
+SYN_lunch_2026-09-10,Thursday,lunch,12:50-12:55,78,22,377,150,62.0,20.7,29.0,165.0,Rice/Dal/Roti,177.0,35.4,8.8,11.2,1
+SYN_lunch_2026-09-10,Thursday,lunch,12:55-13:00,67,36,444,186,80.0,26.7,37.0,178.0,Rice/Dal/Roti,196.0,39.2,9.8,6.0,1
+SYN_lunch_2026-09-10,Thursday,lunch,13:00-13:05,44,39,488,225,74.0,24.7,29.0,189.0,Rice/Dal/Roti,197.0,39.4,9.8,0.0,1
+SYN_lunch_2026-09-10,Thursday,lunch,13:05-13:10,24,51,512,276,52.0,17.3,18.0,184.0,Rice/Dal/Roti,192.0,38.4,9.6,0.0,1
+SYN_lunch_2026-09-10,Thursday,lunch,13:10-13:15,31,43,543,319,30.0,10.0,13.0,194.0,Rice/Dal/Roti,208.0,41.6,10.4,0.0,1
+SYN_lunch_2026-09-10,Thursday,lunch,13:15-13:20,34,45,577,364,15.0,5.0,8.0,198.0,Rice/Dal/Roti,191.0,38.2,9.6,0.0,1
+SYN_lunch_2026-09-10,Thursday,lunch,13:20-13:25,34,51,611,415,2.0,0.7,1.0,194.0,Rice/Dal/Roti,191.0,38.2,9.6,0.0,1
+SYN_lunch_2026-09-10,Thursday,lunch,13:25-13:30,31,49,642,464,,,,,Rice/Dal/Roti,132.0,26.4,6.6,0.0,1
+SYN_lunch_2026-09-10,Thursday,lunch,13:30-13:35,38,43,680,507,0.0,0.0,0.0,173.0,Rice/Dal/Roti,153.0,30.6,7.6,0.0,1
+SYN_lunch_2026-09-10,Thursday,lunch,13:35-13:40,37,51,717,558,4.0,1.3,2.0,155.0,Rice/Dal/Roti,135.0,27.0,6.8,1.1,1
+SYN_lunch_2026-09-10,Thursday,lunch,13:40-13:45,41,46,758,604,0.0,0.0,0.0,154.0,Rice/Dal/Roti,177.0,35.4,8.8,0.0,1
+SYN_lunch_2026-09-10,Thursday,lunch,13:45-13:50,59,43,817,647,14.0,4.7,7.0,156.0,Rice/Dal/Roti,183.0,36.6,9.2,4.4,1
+SYN_lunch_2026-09-10,Thursday,lunch,13:50-13:55,53,29,870,676,20.0,6.7,7.0,174.0,Rice/Dal/Roti,184.0,36.8,9.2,2.3,1
+SYN_lunch_2026-09-10,Thursday,lunch,13:55-14:00,42,47,912,723,8.0,2.7,4.0,181.0,Rice/Dal/Roti,211.0,42.2,10.6,0.0,1
+SYN_lunch_2026-09-10,Thursday,lunch,14:00-14:05,0,40,912,763,0.0,0.0,0.0,149.0,Rice/Dal/Roti,37.0,7.4,1.8,0.0,1
+SYN_lunch_2026-09-10,Thursday,lunch,14:05-14:10,0,40,912,803,0.0,0.0,0.0,109.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-10,Thursday,lunch,14:10-14:15,0,59,912,862,0.0,0.0,0.0,50.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-10,Thursday,lunch,14:15-14:20,0,30,912,892,0.0,0.0,0.0,20.0,Rice/Dal/Roti,,,,,1
+SYN_lunch_2026-09-10,Thursday,lunch,14:20-14:25,0,18,912,910,0.0,0.0,0.0,2.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-10,Thursday,lunch,14:25-14:30,0,2,912,912,0.0,0.0,0.0,0.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-10,Thursday,dinner,19:30-19:35,7,0,7,0,0.0,0.0,0.0,7.0,Roti/Sabzi,30.0,6.0,1.5,0.0,1
+SYN_dinner_2026-09-10,Thursday,dinner,19:35-19:40,4,0,11,0,0.0,0.0,0.0,11.0,Roti/Sabzi,16.0,3.2,0.8,0.0,1
+SYN_dinner_2026-09-10,Thursday,dinner,19:40-19:45,5,0,16,0,0.0,0.0,0.0,16.0,Roti/Sabzi,20.0,4.0,1.0,0.0,1
+SYN_dinner_2026-09-10,Thursday,dinner,19:45-19:50,4,2,20,2,0.0,0.0,0.0,18.0,Roti/Sabzi,17.0,3.4,0.8,0.0,1
+SYN_dinner_2026-09-10,Thursday,dinner,19:50-19:55,3,2,23,4,0.0,1.0,0.0,19.0,Roti/Sabzi,13.0,2.6,0.6,1.0,1
+SYN_dinner_2026-09-10,Thursday,dinner,19:55-20:00,8,8,31,12,0.0,0.0,0.0,19.0,Roti/Sabzi,32.0,6.4,1.6,0.0,1
+SYN_dinner_2026-09-10,Thursday,dinner,20:00-20:05,31,3,62,15,0.0,0.0,0.0,47.0,Roti/Sabzi,125.0,25.0,6.2,0.0,1
+SYN_dinner_2026-09-10,Thursday,dinner,20:05-20:10,29,5,91,20,0.0,0.0,0.0,71.0,Roti/Sabzi,116.0,23.2,5.8,0.0,1
+SYN_dinner_2026-09-10,Thursday,dinner,20:10-20:15,30,5,121,25,0.0,0.0,0.0,96.0,Roti/Sabzi,120.0,24.0,6.0,0.0,1
+SYN_dinner_2026-09-10,Thursday,dinner,20:15-20:20,30,12,151,37,0.0,0.0,0.0,114.0,Roti/Sabzi,121.0,24.2,6.0,0.0,1
+SYN_dinner_2026-09-10,Thursday,dinner,20:20-20:25,48,22,199,59,4.0,1.3,2.0,136.0,Roti/Sabzi,172.0,34.4,8.6,1.7,1
+SYN_dinner_2026-09-10,Thursday,dinner,20:25-20:30,30,29,229,88,0.0,0.0,0.0,141.0,Roti/Sabzi,140.0,28.0,7.0,0.0,1
+SYN_dinner_2026-09-10,Thursday,dinner,20:30-20:35,35,28,264,116,0.0,0.0,0.0,148.0,Roti/Sabzi,142.0,28.4,7.1,0.0,1
+SYN_dinner_2026-09-10,Thursday,dinner,20:35-20:40,35,40,299,156,0.0,0.0,0.0,143.0,Roti/Sabzi,136.0,27.2,6.8,0.3,1
+SYN_dinner_2026-09-10,Thursday,dinner,20:40-20:45,31,33,330,189,0.0,0.0,0.0,141.0,Roti/Sabzi,128.0,25.6,6.4,0.0,1
+SYN_dinner_2026-09-10,Thursday,dinner,20:45-20:50,38,38,368,227,0.0,0.0,0.0,141.0,Roti/Sabzi,152.0,30.4,7.6,0.0,1
+SYN_dinner_2026-09-10,Thursday,dinner,20:50-20:55,38,39,406,266,,,,,Roti/Sabzi,141.0,28.2,7.0,0.9,1
+SYN_dinner_2026-09-10,Thursday,dinner,20:55-21:00,36,36,442,302,,,,,Roti/Sabzi,157.0,31.4,7.8,0.0,1
+SYN_dinner_2026-09-10,Thursday,dinner,21:00-21:05,32,33,474,335,0.0,0.0,0.0,139.0,Roti/Sabzi,127.0,25.4,6.4,0.1,1
+SYN_dinner_2026-09-10,Thursday,dinner,21:05-21:10,40,35,514,370,,,,,Roti/Sabzi,153.0,30.6,7.6,0.6,1
+SYN_dinner_2026-09-10,Thursday,dinner,21:10-21:15,38,23,552,393,4.0,1.3,2.0,155.0,Roti/Sabzi,152.0,30.4,7.6,0.0,1
+SYN_dinner_2026-09-10,Thursday,dinner,21:15-21:20,53,44,605,437,9.0,3.0,3.0,159.0,Roti/Sabzi,185.0,37.0,9.2,2.2,1
+SYN_dinner_2026-09-10,Thursday,dinner,21:20-21:25,51,42,656,479,18.0,6.0,7.0,159.0,Roti/Sabzi,176.0,35.2,8.8,2.3,1
+SYN_dinner_2026-09-10,Thursday,dinner,21:25-21:30,42,42,698,521,14.0,4.7,5.0,163.0,Roti/Sabzi,,,,,1
+SYN_dinner_2026-09-10,Thursday,dinner,21:30-21:35,52,35,750,556,23.0,7.7,11.0,171.0,Roti/Sabzi,180.0,36.0,9.0,2.3,1
+SYN_dinner_2026-09-10,Thursday,dinner,21:35-21:40,36,45,786,601,14.0,4.7,6.0,171.0,Roti/Sabzi,183.0,36.6,9.2,0.0,1
+SYN_dinner_2026-09-10,Thursday,dinner,21:40-21:45,32,41,818,642,0.0,0.0,0.0,176.0,Roti/Sabzi,176.0,35.2,8.8,0.0,1
+SYN_dinner_2026-09-10,Thursday,dinner,21:45-21:50,0,43,818,685,0.0,0.0,0.0,133.0,Roti/Sabzi,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-10,Thursday,dinner,21:50-21:55,0,37,818,722,0.0,0.0,0.0,96.0,Roti/Sabzi,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-10,Thursday,dinner,21:55-22:00,0,56,818,778,0.0,0.0,0.0,40.0,Roti/Sabzi,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-10,Thursday,dinner,22:00-22:05,0,32,818,810,0.0,0.0,0.0,8.0,Roti/Sabzi,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-10,Thursday,dinner,22:05-22:10,0,7,818,817,0.0,0.0,0.0,1.0,Roti/Sabzi,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-10,Thursday,dinner,22:10-22:15,0,1,818,818,,,,,Roti/Sabzi,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-11,Friday,breakfast,07:15-07:20,8,0,8,0,0.0,0.0,0.0,8.0,Dosa,16.0,3.2,1.6,0.0,1
+SYN_breakfast_2026-09-11,Friday,breakfast,07:20-07:25,6,0,14,0,0.0,0.0,0.0,14.0,Dosa,12.0,2.4,1.2,0.0,1
+SYN_breakfast_2026-09-11,Friday,breakfast,07:25-07:30,7,0,21,0,0.0,0.0,0.0,21.0,Dosa,15.0,3.0,1.5,0.0,1
+SYN_breakfast_2026-09-11,Friday,breakfast,07:30-07:35,5,1,26,1,0.0,0.0,0.0,25.0,Dosa,11.0,2.2,1.1,0.0,1
+SYN_breakfast_2026-09-11,Friday,breakfast,07:35-07:40,3,4,29,5,0.0,1.0,0.0,24.0,Dosa,6.0,1.2,0.6,1.0,1
+SYN_breakfast_2026-09-11,Friday,breakfast,07:40-07:45,3,11,32,16,0.0,1.0,0.0,16.0,Dosa,7.0,1.4,0.7,1.0,1
+SYN_breakfast_2026-09-11,Friday,breakfast,07:45-07:50,12,6,44,22,0.0,0.0,0.0,22.0,Dosa,25.0,5.0,2.5,0.0,1
+SYN_breakfast_2026-09-11,Friday,breakfast,07:50-07:55,24,5,68,27,0.0,0.0,0.0,41.0,Dosa,47.0,9.4,4.7,0.2,1
+SYN_breakfast_2026-09-11,Friday,breakfast,07:55-08:00,16,3,84,30,0.0,0.0,0.0,54.0,Dosa,31.0,6.2,3.1,0.2,1
+SYN_breakfast_2026-09-11,Friday,breakfast,08:00-08:05,24,5,108,35,0.0,0.0,0.0,73.0,Dosa,47.0,9.4,4.7,0.2,1
+SYN_breakfast_2026-09-11,Friday,breakfast,08:05-08:10,21,15,129,50,0.0,0.0,0.0,79.0,Dosa,41.0,8.2,4.1,0.2,1
+SYN_breakfast_2026-09-11,Friday,breakfast,08:10-08:15,19,19,148,69,0.0,0.0,0.0,79.0,Dosa,39.0,7.8,3.9,0.0,1
+SYN_breakfast_2026-09-11,Friday,breakfast,08:15-08:20,22,20,170,89,0.0,0.0,0.0,81.0,Dosa,44.0,8.8,4.4,0.0,1
+SYN_breakfast_2026-09-11,Friday,breakfast,08:20-08:25,21,24,191,113,0.0,0.0,0.0,78.0,Dosa,44.0,8.8,4.4,0.0,1
+SYN_breakfast_2026-09-11,Friday,breakfast,08:25-08:30,30,23,221,136,0.0,0.0,0.0,85.0,Dosa,60.0,12.0,6.0,0.0,1
+SYN_breakfast_2026-09-11,Friday,breakfast,08:30-08:35,33,16,254,152,0.0,0.0,0.0,102.0,Dosa,67.0,13.4,6.7,0.0,1
+SYN_breakfast_2026-09-11,Friday,breakfast,08:35-08:40,37,16,291,168,0.0,0.0,0.0,123.0,Dosa,74.0,14.8,7.4,0.0,1
+SYN_breakfast_2026-09-11,Friday,breakfast,08:40-08:45,45,23,336,191,4.0,1.3,2.0,141.0,Dosa,82.0,16.4,8.2,1.3,1
+SYN_breakfast_2026-09-11,Friday,breakfast,08:45-08:50,68,33,404,224,15.0,5.0,6.0,165.0,Dosa,108.0,21.6,10.8,4.7,1
+SYN_breakfast_2026-09-11,Friday,breakfast,08:50-08:55,82,30,486,254,43.0,14.3,15.0,189.0,Dosa,116.0,23.2,11.6,8.0,1
+SYN_breakfast_2026-09-11,Friday,breakfast,08:55-09:00,43,35,529,289,24.0,8.0,12.0,216.0,Dosa,128.0,25.6,12.8,0.0,1
+SYN_breakfast_2026-09-11,Friday,breakfast,09:00-09:05,55,43,584,332,10.0,3.3,5.0,242.0,Dosa,127.0,25.4,12.7,0.0,1
+SYN_breakfast_2026-09-11,Friday,breakfast,09:05-09:10,45,55,629,387,0.0,0.0,0.0,242.0,Dosa,117.0,23.4,11.7,0.0,1
+SYN_breakfast_2026-09-11,Friday,breakfast,09:10-09:15,19,64,648,451,0.0,0.0,0.0,197.0,Dosa,37.0,7.4,3.7,0.2,1
+SYN_breakfast_2026-09-11,Friday,breakfast,09:15-09:20,7,66,655,517,0.0,0.0,0.0,138.0,Dosa,13.0,2.6,1.3,0.2,1
+SYN_breakfast_2026-09-11,Friday,breakfast,09:20-09:25,6,59,661,576,0.0,0.0,0.0,85.0,Dosa,11.0,2.2,1.1,0.2,1
+SYN_breakfast_2026-09-11,Friday,breakfast,09:25-09:30,3,43,664,619,0.0,1.0,0.0,45.0,Dosa,6.0,1.2,0.6,1.0,1
+SYN_breakfast_2026-09-11,Friday,breakfast,09:30-09:35,0,25,664,644,0.0,0.0,0.0,20.0,Dosa,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-11,Friday,breakfast,09:35-09:40,0,10,664,654,0.0,0.0,0.0,10.0,Dosa,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-11,Friday,breakfast,09:40-09:45,0,6,664,660,0.0,0.0,0.0,4.0,Dosa,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-11,Friday,breakfast,09:45-09:50,0,3,664,663,0.0,0.0,0.0,1.0,Dosa,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-11,Friday,breakfast,09:50-09:55,0,1,664,664,,,,,Dosa,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-11,Friday,lunch,12:00-12:05,25,0,25,0,0.0,0.0,0.0,25.0,Rice/Dal/Roti,101.0,20.2,5.0,0.0,1
+SYN_lunch_2026-09-11,Friday,lunch,12:05-12:10,19,0,44,0,0.0,0.0,0.0,44.0,Rice/Dal/Roti,76.0,15.2,3.8,0.0,1
+SYN_lunch_2026-09-11,Friday,lunch,12:10-12:15,21,1,65,1,0.0,0.0,0.0,64.0,Rice/Dal/Roti,84.0,16.8,4.2,0.0,1
+SYN_lunch_2026-09-11,Friday,lunch,12:15-12:20,18,5,83,6,0.0,0.0,0.0,77.0,Rice/Dal/Roti,72.0,14.4,3.6,0.0,1
+SYN_lunch_2026-09-11,Friday,lunch,12:20-12:25,21,23,104,29,0.0,0.0,0.0,75.0,Rice/Dal/Roti,84.0,16.8,4.2,0.0,1
+SYN_lunch_2026-09-11,Friday,lunch,12:25-12:30,32,19,136,48,3.0,1.0,1.0,85.0,Rice/Dal/Roti,117.0,23.4,5.8,0.9,1
+SYN_lunch_2026-09-11,Friday,lunch,12:30-12:35,26,19,162,67,0.0,0.0,0.0,95.0,Rice/Dal/Roti,115.0,23.0,5.8,0.0,1
+SYN_lunch_2026-09-11,Friday,lunch,12:35-12:40,28,20,190,87,0.0,0.0,0.0,103.0,Rice/Dal/Roti,111.0,22.2,5.6,0.1,1
+SYN_lunch_2026-09-11,Friday,lunch,12:40-12:45,22,14,212,101,0.0,0.0,0.0,111.0,Rice/Dal/Roti,89.0,17.8,4.4,0.0,1
+SYN_lunch_2026-09-11,Friday,lunch,12:45-12:50,36,38,248,139,1.0,0.3,0.0,108.0,Rice/Dal/Roti,139.0,27.8,7.0,0.4,1
+SYN_lunch_2026-09-11,Friday,lunch,12:50-12:55,65,24,313,163,20.0,6.7,8.0,130.0,Rice/Dal/Roti,182.0,36.4,9.1,6.5,1
+SYN_lunch_2026-09-11,Friday,lunch,12:55-13:00,90,25,403,188,51.0,17.0,27.0,164.0,Rice/Dal/Roti,237.0,47.4,11.8,10.2,1
+SYN_lunch_2026-09-11,Friday,lunch,13:00-13:05,40,25,443,213,26.0,8.7,10.0,204.0,Rice/Dal/Roti,257.0,51.4,12.8,0.0,1
+SYN_lunch_2026-09-11,Friday,lunch,13:05-13:10,41,41,484,254,5.0,1.7,2.0,225.0,Rice/Dal/Roti,257.0,51.4,12.8,0.0,1
+SYN_lunch_2026-09-11,Friday,lunch,13:10-13:15,38,52,522,306,0.0,0.0,0.0,216.0,Rice/Dal/Roti,169.0,33.8,8.4,0.0,1
+SYN_lunch_2026-09-11,Friday,lunch,13:15-13:20,27,56,549,362,0.0,0.0,0.0,187.0,Rice/Dal/Roti,106.0,21.2,5.3,0.2,1
+SYN_lunch_2026-09-11,Friday,lunch,13:20-13:25,29,56,578,418,0.0,0.0,0.0,160.0,Rice/Dal/Roti,114.0,22.8,5.7,0.2,1
+SYN_lunch_2026-09-11,Friday,lunch,13:25-13:30,36,55,614,473,0.0,0.0,0.0,141.0,Rice/Dal/Roti,144.0,28.8,7.2,0.0,1
+SYN_lunch_2026-09-11,Friday,lunch,13:30-13:35,39,50,653,523,0.0,0.0,0.0,130.0,Rice/Dal/Roti,155.0,31.0,7.8,0.1,1
+SYN_lunch_2026-09-11,Friday,lunch,13:35-13:40,40,31,693,554,,,,,Rice/Dal/Roti,160.0,32.0,8.0,0.0,1
+SYN_lunch_2026-09-11,Friday,lunch,13:40-13:45,52,29,745,583,1.0,0.3,0.0,161.0,Rice/Dal/Roti,203.0,40.6,10.2,0.4,1
+SYN_lunch_2026-09-11,Friday,lunch,13:45-13:50,53,29,798,612,4.0,1.3,2.0,182.0,Rice/Dal/Roti,204.0,40.8,10.2,0.7,1
+SYN_lunch_2026-09-11,Friday,lunch,13:50-13:55,44,37,842,649,0.0,0.0,0.0,193.0,Rice/Dal/Roti,188.0,37.6,9.4,0.0,1
+SYN_lunch_2026-09-11,Friday,lunch,13:55-14:00,47,42,889,691,0.0,0.0,0.0,198.0,Rice/Dal/Roti,189.0,37.8,9.4,0.0,1
+SYN_lunch_2026-09-11,Friday,lunch,14:00-14:05,0,51,889,742,0.0,0.0,0.0,147.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-11,Friday,lunch,14:05-14:10,0,43,889,785,0.0,0.0,0.0,104.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-11,Friday,lunch,14:10-14:15,0,55,889,840,0.0,0.0,0.0,49.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-11,Friday,lunch,14:15-14:20,0,31,889,871,0.0,0.0,0.0,18.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-11,Friday,lunch,14:20-14:25,0,16,889,887,0.0,0.0,0.0,2.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-11,Friday,lunch,14:25-14:30,0,2,889,889,0.0,0.0,0.0,0.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-11,Friday,dinner,19:30-19:35,52,0,52,0,17.0,5.7,7.0,35.0,Paneer + Roti (special),145.0,29.0,7.2,5.2,1
+SYN_dinner_2026-09-11,Friday,dinner,19:35-19:40,35,0,87,0,,,,,Paneer + Roti (special),144.0,28.8,7.2,0.0,1
+SYN_dinner_2026-09-11,Friday,dinner,19:40-19:45,44,0,131,0,26.0,8.7,11.0,105.0,Paneer + Roti (special),136.0,27.2,6.8,3.3,1
+SYN_dinner_2026-09-11,Friday,dinner,19:45-19:50,7,10,138,10,0.0,0.0,0.0,128.0,Paneer + Roti (special),127.0,25.4,6.4,0.0,1
+SYN_dinner_2026-09-11,Friday,dinner,19:50-19:55,4,28,142,38,0.0,0.0,0.0,104.0,Paneer + Roti (special),16.0,3.2,0.8,0.0,1
+SYN_dinner_2026-09-11,Friday,dinner,19:55-20:00,6,26,148,64,0.0,0.0,0.0,84.0,Paneer + Roti (special),24.0,4.8,1.2,0.0,1
+SYN_dinner_2026-09-11,Friday,dinner,20:00-20:05,37,40,185,104,7.0,2.3,3.0,74.0,Paneer + Roti (special),121.0,24.2,6.0,2.2,1
+SYN_dinner_2026-09-11,Friday,dinner,20:05-20:10,41,30,226,134,10.0,3.3,4.0,82.0,Paneer + Roti (special),148.0,29.6,7.4,1.3,1
+SYN_dinner_2026-09-11,Friday,dinner,20:10-20:15,35,12,261,146,11.0,3.7,5.0,104.0,Paneer + Roti (special),140.0,28.0,7.0,0.0,1
+SYN_dinner_2026-09-11,Friday,dinner,20:15-20:20,28,11,289,157,2.0,0.7,1.0,130.0,Paneer + Roti (special),145.0,29.0,7.2,0.0,1
+SYN_dinner_2026-09-11,Friday,dinner,20:20-20:25,33,23,322,180,0.0,0.0,0.0,142.0,Paneer + Roti (special),145.0,29.0,7.2,0.0,1
+SYN_dinner_2026-09-11,Friday,dinner,20:25-20:30,33,34,355,214,2.0,0.7,1.0,139.0,Paneer + Roti (special),124.0,24.8,6.2,0.7,1
+SYN_dinner_2026-09-11,Friday,dinner,20:30-20:35,24,33,379,247,0.0,0.0,0.0,132.0,Paneer + Roti (special),104.0,20.8,5.2,0.0,1
+SYN_dinner_2026-09-11,Friday,dinner,20:35-20:40,25,34,404,281,0.0,0.0,0.0,123.0,Paneer + Roti (special),101.0,20.2,5.0,0.0,1
+SYN_dinner_2026-09-11,Friday,dinner,20:40-20:45,34,38,438,319,1.0,0.3,0.0,118.0,Paneer + Roti (special),133.0,26.6,6.6,0.2,1
+SYN_dinner_2026-09-11,Friday,dinner,20:45-20:50,35,43,473,362,0.0,0.0,0.0,111.0,Paneer + Roti (special),144.0,28.8,7.2,0.0,1
+SYN_dinner_2026-09-11,Friday,dinner,20:50-20:55,31,23,504,385,2.0,0.7,1.0,117.0,Paneer + Roti (special),115.0,23.0,5.8,0.8,1
+SYN_dinner_2026-09-11,Friday,dinner,20:55-21:00,21,24,525,409,0.0,0.0,0.0,116.0,Paneer + Roti (special),91.0,18.2,4.6,0.0,1
+SYN_dinner_2026-09-11,Friday,dinner,21:00-21:05,20,28,545,437,,,,,Paneer + Roti (special),82.0,16.4,4.1,0.0,1
+SYN_dinner_2026-09-11,Friday,dinner,21:05-21:10,30,29,575,466,4.0,1.3,2.0,105.0,Paneer + Roti (special),112.0,22.4,5.6,0.7,1
+SYN_dinner_2026-09-11,Friday,dinner,21:10-21:15,33,31,608,497,0.0,0.0,0.0,111.0,Paneer + Roti (special),140.0,28.0,7.0,0.0,1
+SYN_dinner_2026-09-11,Friday,dinner,21:15-21:20,51,28,659,525,16.0,5.3,7.0,118.0,Paneer + Roti (special),144.0,28.8,7.2,5.0,1
+SYN_dinner_2026-09-11,Friday,dinner,21:20-21:25,44,24,703,549,24.0,8.0,10.0,130.0,Paneer + Roti (special),140.0,28.0,7.0,3.0,1
+SYN_dinner_2026-09-11,Friday,dinner,21:25-21:30,30,28,733,577,21.0,7.0,9.0,135.0,Paneer + Roti (special),136.0,27.2,6.8,0.0,1
+SYN_dinner_2026-09-11,Friday,dinner,21:30-21:35,41,33,774,610,29.0,9.7,12.0,135.0,Paneer + Roti (special),133.0,26.6,6.6,2.6,1
+SYN_dinner_2026-09-11,Friday,dinner,21:35-21:40,36,36,810,646,26.0,8.7,12.0,138.0,Paneer + Roti (special),148.0,29.6,7.4,0.0,1
+SYN_dinner_2026-09-11,Friday,dinner,21:40-21:45,25,39,835,685,15.0,5.0,7.0,135.0,Paneer + Roti (special),143.0,28.6,7.2,0.0,1
+SYN_dinner_2026-09-11,Friday,dinner,21:45-21:50,0,27,835,712,0.0,0.0,0.0,123.0,Paneer + Roti (special),63.0,12.6,3.2,0.0,1
+SYN_dinner_2026-09-11,Friday,dinner,21:50-21:55,0,33,835,745,0.0,0.0,0.0,90.0,Paneer + Roti (special),0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-11,Friday,dinner,21:55-22:00,0,43,835,788,0.0,0.0,0.0,47.0,Paneer + Roti (special),0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-11,Friday,dinner,22:00-22:05,0,27,835,815,0.0,0.0,0.0,20.0,Paneer + Roti (special),0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-11,Friday,dinner,22:05-22:10,0,17,835,832,0.0,0.0,0.0,3.0,Paneer + Roti (special),0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-11,Friday,dinner,22:10-22:15,0,2,835,834,0.0,0.0,0.0,1.0,Paneer + Roti (special),0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-11,Friday,dinner,22:15-22:20,0,1,835,835,0.0,0.0,0.0,0.0,Paneer + Roti (special),0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-14,Monday,breakfast,07:15-07:20,4,0,4,0,0.0,0.0,0.0,4.0,Idli/Vada,12.0,2.4,0.8,0.0,1
+SYN_breakfast_2026-09-14,Monday,breakfast,07:20-07:25,1,0,5,0,0.0,1.0,0.0,5.0,Idli/Vada,3.0,0.6,0.2,1.0,1
+SYN_breakfast_2026-09-14,Monday,breakfast,07:25-07:30,5,0,10,0,0.0,0.0,0.0,10.0,Idli/Vada,14.0,2.8,0.9,0.1,1
+SYN_breakfast_2026-09-14,Monday,breakfast,07:30-07:35,4,1,14,1,0.0,0.0,0.0,13.0,Idli/Vada,13.0,2.6,0.9,0.0,1
+SYN_breakfast_2026-09-14,Monday,breakfast,07:35-07:40,4,4,18,5,0.0,0.0,0.0,13.0,Idli/Vada,10.0,2.0,0.7,0.2,1
+SYN_breakfast_2026-09-14,Monday,breakfast,07:40-07:45,5,0,23,5,0.0,0.0,0.0,18.0,Idli/Vada,16.0,3.2,1.1,0.0,1
+SYN_breakfast_2026-09-14,Monday,breakfast,07:45-07:50,11,4,34,9,0.0,0.0,0.0,25.0,Idli/Vada,32.0,6.4,2.1,0.1,1
+SYN_breakfast_2026-09-14,Monday,breakfast,07:50-07:55,19,8,53,17,0.0,0.0,0.0,36.0,Idli/Vada,57.0,11.4,3.8,0.0,1
+SYN_breakfast_2026-09-14,Monday,breakfast,07:55-08:00,12,3,65,20,0.0,0.0,0.0,45.0,Idli/Vada,34.0,6.8,2.3,0.2,1
+SYN_breakfast_2026-09-14,Monday,breakfast,08:00-08:05,28,1,93,21,0.0,0.0,0.0,72.0,Idli/Vada,84.0,16.8,5.6,0.0,1
+SYN_breakfast_2026-09-14,Monday,breakfast,08:05-08:10,16,12,109,33,0.0,0.0,0.0,76.0,Idli/Vada,,,,,1
+SYN_breakfast_2026-09-14,Monday,breakfast,08:10-08:15,19,18,128,51,0.0,0.0,0.0,77.0,Idli/Vada,58.0,11.6,3.9,0.0,1
+SYN_breakfast_2026-09-14,Monday,breakfast,08:15-08:20,16,16,144,67,0.0,0.0,0.0,77.0,Idli/Vada,47.0,9.4,3.1,0.1,1
+SYN_breakfast_2026-09-14,Monday,breakfast,08:20-08:25,20,20,164,87,0.0,0.0,0.0,77.0,Idli/Vada,59.0,11.8,3.9,0.1,1
+SYN_breakfast_2026-09-14,Monday,breakfast,08:25-08:30,23,23,187,110,0.0,0.0,0.0,77.0,Idli/Vada,69.0,13.8,4.6,0.0,1
+SYN_breakfast_2026-09-14,Monday,breakfast,08:30-08:35,25,17,212,127,0.0,0.0,0.0,85.0,Idli/Vada,77.0,15.4,5.1,0.0,1
+SYN_breakfast_2026-09-14,Monday,breakfast,08:35-08:40,42,17,254,144,0.0,0.0,0.0,110.0,Idli/Vada,126.0,25.2,8.4,0.0,1
+SYN_breakfast_2026-09-14,Monday,breakfast,08:40-08:45,50,17,304,161,0.0,0.0,0.0,143.0,Idli/Vada,151.0,30.2,10.1,0.0,1
+SYN_breakfast_2026-09-14,Monday,breakfast,08:45-08:50,65,31,369,192,8.0,2.7,4.0,169.0,Idli/Vada,172.0,34.4,11.5,2.6,1
+SYN_breakfast_2026-09-14,Monday,breakfast,08:50-08:55,83,30,452,222,30.0,10.0,12.0,200.0,Idli/Vada,177.0,35.4,11.8,8.0,1
+SYN_breakfast_2026-09-14,Monday,breakfast,08:55-09:00,58,40,510,262,32.0,10.7,13.0,216.0,Idli/Vada,168.0,33.6,11.2,0.7,1
+SYN_breakfast_2026-09-14,Monday,breakfast,09:00-09:05,49,54,559,316,21.0,7.0,11.0,222.0,Idli/Vada,183.0,36.6,12.2,0.0,1
+SYN_breakfast_2026-09-14,Monday,breakfast,09:05-09:10,38,49,597,365,0.0,0.0,0.0,232.0,Idli/Vada,182.0,36.4,12.1,0.0,1
+SYN_breakfast_2026-09-14,Monday,breakfast,09:10-09:15,22,54,619,419,0.0,0.0,0.0,200.0,Idli/Vada,64.0,12.8,4.3,0.2,1
+SYN_breakfast_2026-09-14,Monday,breakfast,09:15-09:20,24,49,643,468,0.0,0.0,0.0,175.0,Idli/Vada,72.0,14.4,4.8,0.0,1
+SYN_breakfast_2026-09-14,Monday,breakfast,09:20-09:25,10,65,653,533,0.0,0.0,0.0,120.0,Idli/Vada,28.0,5.6,1.9,0.2,1
+SYN_breakfast_2026-09-14,Monday,breakfast,09:25-09:30,2,50,655,583,0.0,1.0,0.0,72.0,Idli/Vada,7.0,1.4,0.5,1.0,1
+SYN_breakfast_2026-09-14,Monday,breakfast,09:30-09:35,0,31,655,614,0.0,0.0,0.0,41.0,Idli/Vada,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-14,Monday,breakfast,09:35-09:40,0,24,655,638,0.0,0.0,0.0,17.0,Idli/Vada,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-14,Monday,breakfast,09:40-09:45,0,12,655,650,0.0,0.0,0.0,5.0,Idli/Vada,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-14,Monday,breakfast,09:45-09:50,0,4,655,654,0.0,0.0,0.0,1.0,Idli/Vada,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-14,Monday,breakfast,09:50-09:55,0,1,655,655,0.0,0.0,0.0,0.0,Idli/Vada,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-14,Monday,lunch,12:00-12:05,18,0,18,0,0.0,0.0,0.0,18.0,Rice/Dal/Roti,71.0,14.2,3.6,0.1,1
+SYN_lunch_2026-09-14,Monday,lunch,12:05-12:10,16,0,34,0,0.0,0.0,0.0,34.0,Rice/Dal/Roti,62.0,12.4,3.1,0.2,1
+SYN_lunch_2026-09-14,Monday,lunch,12:10-12:15,16,1,50,1,0.0,0.0,0.0,49.0,Rice/Dal/Roti,64.0,12.8,3.2,0.0,1
+SYN_lunch_2026-09-14,Monday,lunch,12:15-12:20,22,3,72,4,0.0,0.0,0.0,68.0,Rice/Dal/Roti,89.0,17.8,4.4,0.0,1
+SYN_lunch_2026-09-14,Monday,lunch,12:20-12:25,32,12,104,16,0.0,0.0,0.0,88.0,Rice/Dal/Roti,128.0,25.6,6.4,0.0,1
+SYN_lunch_2026-09-14,Monday,lunch,12:25-12:30,18,20,122,36,0.0,0.0,0.0,86.0,Rice/Dal/Roti,72.0,14.4,3.6,0.0,1
+SYN_lunch_2026-09-14,Monday,lunch,12:30-12:35,37,18,159,54,3.0,1.0,1.0,102.0,Rice/Dal/Roti,139.0,27.8,7.0,0.8,1
+SYN_lunch_2026-09-14,Monday,lunch,12:35-12:40,43,24,202,78,0.0,0.0,0.0,124.0,Rice/Dal/Roti,172.0,34.4,8.6,0.0,1
+SYN_lunch_2026-09-14,Monday,lunch,12:40-12:45,39,18,241,96,0.0,0.0,0.0,145.0,Rice/Dal/Roti,164.0,32.8,8.2,0.0,1
+SYN_lunch_2026-09-14,Monday,lunch,12:45-12:50,38,26,279,122,0.0,0.0,0.0,157.0,Rice/Dal/Roti,153.0,30.6,7.6,0.0,1
+SYN_lunch_2026-09-14,Monday,lunch,12:50-12:55,42,33,321,155,,,,,Rice/Dal/Roti,154.0,30.8,7.7,1.2,1
+SYN_lunch_2026-09-14,Monday,lunch,12:55-13:00,51,48,372,203,6.0,2.0,3.0,163.0,Rice/Dal/Roti,190.0,38.0,9.5,1.2,1
+SYN_lunch_2026-09-14,Monday,lunch,13:00-13:05,33,31,405,234,0.0,0.0,0.0,171.0,Rice/Dal/Roti,157.0,31.4,7.8,0.0,1
+SYN_lunch_2026-09-14,Monday,lunch,13:05-13:10,43,38,448,272,9.0,3.0,4.0,167.0,Rice/Dal/Roti,148.0,29.6,7.4,2.0,1
+SYN_lunch_2026-09-14,Monday,lunch,13:10-13:15,26,47,474,319,0.0,0.0,0.0,155.0,Rice/Dal/Roti,128.0,25.6,6.4,0.0,1
+SYN_lunch_2026-09-14,Monday,lunch,13:15-13:20,38,41,512,360,0.0,0.0,0.0,152.0,Rice/Dal/Roti,151.0,30.2,7.6,0.1,1
+SYN_lunch_2026-09-14,Monday,lunch,13:20-13:25,49,44,561,404,0.0,0.0,0.0,157.0,Rice/Dal/Roti,191.0,38.2,9.6,0.4,1
+SYN_lunch_2026-09-14,Monday,lunch,13:25-13:30,33,43,594,447,0.0,0.0,0.0,147.0,Rice/Dal/Roti,136.0,27.2,6.8,0.0,1
+SYN_lunch_2026-09-14,Monday,lunch,13:30-13:35,38,31,632,478,0.0,0.0,0.0,154.0,Rice/Dal/Roti,153.0,30.6,7.6,0.0,1
+SYN_lunch_2026-09-14,Monday,lunch,13:35-13:40,54,32,686,510,11.0,3.7,4.0,165.0,Rice/Dal/Roti,168.0,33.6,8.4,4.0,1
+SYN_lunch_2026-09-14,Monday,lunch,13:40-13:45,47,38,733,548,12.0,4.0,5.0,173.0,Rice/Dal/Roti,186.0,37.2,9.3,0.2,1
+SYN_lunch_2026-09-14,Monday,lunch,13:45-13:50,56,35,789,583,16.0,5.3,6.0,190.0,Rice/Dal/Roti,194.0,38.8,9.7,2.5,1
+SYN_lunch_2026-09-14,Monday,lunch,13:50-13:55,61,48,850,631,32.0,10.7,16.0,187.0,Rice/Dal/Roti,193.0,38.6,9.6,4.2,1
+SYN_lunch_2026-09-14,Monday,lunch,13:55-14:00,57,42,907,673,47.0,15.7,17.0,187.0,Rice/Dal/Roti,172.0,34.4,8.6,4.7,1
+SYN_lunch_2026-09-14,Monday,lunch,14:00-14:05,0,46,907,719,0.0,0.0,0.0,188.0,Rice/Dal/Roti,183.0,36.6,9.2,0.0,1
+SYN_lunch_2026-09-14,Monday,lunch,14:05-14:10,0,50,907,769,0.0,0.0,0.0,138.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-14,Monday,lunch,14:10-14:15,0,47,907,816,0.0,0.0,0.0,91.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-14,Monday,lunch,14:15-14:20,0,46,907,862,0.0,0.0,0.0,45.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-14,Monday,lunch,14:20-14:25,0,37,907,899,0.0,0.0,0.0,8.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-14,Monday,lunch,14:25-14:30,0,8,907,907,0.0,0.0,0.0,0.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-14,Monday,dinner,19:30-19:35,5,0,5,0,0.0,0.0,0.0,5.0,Roti/Sabzi,21.0,4.2,1.0,0.0,1
+SYN_dinner_2026-09-14,Monday,dinner,19:35-19:40,3,0,8,0,0.0,1.0,0.0,8.0,Roti/Sabzi,11.0,2.2,0.6,1.0,1
+SYN_dinner_2026-09-14,Monday,dinner,19:40-19:45,4,0,12,0,0.0,0.0,0.0,12.0,Roti/Sabzi,15.0,3.0,0.8,0.1,1
+SYN_dinner_2026-09-14,Monday,dinner,19:45-19:50,7,2,19,2,0.0,0.0,0.0,17.0,Roti/Sabzi,27.0,5.4,1.4,0.1,1
+SYN_dinner_2026-09-14,Monday,dinner,19:50-19:55,4,2,23,4,0.0,0.0,0.0,19.0,Roti/Sabzi,17.0,3.4,0.8,0.0,1
+SYN_dinner_2026-09-14,Monday,dinner,19:55-20:00,8,6,31,10,0.0,0.0,0.0,21.0,Roti/Sabzi,31.0,6.2,1.6,0.1,1
+SYN_dinner_2026-09-14,Monday,dinner,20:00-20:05,28,2,59,12,0.0,0.0,0.0,47.0,Roti/Sabzi,112.0,22.4,5.6,0.0,1
+SYN_dinner_2026-09-14,Monday,dinner,20:05-20:10,35,6,94,18,0.0,0.0,0.0,76.0,Roti/Sabzi,140.0,28.0,7.0,0.0,1
+SYN_dinner_2026-09-14,Monday,dinner,20:10-20:15,30,9,124,27,0.0,0.0,0.0,97.0,Roti/Sabzi,121.0,24.2,6.0,0.0,1
+SYN_dinner_2026-09-14,Monday,dinner,20:15-20:20,35,10,159,37,0.0,0.0,0.0,122.0,Roti/Sabzi,140.0,28.0,7.0,0.0,1
+SYN_dinner_2026-09-14,Monday,dinner,20:20-20:25,30,27,189,64,1.0,0.3,0.0,124.0,Roti/Sabzi,116.0,23.2,5.8,0.3,1
+SYN_dinner_2026-09-14,Monday,dinner,20:25-20:30,38,28,227,92,0.0,0.0,0.0,135.0,Roti/Sabzi,156.0,31.2,7.8,0.0,1
+SYN_dinner_2026-09-14,Monday,dinner,20:30-20:35,40,32,267,124,0.0,0.0,0.0,143.0,Roti/Sabzi,160.0,32.0,8.0,0.0,1
+SYN_dinner_2026-09-14,Monday,dinner,20:35-20:40,40,38,307,162,0.0,0.0,0.0,145.0,Roti/Sabzi,161.0,32.2,8.0,0.0,1
+SYN_dinner_2026-09-14,Monday,dinner,20:40-20:45,27,28,334,190,0.0,0.0,0.0,144.0,Roti/Sabzi,107.0,21.4,5.4,0.1,1
+SYN_dinner_2026-09-14,Monday,dinner,20:45-20:50,27,38,361,228,0.0,0.0,0.0,133.0,Roti/Sabzi,108.0,21.6,5.4,0.0,1
+SYN_dinner_2026-09-14,Monday,dinner,20:50-20:55,34,43,395,271,0.0,0.0,0.0,124.0,Roti/Sabzi,128.0,25.6,6.4,0.7,1
+SYN_dinner_2026-09-14,Monday,dinner,20:55-21:00,44,31,439,302,0.0,0.0,0.0,137.0,Roti/Sabzi,181.0,36.2,9.0,0.0,1
+SYN_dinner_2026-09-14,Monday,dinner,21:00-21:05,40,30,479,332,5.0,1.7,2.0,142.0,Roti/Sabzi,147.0,29.4,7.4,1.1,1
+SYN_dinner_2026-09-14,Monday,dinner,21:05-21:10,44,36,523,368,0.0,0.0,0.0,155.0,Roti/Sabzi,184.0,36.8,9.2,0.0,1
+SYN_dinner_2026-09-14,Monday,dinner,21:10-21:15,47,28,570,396,1.0,0.3,1.0,173.0,Roti/Sabzi,181.0,36.2,9.0,0.6,1
+SYN_dinner_2026-09-14,Monday,dinner,21:15-21:20,71,33,641,429,26.0,8.7,11.0,186.0,Roti/Sabzi,187.0,37.4,9.4,8.1,1
+SYN_dinner_2026-09-14,Monday,dinner,21:20-21:25,44,40,685,469,26.0,8.7,10.0,190.0,Roti/Sabzi,181.0,36.2,9.0,0.0,1
+SYN_dinner_2026-09-14,Monday,dinner,21:25-21:30,46,50,731,519,27.0,9.0,12.0,185.0,Roti/Sabzi,184.0,36.8,9.2,0.0,1
+SYN_dinner_2026-09-14,Monday,dinner,21:30-21:35,35,56,766,575,14.0,4.7,5.0,177.0,Roti/Sabzi,187.0,37.4,9.4,0.0,1
+SYN_dinner_2026-09-14,Monday,dinner,21:35-21:40,43,37,809,612,8.0,2.7,4.0,189.0,Roti/Sabzi,189.0,37.8,9.4,0.0,1
+SYN_dinner_2026-09-14,Monday,dinner,21:40-21:45,19,48,828,660,0.0,0.0,0.0,168.0,Roti/Sabzi,114.0,22.8,5.7,0.0,1
+SYN_dinner_2026-09-14,Monday,dinner,21:45-21:50,0,46,828,706,0.0,0.0,0.0,122.0,Roti/Sabzi,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-14,Monday,dinner,21:50-21:55,0,46,828,752,0.0,0.0,0.0,76.0,Roti/Sabzi,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-14,Monday,dinner,21:55-22:00,0,42,828,794,0.0,0.0,0.0,34.0,Roti/Sabzi,,,,,1
+SYN_dinner_2026-09-14,Monday,dinner,22:00-22:05,0,28,828,822,,,,,Roti/Sabzi,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-14,Monday,dinner,22:05-22:10,0,4,828,826,0.0,0.0,0.0,2.0,Roti/Sabzi,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-14,Monday,dinner,22:10-22:15,0,2,828,828,0.0,0.0,0.0,0.0,Roti/Sabzi,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-15,Tuesday,breakfast,07:15-07:20,2,0,2,0,0.0,1.0,0.0,2.0,Aloo Paratha,5.0,1.0,0.5,1.0,1
+SYN_breakfast_2026-09-15,Tuesday,breakfast,07:20-07:25,4,0,6,0,0.0,0.0,0.0,6.0,Aloo Paratha,7.0,1.4,0.7,0.2,1
+SYN_breakfast_2026-09-15,Tuesday,breakfast,07:25-07:30,5,0,11,0,0.0,0.0,0.0,11.0,Aloo Paratha,10.0,2.0,1.0,0.0,1
+SYN_breakfast_2026-09-15,Tuesday,breakfast,07:30-07:35,5,1,16,1,0.0,0.0,0.0,15.0,Aloo Paratha,9.0,1.8,0.9,0.2,1
+SYN_breakfast_2026-09-15,Tuesday,breakfast,07:35-07:40,3,1,19,2,0.0,1.0,0.0,17.0,Aloo Paratha,5.0,1.0,0.5,1.0,1
+SYN_breakfast_2026-09-15,Tuesday,breakfast,07:40-07:45,6,3,25,5,0.0,0.0,0.0,20.0,Aloo Paratha,14.0,2.8,1.4,0.0,1
+SYN_breakfast_2026-09-15,Tuesday,breakfast,07:45-07:50,12,8,37,13,0.0,0.0,0.0,24.0,Aloo Paratha,24.0,4.8,2.4,0.0,1
+SYN_breakfast_2026-09-15,Tuesday,breakfast,07:50-07:55,13,3,50,16,0.0,0.0,0.0,34.0,Aloo Paratha,27.0,5.4,2.7,0.0,1
+SYN_breakfast_2026-09-15,Tuesday,breakfast,07:55-08:00,19,3,69,19,0.0,0.0,0.0,50.0,Aloo Paratha,40.0,8.0,4.0,0.0,1
+SYN_breakfast_2026-09-15,Tuesday,breakfast,08:00-08:05,18,11,87,30,0.0,0.0,0.0,57.0,Aloo Paratha,34.0,6.8,3.4,0.3,1
+SYN_breakfast_2026-09-15,Tuesday,breakfast,08:05-08:10,7,10,94,40,0.0,0.0,0.0,54.0,Aloo Paratha,13.0,2.6,1.3,0.2,1
+SYN_breakfast_2026-09-15,Tuesday,breakfast,08:10-08:15,25,12,119,52,0.0,0.0,0.0,67.0,Aloo Paratha,50.0,10.0,5.0,0.0,1
+SYN_breakfast_2026-09-15,Tuesday,breakfast,08:15-08:20,17,11,136,63,0.0,0.0,0.0,73.0,Aloo Paratha,35.0,7.0,3.5,0.0,1
+SYN_breakfast_2026-09-15,Tuesday,breakfast,08:20-08:25,18,23,154,86,0.0,0.0,0.0,68.0,Aloo Paratha,36.0,7.2,3.6,0.0,1
+SYN_breakfast_2026-09-15,Tuesday,breakfast,08:25-08:30,20,16,174,102,0.0,0.0,0.0,72.0,Aloo Paratha,40.0,8.0,4.0,0.0,1
+SYN_breakfast_2026-09-15,Tuesday,breakfast,08:30-08:35,33,16,207,118,0.0,0.0,0.0,89.0,Aloo Paratha,65.0,13.0,6.5,0.2,1
+SYN_breakfast_2026-09-15,Tuesday,breakfast,08:35-08:40,45,16,252,134,7.0,2.3,3.0,111.0,Aloo Paratha,81.0,16.2,8.1,1.5,1
+SYN_breakfast_2026-09-15,Tuesday,breakfast,08:40-08:45,73,25,325,159,31.0,10.3,18.0,135.0,Aloo Paratha,93.0,18.6,9.3,8.8,1
+SYN_breakfast_2026-09-15,Tuesday,breakfast,08:45-08:50,84,20,409,179,68.0,22.7,29.0,162.0,Aloo Paratha,94.0,18.8,9.4,12.3,1
+SYN_breakfast_2026-09-15,Tuesday,breakfast,08:50-08:55,96,31,505,210,82.0,27.3,30.0,213.0,Aloo Paratha,93.0,18.6,9.3,16.5,1
+SYN_breakfast_2026-09-15,Tuesday,breakfast,08:55-09:00,90,38,595,248,82.0,27.3,39.0,265.0,Aloo Paratha,103.0,20.6,10.3,12.8,1
+SYN_breakfast_2026-09-15,Tuesday,breakfast,09:00-09:05,54,44,649,292,82.0,27.3,39.0,275.0,Aloo Paratha,93.0,18.6,9.3,2.5,1
+SYN_breakfast_2026-09-15,Tuesday,breakfast,09:05-09:10,39,51,688,343,81.0,27.0,37.0,264.0,Aloo Paratha,98.0,19.6,9.8,0.0,1
+SYN_breakfast_2026-09-15,Tuesday,breakfast,09:10-09:15,32,48,720,391,83.0,27.7,45.0,246.0,Aloo Paratha,91.0,18.2,9.1,0.0,1
+SYN_breakfast_2026-09-15,Tuesday,breakfast,09:15-09:20,12,54,732,445,81.0,27.0,36.0,206.0,Aloo Paratha,100.0,20.0,10.0,0.0,1
+SYN_breakfast_2026-09-15,Tuesday,breakfast,09:20-09:25,7,41,739,486,60.0,20.0,25.0,193.0,Aloo Paratha,99.0,19.8,9.9,0.0,1
+SYN_breakfast_2026-09-15,Tuesday,breakfast,09:25-09:30,5,53,744,539,18.0,6.0,8.0,187.0,Aloo Paratha,96.0,19.2,9.6,0.0,1
+SYN_breakfast_2026-09-15,Tuesday,breakfast,09:30-09:35,0,39,744,578,0.0,0.0,0.0,166.0,Aloo Paratha,37.0,7.4,3.7,0.0,1
+SYN_breakfast_2026-09-15,Tuesday,breakfast,09:35-09:40,0,42,744,620,0.0,0.0,0.0,124.0,Aloo Paratha,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-15,Tuesday,breakfast,09:40-09:45,0,57,744,677,0.0,0.0,0.0,67.0,Aloo Paratha,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-15,Tuesday,breakfast,09:45-09:50,0,50,744,727,0.0,0.0,0.0,17.0,Aloo Paratha,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-15,Tuesday,breakfast,09:50-09:55,0,13,744,740,0.0,0.0,0.0,4.0,Aloo Paratha,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-15,Tuesday,breakfast,09:55-10:00,0,4,744,744,0.0,0.0,0.0,0.0,Aloo Paratha,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-15,Tuesday,lunch,12:00-12:05,23,0,23,0,0.0,0.0,0.0,23.0,Rice/Dal/Roti,91.0,18.2,4.6,0.1,1
+SYN_lunch_2026-09-15,Tuesday,lunch,12:05-12:10,14,0,37,0,0.0,0.0,0.0,37.0,Rice/Dal/Roti,55.0,11.0,2.8,0.1,1
+SYN_lunch_2026-09-15,Tuesday,lunch,12:10-12:15,18,2,55,2,0.0,0.0,0.0,53.0,Rice/Dal/Roti,70.0,14.0,3.5,0.2,1
+SYN_lunch_2026-09-15,Tuesday,lunch,12:15-12:20,28,6,83,8,,,,,Rice/Dal/Roti,111.0,22.2,5.6,0.1,1
+SYN_lunch_2026-09-15,Tuesday,lunch,12:20-12:25,26,13,109,21,,,,,Rice/Dal/Roti,106.0,21.2,5.3,0.0,1
+SYN_lunch_2026-09-15,Tuesday,lunch,12:25-12:30,29,20,138,41,,,,,Rice/Dal/Roti,116.0,23.2,5.8,0.0,1
+SYN_lunch_2026-09-15,Tuesday,lunch,12:30-12:35,25,19,163,60,0.0,0.0,0.0,103.0,Rice/Dal/Roti,97.0,19.4,4.8,0.2,1
+SYN_lunch_2026-09-15,Tuesday,lunch,12:35-12:40,29,28,192,88,0.0,0.0,0.0,104.0,Rice/Dal/Roti,116.0,23.2,5.8,0.0,1
+SYN_lunch_2026-09-15,Tuesday,lunch,12:40-12:45,37,25,229,113,0.0,0.0,0.0,116.0,Rice/Dal/Roti,147.0,29.4,7.4,0.1,1
+SYN_lunch_2026-09-15,Tuesday,lunch,12:45-12:50,30,23,259,136,0.0,0.0,0.0,123.0,Rice/Dal/Roti,122.0,24.4,6.1,0.0,1
+SYN_lunch_2026-09-15,Tuesday,lunch,12:50-12:55,46,30,305,166,2.0,0.7,1.0,137.0,Rice/Dal/Roti,171.0,34.2,8.6,1.1,1
+SYN_lunch_2026-09-15,Tuesday,lunch,12:55-13:00,41,31,346,197,4.0,1.3,2.0,145.0,Rice/Dal/Roti,163.0,32.6,8.2,0.1,1
+SYN_lunch_2026-09-15,Tuesday,lunch,13:00-13:05,36,32,382,229,0.0,0.0,0.0,153.0,Rice/Dal/Roti,155.0,31.0,7.8,0.0,1
+SYN_lunch_2026-09-15,Tuesday,lunch,13:05-13:10,37,33,419,262,0.0,0.0,0.0,157.0,Rice/Dal/Roti,149.0,29.8,7.4,0.0,1
+SYN_lunch_2026-09-15,Tuesday,lunch,13:10-13:15,33,38,452,300,0.0,0.0,0.0,152.0,Rice/Dal/Roti,127.0,25.4,6.4,0.4,1
+SYN_lunch_2026-09-15,Tuesday,lunch,13:15-13:20,24,48,476,348,0.0,0.0,0.0,128.0,Rice/Dal/Roti,100.0,20.0,5.0,0.0,1
+SYN_lunch_2026-09-15,Tuesday,lunch,13:20-13:25,43,31,519,379,2.0,0.7,1.0,138.0,Rice/Dal/Roti,163.0,32.6,8.2,0.8,1
+SYN_lunch_2026-09-15,Tuesday,lunch,13:25-13:30,28,35,547,414,0.0,0.0,0.0,133.0,Rice/Dal/Roti,119.0,23.8,6.0,0.0,1
+SYN_lunch_2026-09-15,Tuesday,lunch,13:30-13:35,32,33,579,447,0.0,0.0,0.0,132.0,Rice/Dal/Roti,128.0,25.6,6.4,0.0,1
+SYN_lunch_2026-09-15,Tuesday,lunch,13:35-13:40,36,33,615,480,0.0,0.0,0.0,135.0,Rice/Dal/Roti,144.0,28.8,7.2,0.0,1
+SYN_lunch_2026-09-15,Tuesday,lunch,13:40-13:45,51,33,666,513,7.0,2.3,3.0,146.0,Rice/Dal/Roti,172.0,34.4,8.6,2.7,1
+SYN_lunch_2026-09-15,Tuesday,lunch,13:45-13:50,58,34,724,547,17.0,5.7,7.0,160.0,Rice/Dal/Roti,187.0,37.4,9.4,3.8,1
+SYN_lunch_2026-09-15,Tuesday,lunch,13:50-13:55,56,35,780,582,30.0,10.0,13.0,168.0,Rice/Dal/Roti,188.0,37.6,9.4,3.0,1
+SYN_lunch_2026-09-15,Tuesday,lunch,13:55-14:00,43,38,823,620,21.0,7.0,10.0,182.0,Rice/Dal/Roti,192.0,38.4,9.6,0.0,1
+SYN_lunch_2026-09-15,Tuesday,lunch,14:00-14:05,0,38,823,658,0.0,0.0,0.0,165.0,Rice/Dal/Roti,92.0,18.4,4.6,0.0,1
+SYN_lunch_2026-09-15,Tuesday,lunch,14:05-14:10,0,45,823,703,0.0,0.0,0.0,120.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-15,Tuesday,lunch,14:10-14:15,0,46,823,749,0.0,0.0,0.0,74.0,Rice/Dal/Roti,,,,,1
+SYN_lunch_2026-09-15,Tuesday,lunch,14:15-14:20,0,36,823,785,0.0,0.0,0.0,38.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-15,Tuesday,lunch,14:20-14:25,0,33,823,818,0.0,0.0,0.0,5.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-15,Tuesday,lunch,14:25-14:30,0,5,823,823,0.0,0.0,0.0,0.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-15,Tuesday,dinner,19:30-19:35,9,0,9,0,0.0,0.0,0.0,9.0,Roti/Sabzi,35.0,7.0,1.8,0.1,1
+SYN_dinner_2026-09-15,Tuesday,dinner,19:35-19:40,6,0,15,0,0.0,0.0,0.0,15.0,Roti/Sabzi,25.0,5.0,1.2,0.0,1
+SYN_dinner_2026-09-15,Tuesday,dinner,19:40-19:45,5,0,20,0,0.0,0.0,0.0,20.0,Roti/Sabzi,20.0,4.0,1.0,0.0,1
+SYN_dinner_2026-09-15,Tuesday,dinner,19:45-19:50,5,2,25,2,0.0,0.0,0.0,23.0,Roti/Sabzi,20.0,4.0,1.0,0.0,1
+SYN_dinner_2026-09-15,Tuesday,dinner,19:50-19:55,3,5,28,7,0.0,1.0,0.0,21.0,Roti/Sabzi,13.0,2.6,0.6,1.0,1
+SYN_dinner_2026-09-15,Tuesday,dinner,19:55-20:00,8,9,36,16,0.0,0.0,0.0,20.0,Roti/Sabzi,35.0,7.0,1.8,0.0,1
+SYN_dinner_2026-09-15,Tuesday,dinner,20:00-20:05,46,6,82,22,0.0,0.0,0.0,60.0,Roti/Sabzi,182.0,36.4,9.1,0.2,1
+SYN_dinner_2026-09-15,Tuesday,dinner,20:05-20:10,34,3,116,25,0.0,0.0,0.0,91.0,Roti/Sabzi,139.0,27.8,7.0,0.0,1
+SYN_dinner_2026-09-15,Tuesday,dinner,20:10-20:15,35,7,151,32,0.0,0.0,0.0,119.0,Roti/Sabzi,139.0,27.8,7.0,0.1,1
+SYN_dinner_2026-09-15,Tuesday,dinner,20:15-20:20,28,23,179,55,0.0,0.0,0.0,124.0,Roti/Sabzi,112.0,22.4,5.6,0.0,1
+SYN_dinner_2026-09-15,Tuesday,dinner,20:20-20:25,38,27,217,82,0.0,0.0,0.0,135.0,Roti/Sabzi,152.0,30.4,7.6,0.0,1
+SYN_dinner_2026-09-15,Tuesday,dinner,20:25-20:30,53,34,270,116,10.0,3.3,4.0,144.0,Roti/Sabzi,163.0,32.6,8.2,4.1,1
+SYN_dinner_2026-09-15,Tuesday,dinner,20:30-20:35,36,35,306,151,3.0,1.0,1.0,152.0,Roti/Sabzi,176.0,35.2,8.8,0.0,1
+SYN_dinner_2026-09-15,Tuesday,dinner,20:35-20:40,39,36,345,187,5.0,1.7,3.0,153.0,Roti/Sabzi,149.0,29.8,7.4,0.6,1
+SYN_dinner_2026-09-15,Tuesday,dinner,20:40-20:45,32,32,377,219,0.0,0.0,0.0,158.0,Roti/Sabzi,152.0,30.4,7.6,0.0,1
+SYN_dinner_2026-09-15,Tuesday,dinner,20:45-20:50,35,44,412,263,,,,,Roti/Sabzi,,,,,1
+SYN_dinner_2026-09-15,Tuesday,dinner,20:50-20:55,40,38,452,301,6.0,2.0,3.0,145.0,Roti/Sabzi,158.0,31.6,7.9,0.2,1
+SYN_dinner_2026-09-15,Tuesday,dinner,20:55-21:00,34,41,486,342,0.0,0.0,0.0,144.0,Roti/Sabzi,140.0,28.0,7.0,0.0,1
+SYN_dinner_2026-09-15,Tuesday,dinner,21:00-21:05,26,36,512,378,0.0,0.0,0.0,134.0,Roti/Sabzi,105.0,21.0,5.2,0.0,1
+SYN_dinner_2026-09-15,Tuesday,dinner,21:05-21:10,43,31,555,409,5.0,1.7,3.0,141.0,Roti/Sabzi,163.0,32.6,8.2,0.8,1
+SYN_dinner_2026-09-15,Tuesday,dinner,21:10-21:15,65,39,620,448,23.0,7.7,9.0,149.0,Roti/Sabzi,,,,,1
+SYN_dinner_2026-09-15,Tuesday,dinner,21:15-21:20,52,33,672,481,29.0,9.7,13.0,162.0,Roti/Sabzi,179.0,35.8,9.0,2.4,1
+SYN_dinner_2026-09-15,Tuesday,dinner,21:20-21:25,45,31,717,512,34.0,11.3,14.0,171.0,Roti/Sabzi,173.0,34.6,8.6,0.6,1
+SYN_dinner_2026-09-15,Tuesday,dinner,21:25-21:30,39,44,756,556,31.0,10.3,13.0,169.0,Roti/Sabzi,171.0,34.2,8.6,0.0,1
+SYN_dinner_2026-09-15,Tuesday,dinner,21:30-21:35,35,44,791,600,18.0,6.0,9.0,173.0,Roti/Sabzi,180.0,36.0,9.0,0.0,1
+SYN_dinner_2026-09-15,Tuesday,dinner,21:35-21:40,45,43,836,643,17.0,5.7,7.0,176.0,Roti/Sabzi,183.0,36.6,9.2,0.0,1
+SYN_dinner_2026-09-15,Tuesday,dinner,21:40-21:45,30,41,866,684,3.0,1.0,1.0,179.0,Roti/Sabzi,181.0,36.2,9.0,0.0,1
+SYN_dinner_2026-09-15,Tuesday,dinner,21:45-21:50,0,42,866,726,0.0,0.0,0.0,140.0,Roti/Sabzi,14.0,2.8,0.7,0.0,1
+SYN_dinner_2026-09-15,Tuesday,dinner,21:50-21:55,0,50,866,776,0.0,0.0,0.0,90.0,Roti/Sabzi,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-15,Tuesday,dinner,21:55-22:00,0,41,866,817,0.0,0.0,0.0,49.0,Roti/Sabzi,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-15,Tuesday,dinner,22:00-22:05,0,31,866,848,0.0,0.0,0.0,18.0,Roti/Sabzi,,,,,1
+SYN_dinner_2026-09-15,Tuesday,dinner,22:05-22:10,0,15,866,863,0.0,0.0,0.0,3.0,Roti/Sabzi,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-15,Tuesday,dinner,22:10-22:15,0,3,866,866,0.0,0.0,0.0,0.0,Roti/Sabzi,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-16,Wednesday,breakfast,07:15-07:20,4,0,4,0,0.0,0.0,0.0,4.0,Dosa,8.0,1.6,0.8,0.0,1
+SYN_breakfast_2026-09-16,Wednesday,breakfast,07:20-07:25,3,0,7,0,0.0,1.0,0.0,7.0,Dosa,5.0,1.0,0.5,1.0,1
+SYN_breakfast_2026-09-16,Wednesday,breakfast,07:25-07:30,1,0,8,0,0.0,1.0,0.0,8.0,Dosa,3.0,0.6,0.3,1.0,1
+SYN_breakfast_2026-09-16,Wednesday,breakfast,07:30-07:35,4,0,12,0,0.0,0.0,0.0,12.0,Dosa,7.0,1.4,0.7,0.2,1
+SYN_breakfast_2026-09-16,Wednesday,breakfast,07:35-07:40,5,4,17,4,0.0,0.0,0.0,13.0,Dosa,10.0,2.0,1.0,0.0,1
+SYN_breakfast_2026-09-16,Wednesday,breakfast,07:40-07:45,5,2,22,6,0.0,0.0,0.0,16.0,Dosa,12.0,2.4,1.2,0.0,1
+SYN_breakfast_2026-09-16,Wednesday,breakfast,07:45-07:50,17,4,39,10,0.0,0.0,0.0,29.0,Dosa,36.0,7.2,3.6,0.0,1
+SYN_breakfast_2026-09-16,Wednesday,breakfast,07:50-07:55,15,2,54,12,0.0,0.0,0.0,42.0,Dosa,29.0,5.8,2.9,0.2,1
+SYN_breakfast_2026-09-16,Wednesday,breakfast,07:55-08:00,16,4,70,16,0.0,0.0,0.0,54.0,Dosa,32.0,6.4,3.2,0.0,1
+SYN_breakfast_2026-09-16,Wednesday,breakfast,08:00-08:05,23,7,93,23,0.0,0.0,0.0,70.0,Dosa,46.0,9.2,4.6,0.0,1
+SYN_breakfast_2026-09-16,Wednesday,breakfast,08:05-08:10,10,15,103,38,0.0,0.0,0.0,65.0,Dosa,20.0,4.0,2.0,0.0,1
+SYN_breakfast_2026-09-16,Wednesday,breakfast,08:10-08:15,22,23,125,61,0.0,0.0,0.0,64.0,Dosa,44.0,8.8,4.4,0.0,1
+SYN_breakfast_2026-09-16,Wednesday,breakfast,08:15-08:20,16,14,141,75,0.0,0.0,0.0,66.0,Dosa,33.0,6.6,3.3,0.0,1
+SYN_breakfast_2026-09-16,Wednesday,breakfast,08:20-08:25,23,17,164,92,0.0,0.0,0.0,72.0,Dosa,46.0,9.2,4.6,0.0,1
+SYN_breakfast_2026-09-16,Wednesday,breakfast,08:25-08:30,15,21,179,113,0.0,0.0,0.0,66.0,Dosa,30.0,6.0,3.0,0.0,1
+SYN_breakfast_2026-09-16,Wednesday,breakfast,08:30-08:35,42,12,221,125,0.0,0.0,0.0,96.0,Dosa,85.0,17.0,8.5,0.0,1
+SYN_breakfast_2026-09-16,Wednesday,breakfast,08:35-08:40,38,18,259,143,0.0,0.0,0.0,116.0,Dosa,76.0,15.2,7.6,0.0,1
+SYN_breakfast_2026-09-16,Wednesday,breakfast,08:40-08:45,48,20,307,163,2.0,0.7,1.0,142.0,Dosa,94.0,18.8,9.4,0.3,1
+SYN_breakfast_2026-09-16,Wednesday,breakfast,08:45-08:50,75,25,382,188,20.0,6.7,9.0,174.0,Dosa,108.0,21.6,10.8,7.0,1
+SYN_breakfast_2026-09-16,Wednesday,breakfast,08:50-08:55,59,36,441,224,28.0,9.3,10.0,189.0,Dosa,108.0,21.6,10.8,1.7,1
+SYN_breakfast_2026-09-16,Wednesday,breakfast,08:55-09:00,64,38,505,262,43.0,14.3,17.0,200.0,Dosa,98.0,19.6,9.8,5.0,1
+SYN_breakfast_2026-09-16,Wednesday,breakfast,09:00-09:05,62,48,567,310,49.0,16.3,21.0,208.0,Dosa,107.0,21.4,10.7,2.8,1
+SYN_breakfast_2026-09-16,Wednesday,breakfast,09:05-09:10,42,51,609,361,36.0,12.0,15.0,212.0,Dosa,108.0,21.6,10.8,0.0,1
+SYN_breakfast_2026-09-16,Wednesday,breakfast,09:10-09:15,30,49,639,410,18.0,6.0,7.0,211.0,Dosa,103.0,20.6,10.3,0.0,1
+SYN_breakfast_2026-09-16,Wednesday,breakfast,09:15-09:20,20,55,659,465,0.0,0.0,0.0,194.0,Dosa,75.0,15.0,7.5,0.0,1
+SYN_breakfast_2026-09-16,Wednesday,breakfast,09:20-09:25,18,49,677,514,0.0,0.0,0.0,163.0,Dosa,36.0,7.2,3.6,0.0,1
+SYN_breakfast_2026-09-16,Wednesday,breakfast,09:25-09:30,1,46,678,560,0.0,1.0,0.0,118.0,Dosa,3.0,0.6,0.3,1.0,1
+SYN_breakfast_2026-09-16,Wednesday,breakfast,09:30-09:35,0,57,678,617,0.0,0.0,0.0,61.0,Dosa,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-16,Wednesday,breakfast,09:35-09:40,0,35,678,652,0.0,0.0,0.0,26.0,Dosa,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-16,Wednesday,breakfast,09:40-09:45,0,19,678,671,0.0,0.0,0.0,7.0,Dosa,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-16,Wednesday,breakfast,09:45-09:50,0,5,678,676,0.0,0.0,0.0,2.0,Dosa,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-16,Wednesday,breakfast,09:50-09:55,0,1,678,677,0.0,0.0,0.0,1.0,Dosa,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-16,Wednesday,breakfast,09:55-10:00,0,1,678,678,0.0,0.0,0.0,0.0,Dosa,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-16,Wednesday,lunch,12:00-12:05,16,0,16,0,0.0,0.0,0.0,16.0,Rice/Dal/Roti,63.0,12.6,3.2,0.1,1
+SYN_lunch_2026-09-16,Wednesday,lunch,12:05-12:10,25,0,41,0,0.0,0.0,0.0,41.0,Rice/Dal/Roti,100.0,20.0,5.0,0.0,1
+SYN_lunch_2026-09-16,Wednesday,lunch,12:10-12:15,17,1,58,1,0.0,0.0,0.0,57.0,Rice/Dal/Roti,68.0,13.6,3.4,0.0,1
+SYN_lunch_2026-09-16,Wednesday,lunch,12:15-12:20,15,4,73,5,0.0,0.0,0.0,68.0,Rice/Dal/Roti,61.0,12.2,3.0,0.0,1
+SYN_lunch_2026-09-16,Wednesday,lunch,12:20-12:25,13,11,86,16,0.0,0.0,0.0,70.0,Rice/Dal/Roti,52.0,10.4,2.6,0.0,1
+SYN_lunch_2026-09-16,Wednesday,lunch,12:25-12:30,27,21,113,37,0.0,0.0,0.0,76.0,Rice/Dal/Roti,109.0,21.8,5.4,0.0,1
+SYN_lunch_2026-09-16,Wednesday,lunch,12:30-12:35,18,17,131,54,0.0,0.0,0.0,77.0,Rice/Dal/Roti,72.0,14.4,3.6,0.0,1
+SYN_lunch_2026-09-16,Wednesday,lunch,12:35-12:40,28,16,159,70,0.0,0.0,0.0,89.0,Rice/Dal/Roti,112.0,22.4,5.6,0.0,1
+SYN_lunch_2026-09-16,Wednesday,lunch,12:40-12:45,42,20,201,90,,,,,Rice/Dal/Roti,149.0,29.8,7.4,1.6,1
+SYN_lunch_2026-09-16,Wednesday,lunch,12:45-12:50,73,20,274,110,29.0,9.7,12.0,135.0,Rice/Dal/Roti,191.0,38.2,9.6,8.4,1
+SYN_lunch_2026-09-16,Wednesday,lunch,12:50-12:55,57,26,331,136,36.0,12.0,18.0,159.0,Rice/Dal/Roti,201.0,40.2,10.0,2.2,1
+SYN_lunch_2026-09-16,Wednesday,lunch,12:55-13:00,60,25,391,161,34.0,11.3,19.0,196.0,Rice/Dal/Roti,258.0,51.6,12.9,0.0,1
+SYN_lunch_2026-09-16,Wednesday,lunch,13:00-13:05,51,39,442,200,23.0,7.7,10.0,219.0,Rice/Dal/Roti,259.0,51.8,13.0,0.0,1
+SYN_lunch_2026-09-16,Wednesday,lunch,13:05-13:10,30,48,472,248,0.0,0.0,0.0,224.0,Rice/Dal/Roti,194.0,38.8,9.7,0.0,1
+SYN_lunch_2026-09-16,Wednesday,lunch,13:10-13:15,38,55,510,303,0.0,0.0,0.0,207.0,Rice/Dal/Roti,152.0,30.4,7.6,0.0,1
+SYN_lunch_2026-09-16,Wednesday,lunch,13:15-13:20,23,60,533,363,0.0,0.0,0.0,170.0,Rice/Dal/Roti,93.0,18.6,4.6,0.0,1
+SYN_lunch_2026-09-16,Wednesday,lunch,13:20-13:25,28,54,561,417,0.0,0.0,0.0,144.0,Rice/Dal/Roti,110.0,22.0,5.5,0.2,1
+SYN_lunch_2026-09-16,Wednesday,lunch,13:25-13:30,29,51,590,468,0.0,0.0,0.0,122.0,Rice/Dal/Roti,115.0,23.0,5.8,0.1,1
+SYN_lunch_2026-09-16,Wednesday,lunch,13:30-13:35,15,28,605,496,0.0,0.0,0.0,109.0,Rice/Dal/Roti,60.0,12.0,3.0,0.0,1
+SYN_lunch_2026-09-16,Wednesday,lunch,13:35-13:40,23,39,628,535,0.0,0.0,0.0,93.0,Rice/Dal/Roti,92.0,18.4,4.6,0.0,1
+SYN_lunch_2026-09-16,Wednesday,lunch,13:40-13:45,30,29,658,564,0.0,0.0,0.0,94.0,Rice/Dal/Roti,119.0,23.8,6.0,0.1,1
+SYN_lunch_2026-09-16,Wednesday,lunch,13:45-13:50,52,21,710,585,2.0,0.7,1.0,123.0,Rice/Dal/Roti,204.0,40.8,10.2,0.3,1
+SYN_lunch_2026-09-16,Wednesday,lunch,13:50-13:55,38,18,748,603,0.0,0.0,0.0,145.0,Rice/Dal/Roti,154.0,30.8,7.7,0.0,1
+SYN_lunch_2026-09-16,Wednesday,lunch,13:55-14:00,41,35,789,638,0.0,0.0,0.0,151.0,Rice/Dal/Roti,165.0,33.0,8.2,0.0,1
+SYN_lunch_2026-09-16,Wednesday,lunch,14:00-14:05,0,26,789,664,0.0,0.0,0.0,125.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-16,Wednesday,lunch,14:05-14:10,0,39,789,703,0.0,0.0,0.0,86.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-16,Wednesday,lunch,14:10-14:15,0,38,789,741,,,,,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-16,Wednesday,lunch,14:15-14:20,0,38,789,779,0.0,0.0,0.0,10.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-16,Wednesday,lunch,14:20-14:25,0,10,789,789,0.0,0.0,0.0,0.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-16,Wednesday,dinner,19:30-19:35,42,0,42,0,11.0,3.7,4.0,31.0,Veg Biryani (special),32.0,6.4,6.4,3.3,1
+SYN_dinner_2026-09-16,Wednesday,dinner,19:35-19:40,32,0,74,0,6.0,2.0,2.0,68.0,Veg Biryani (special),38.0,7.6,7.6,0.0,1
+SYN_dinner_2026-09-16,Wednesday,dinner,19:40-19:45,24,2,98,2,0.0,0.0,0.0,96.0,Veg Biryani (special),30.0,6.0,6.0,0.0,1
+SYN_dinner_2026-09-16,Wednesday,dinner,19:45-19:50,14,8,112,10,0.0,0.0,0.0,102.0,Veg Biryani (special),14.0,2.8,2.8,0.0,1
+SYN_dinner_2026-09-16,Wednesday,dinner,19:50-19:55,9,21,121,31,0.0,0.0,0.0,90.0,Veg Biryani (special),8.0,1.6,1.6,0.3,1
+SYN_dinner_2026-09-16,Wednesday,dinner,19:55-20:00,6,37,127,68,0.0,0.0,0.0,59.0,Veg Biryani (special),6.0,1.2,1.2,0.0,1
+SYN_dinner_2026-09-16,Wednesday,dinner,20:00-20:05,42,28,169,96,,,,,Veg Biryani (special),41.0,8.2,8.2,0.3,1
+SYN_dinner_2026-09-16,Wednesday,dinner,20:05-20:10,23,12,192,108,0.0,0.0,0.0,84.0,Veg Biryani (special),27.0,5.4,5.4,0.0,1
+SYN_dinner_2026-09-16,Wednesday,dinner,20:10-20:15,32,14,224,122,0.0,0.0,0.0,102.0,Veg Biryani (special),30.0,6.0,6.0,0.7,1
+SYN_dinner_2026-09-16,Wednesday,dinner,20:15-20:20,31,18,255,140,0.0,0.0,0.0,115.0,Veg Biryani (special),31.0,6.2,6.2,0.0,1
+SYN_dinner_2026-09-16,Wednesday,dinner,20:20-20:25,39,27,294,167,0.0,0.0,0.0,127.0,Veg Biryani (special),39.0,7.8,7.8,0.0,1
+SYN_dinner_2026-09-16,Wednesday,dinner,20:25-20:30,31,25,325,192,0.0,0.0,0.0,133.0,Veg Biryani (special),32.0,6.4,6.4,0.0,1
+SYN_dinner_2026-09-16,Wednesday,dinner,20:30-20:35,37,26,362,218,0.0,0.0,0.0,144.0,Veg Biryani (special),36.0,7.2,7.2,0.3,1
+SYN_dinner_2026-09-16,Wednesday,dinner,20:35-20:40,40,40,402,258,2.0,0.7,1.0,142.0,Veg Biryani (special),38.0,7.6,7.6,0.7,1
+SYN_dinner_2026-09-16,Wednesday,dinner,20:40-20:45,34,36,436,294,2.0,0.7,1.0,140.0,Veg Biryani (special),,,,,1
+SYN_dinner_2026-09-16,Wednesday,dinner,20:45-20:50,42,35,478,329,4.0,1.3,2.0,145.0,Veg Biryani (special),40.0,8.0,8.0,0.7,1
+SYN_dinner_2026-09-16,Wednesday,dinner,20:50-20:55,28,31,506,360,0.0,0.0,0.0,146.0,Veg Biryani (special),31.0,6.2,6.2,0.0,1
+SYN_dinner_2026-09-16,Wednesday,dinner,20:55-21:00,41,40,547,400,3.0,1.0,1.0,144.0,Veg Biryani (special),39.0,7.8,7.8,0.7,1
+SYN_dinner_2026-09-16,Wednesday,dinner,21:00-21:05,23,37,570,437,4.0,1.3,2.0,129.0,Veg Biryani (special),24.0,4.8,4.8,0.0,1
+SYN_dinner_2026-09-16,Wednesday,dinner,21:05-21:10,30,38,600,475,0.0,0.0,0.0,125.0,Veg Biryani (special),32.0,6.4,6.4,0.0,1
+SYN_dinner_2026-09-16,Wednesday,dinner,21:10-21:15,35,35,635,510,4.0,1.3,1.0,121.0,Veg Biryani (special),33.0,6.6,6.6,0.7,1
+SYN_dinner_2026-09-16,Wednesday,dinner,21:15-21:20,29,28,664,538,0.0,0.0,0.0,126.0,Veg Biryani (special),30.0,6.0,6.0,0.0,1
+SYN_dinner_2026-09-16,Wednesday,dinner,21:20-21:25,30,33,694,571,0.0,0.0,0.0,123.0,Veg Biryani (special),30.0,6.0,6.0,0.0,1
+SYN_dinner_2026-09-16,Wednesday,dinner,21:25-21:30,36,25,730,596,4.0,1.3,2.0,130.0,Veg Biryani (special),36.0,7.2,7.2,0.0,1
+SYN_dinner_2026-09-16,Wednesday,dinner,21:30-21:35,55,37,785,633,18.0,6.0,8.0,134.0,Veg Biryani (special),39.0,7.8,7.8,5.3,1
+SYN_dinner_2026-09-16,Wednesday,dinner,21:35-21:40,30,31,815,664,12.0,4.0,4.0,139.0,Veg Biryani (special),39.0,7.8,7.8,0.0,1
+SYN_dinner_2026-09-16,Wednesday,dinner,21:40-21:45,12,30,827,694,0.0,0.0,0.0,133.0,Veg Biryani (special),23.0,4.6,4.6,0.0,1
+SYN_dinner_2026-09-16,Wednesday,dinner,21:45-21:50,0,40,827,734,0.0,0.0,0.0,93.0,Veg Biryani (special),0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-16,Wednesday,dinner,21:50-21:55,0,34,827,768,0.0,0.0,0.0,59.0,Veg Biryani (special),0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-16,Wednesday,dinner,21:55-22:00,0,30,827,798,0.0,0.0,0.0,29.0,Veg Biryani (special),0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-16,Wednesday,dinner,22:00-22:05,0,22,827,820,0.0,0.0,0.0,7.0,Veg Biryani (special),0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-16,Wednesday,dinner,22:05-22:10,0,7,827,827,0.0,0.0,0.0,0.0,Veg Biryani (special),0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-17,Thursday,breakfast,07:15-07:20,6,0,6,0,0.0,0.0,0.0,6.0,Poha,5.0,1.0,1.0,0.3,1
+SYN_breakfast_2026-09-17,Thursday,breakfast,07:20-07:25,6,0,12,0,0.0,0.0,0.0,12.0,Poha,6.0,1.2,1.2,0.0,1
+SYN_breakfast_2026-09-17,Thursday,breakfast,07:25-07:30,9,1,21,1,0.0,0.0,0.0,20.0,Poha,9.0,1.8,1.8,0.0,1
+SYN_breakfast_2026-09-17,Thursday,breakfast,07:30-07:35,7,2,28,3,,,,,Poha,6.0,1.2,1.2,0.3,1
+SYN_breakfast_2026-09-17,Thursday,breakfast,07:35-07:40,8,2,36,5,0.0,0.0,0.0,31.0,Poha,,,,,1
+SYN_breakfast_2026-09-17,Thursday,breakfast,07:40-07:45,10,7,46,12,0.0,0.0,0.0,34.0,Poha,10.0,2.0,2.0,0.0,1
+SYN_breakfast_2026-09-17,Thursday,breakfast,07:45-07:50,18,8,64,20,0.0,0.0,0.0,44.0,Poha,,,,,1
+SYN_breakfast_2026-09-17,Thursday,breakfast,07:50-07:55,11,7,75,27,0.0,0.0,0.0,48.0,Poha,12.0,2.4,2.4,0.0,1
+SYN_breakfast_2026-09-17,Thursday,breakfast,07:55-08:00,20,6,95,33,0.0,0.0,0.0,62.0,Poha,21.0,4.2,4.2,0.0,1
+SYN_breakfast_2026-09-17,Thursday,breakfast,08:00-08:05,16,14,111,47,0.0,0.0,0.0,64.0,Poha,19.0,3.8,3.8,0.0,1
+SYN_breakfast_2026-09-17,Thursday,breakfast,08:05-08:10,17,14,128,61,0.0,0.0,0.0,67.0,Poha,17.0,3.4,3.4,0.0,1
+SYN_breakfast_2026-09-17,Thursday,breakfast,08:10-08:15,27,16,155,77,0.0,0.0,0.0,78.0,Poha,27.0,5.4,5.4,0.0,1
+SYN_breakfast_2026-09-17,Thursday,breakfast,08:15-08:20,27,17,182,94,0.0,0.0,0.0,88.0,Poha,26.0,5.2,5.2,0.3,1
+SYN_breakfast_2026-09-17,Thursday,breakfast,08:20-08:25,30,19,212,113,0.0,0.0,0.0,99.0,Poha,29.0,5.8,5.8,0.3,1
+SYN_breakfast_2026-09-17,Thursday,breakfast,08:25-08:30,31,21,243,134,0.0,0.0,0.0,109.0,Poha,32.0,6.4,6.4,0.0,1
+SYN_breakfast_2026-09-17,Thursday,breakfast,08:30-08:35,49,24,292,158,2.0,0.7,1.0,132.0,Poha,48.0,9.6,9.6,0.3,1
+SYN_breakfast_2026-09-17,Thursday,breakfast,08:35-08:40,48,28,340,186,0.0,0.0,0.0,154.0,Poha,49.0,9.8,9.8,0.0,1
+SYN_breakfast_2026-09-17,Thursday,breakfast,08:40-08:45,81,29,421,215,10.0,3.3,4.0,196.0,Poha,74.0,14.8,14.8,2.3,1
+SYN_breakfast_2026-09-17,Thursday,breakfast,08:45-08:50,83,28,504,243,25.0,8.3,9.0,236.0,Poha,66.0,13.2,13.2,5.7,1
+SYN_breakfast_2026-09-17,Thursday,breakfast,08:50-08:55,86,50,590,293,41.0,13.7,18.0,256.0,Poha,70.0,14.0,14.0,5.3,1
+SYN_breakfast_2026-09-17,Thursday,breakfast,08:55-09:00,44,53,634,346,18.0,6.0,8.0,270.0,Poha,69.0,13.8,13.8,0.0,1
+SYN_breakfast_2026-09-17,Thursday,breakfast,09:00-09:05,56,70,690,416,3.0,1.0,1.0,271.0,Poha,70.0,14.0,14.0,0.0,1
+SYN_breakfast_2026-09-17,Thursday,breakfast,09:05-09:10,33,68,723,484,0.0,0.0,0.0,239.0,Poha,37.0,7.4,7.4,0.0,1
+SYN_breakfast_2026-09-17,Thursday,breakfast,09:10-09:15,10,71,733,555,0.0,0.0,0.0,178.0,Poha,10.0,2.0,2.0,0.0,1
+SYN_breakfast_2026-09-17,Thursday,breakfast,09:15-09:20,6,65,739,620,0.0,0.0,0.0,119.0,Poha,5.0,1.0,1.0,0.3,1
+SYN_breakfast_2026-09-17,Thursday,breakfast,09:20-09:25,7,54,746,674,0.0,0.0,0.0,72.0,Poha,6.0,1.2,1.2,0.3,1
+SYN_breakfast_2026-09-17,Thursday,breakfast,09:25-09:30,2,40,748,714,0.0,1.0,0.0,34.0,Poha,3.0,0.6,0.6,1.0,1
+SYN_breakfast_2026-09-17,Thursday,breakfast,09:30-09:35,0,19,748,733,0.0,0.0,0.0,15.0,Poha,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-17,Thursday,breakfast,09:35-09:40,0,8,748,741,0.0,0.0,0.0,7.0,Poha,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-17,Thursday,breakfast,09:40-09:45,0,3,748,744,0.0,0.0,0.0,4.0,Poha,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-17,Thursday,breakfast,09:45-09:50,0,4,748,748,0.0,0.0,0.0,0.0,Poha,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-17,Thursday,lunch,12:00-12:05,12,0,12,0,0.0,0.0,0.0,12.0,Rice/Dal/Roti,48.0,9.6,2.4,0.0,1
+SYN_lunch_2026-09-17,Thursday,lunch,12:05-12:10,24,0,36,0,0.0,0.0,0.0,36.0,Rice/Dal/Roti,96.0,19.2,4.8,0.0,1
+SYN_lunch_2026-09-17,Thursday,lunch,12:10-12:15,21,1,57,1,0.0,0.0,0.0,56.0,Rice/Dal/Roti,83.0,16.6,4.2,0.1,1
+SYN_lunch_2026-09-17,Thursday,lunch,12:15-12:20,26,3,83,4,0.0,0.0,0.0,79.0,Rice/Dal/Roti,105.0,21.0,5.2,0.0,1
+SYN_lunch_2026-09-17,Thursday,lunch,12:20-12:25,12,13,95,17,0.0,0.0,0.0,78.0,Rice/Dal/Roti,49.0,9.8,2.4,0.0,1
+SYN_lunch_2026-09-17,Thursday,lunch,12:25-12:30,34,22,129,39,0.0,0.0,0.0,90.0,Rice/Dal/Roti,137.0,27.4,6.8,0.0,1
+SYN_lunch_2026-09-17,Thursday,lunch,12:30-12:35,24,18,153,57,0.0,0.0,0.0,96.0,Rice/Dal/Roti,94.0,18.8,4.7,0.2,1
+SYN_lunch_2026-09-17,Thursday,lunch,12:35-12:40,41,20,194,77,0.0,0.0,0.0,117.0,Rice/Dal/Roti,157.0,31.4,7.8,0.6,1
+SYN_lunch_2026-09-17,Thursday,lunch,12:40-12:45,59,34,253,111,11.0,3.7,5.0,131.0,Rice/Dal/Roti,204.0,40.8,10.2,2.7,1
+SYN_lunch_2026-09-17,Thursday,lunch,12:45-12:50,78,17,331,128,44.0,14.7,18.0,159.0,Rice/Dal/Roti,184.0,36.8,9.2,10.7,1
+SYN_lunch_2026-09-17,Thursday,lunch,12:50-12:55,102,31,433,159,82.0,27.3,34.0,192.0,Rice/Dal/Roti,179.0,35.8,9.0,19.1,1
+SYN_lunch_2026-09-17,Thursday,lunch,12:55-13:00,80,47,513,206,80.0,26.7,29.0,227.0,Rice/Dal/Roti,196.0,39.2,9.8,10.3,1
+SYN_lunch_2026-09-17,Thursday,lunch,13:00-13:05,47,36,560,242,80.0,26.7,30.0,238.0,Rice/Dal/Roti,189.0,37.8,9.4,0.0,1
+SYN_lunch_2026-09-17,Thursday,lunch,13:05-13:10,43,41,603,283,81.0,27.0,31.0,239.0,Rice/Dal/Roti,188.0,37.6,9.4,0.0,1
+SYN_lunch_2026-09-17,Thursday,lunch,13:10-13:15,25,51,628,334,,,,,Rice/Dal/Roti,192.0,38.4,9.6,0.0,1
+SYN_lunch_2026-09-17,Thursday,lunch,13:15-13:20,28,54,656,388,81.0,27.0,33.0,187.0,Rice/Dal/Roti,,,,,1
+SYN_lunch_2026-09-17,Thursday,lunch,13:20-13:25,36,41,692,429,72.0,24.0,26.0,191.0,Rice/Dal/Roti,188.0,37.6,9.4,0.0,1
+SYN_lunch_2026-09-17,Thursday,lunch,13:25-13:30,37,40,729,469,59.0,19.7,24.0,201.0,Rice/Dal/Roti,202.0,40.4,10.1,0.0,1
+SYN_lunch_2026-09-17,Thursday,lunch,13:30-13:35,31,55,760,524,41.0,13.7,19.0,195.0,Rice/Dal/Roti,195.0,39.0,9.8,0.0,1
+SYN_lunch_2026-09-17,Thursday,lunch,13:35-13:40,26,54,786,578,17.0,5.7,6.0,191.0,Rice/Dal/Roti,197.0,39.4,9.8,0.0,1
+SYN_lunch_2026-09-17,Thursday,lunch,13:40-13:45,41,50,827,628,10.0,3.3,6.0,189.0,Rice/Dal/Roti,192.0,38.4,9.6,0.0,1
+SYN_lunch_2026-09-17,Thursday,lunch,13:45-13:50,38,53,865,681,2.0,0.7,1.0,182.0,Rice/Dal/Roti,180.0,36.0,9.0,0.0,1
+SYN_lunch_2026-09-17,Thursday,lunch,13:50-13:55,53,44,918,725,,,,,Rice/Dal/Roti,205.0,41.0,10.2,0.6,1
+SYN_lunch_2026-09-17,Thursday,lunch,13:55-14:00,46,49,964,774,0.0,0.0,0.0,190.0,Rice/Dal/Roti,202.0,40.4,10.1,0.0,1
+SYN_lunch_2026-09-17,Thursday,lunch,14:00-14:05,0,45,964,819,0.0,0.0,0.0,145.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-17,Thursday,lunch,14:05-14:10,0,39,964,858,0.0,0.0,0.0,106.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-17,Thursday,lunch,14:10-14:15,0,48,964,906,0.0,0.0,0.0,58.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-17,Thursday,lunch,14:15-14:20,0,45,964,951,0.0,0.0,0.0,13.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-17,Thursday,lunch,14:20-14:25,0,12,964,963,0.0,0.0,0.0,1.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-17,Thursday,lunch,14:25-14:30,0,1,964,964,0.0,0.0,0.0,0.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-17,Thursday,dinner,19:30-19:35,4,0,4,0,0.0,0.0,0.0,4.0,Roti/Sabzi,18.0,3.6,0.9,0.0,1
+SYN_dinner_2026-09-17,Thursday,dinner,19:35-19:40,8,0,12,0,0.0,0.0,0.0,12.0,Roti/Sabzi,35.0,7.0,1.8,0.0,1
+SYN_dinner_2026-09-17,Thursday,dinner,19:40-19:45,6,0,18,0,0.0,0.0,0.0,18.0,Roti/Sabzi,25.0,5.0,1.2,0.0,1
+SYN_dinner_2026-09-17,Thursday,dinner,19:45-19:50,5,0,23,0,0.0,0.0,0.0,23.0,Roti/Sabzi,20.0,4.0,1.0,0.0,1
+SYN_dinner_2026-09-17,Thursday,dinner,19:50-19:55,4,3,27,3,0.0,0.0,0.0,24.0,Roti/Sabzi,16.0,3.2,0.8,0.0,1
+SYN_dinner_2026-09-17,Thursday,dinner,19:55-20:00,9,5,36,8,0.0,0.0,0.0,28.0,Roti/Sabzi,35.0,7.0,1.8,0.1,1
+SYN_dinner_2026-09-17,Thursday,dinner,20:00-20:05,35,6,71,14,0.0,0.0,0.0,57.0,Roti/Sabzi,141.0,28.2,7.0,0.0,1
+SYN_dinner_2026-09-17,Thursday,dinner,20:05-20:10,40,8,111,22,0.0,0.0,0.0,89.0,Roti/Sabzi,161.0,32.2,8.0,0.0,1
+SYN_dinner_2026-09-17,Thursday,dinner,20:10-20:15,35,7,146,29,0.0,0.0,0.0,117.0,Roti/Sabzi,141.0,28.2,7.0,0.0,1
+SYN_dinner_2026-09-17,Thursday,dinner,20:15-20:20,31,15,177,44,0.0,0.0,0.0,133.0,Roti/Sabzi,125.0,25.0,6.2,0.0,1
+SYN_dinner_2026-09-17,Thursday,dinner,20:20-20:25,37,28,214,72,0.0,0.0,0.0,142.0,Roti/Sabzi,148.0,29.6,7.4,0.0,1
+SYN_dinner_2026-09-17,Thursday,dinner,20:25-20:30,33,39,247,111,0.0,0.0,0.0,136.0,Roti/Sabzi,133.0,26.6,6.6,0.0,1
+SYN_dinner_2026-09-17,Thursday,dinner,20:30-20:35,32,38,279,149,1.0,0.3,0.0,129.0,Roti/Sabzi,125.0,25.0,6.2,0.2,1
+SYN_dinner_2026-09-17,Thursday,dinner,20:35-20:40,41,31,320,180,0.0,0.0,0.0,140.0,Roti/Sabzi,168.0,33.6,8.4,0.0,1
+SYN_dinner_2026-09-17,Thursday,dinner,20:40-20:45,40,33,360,213,0.0,0.0,0.0,147.0,Roti/Sabzi,159.0,31.8,8.0,0.1,1
+SYN_dinner_2026-09-17,Thursday,dinner,20:45-20:50,45,27,405,240,3.0,1.0,1.0,162.0,Roti/Sabzi,169.0,33.8,8.4,0.9,1
+SYN_dinner_2026-09-17,Thursday,dinner,20:50-20:55,35,45,440,285,4.0,1.3,2.0,151.0,Roti/Sabzi,135.0,27.0,6.8,0.4,1
+SYN_dinner_2026-09-17,Thursday,dinner,20:55-21:00,44,33,484,318,3.0,1.0,1.0,163.0,Roti/Sabzi,185.0,37.0,9.2,0.0,1
+SYN_dinner_2026-09-17,Thursday,dinner,21:00-21:05,31,42,515,360,0.0,0.0,0.0,155.0,Roti/Sabzi,132.0,26.4,6.6,0.0,1
+SYN_dinner_2026-09-17,Thursday,dinner,21:05-21:10,56,40,571,400,13.0,4.3,6.0,158.0,Roti/Sabzi,176.0,35.2,8.8,4.0,1
+SYN_dinner_2026-09-17,Thursday,dinner,21:10-21:15,66,35,637,435,35.0,11.7,13.0,167.0,Roti/Sabzi,181.0,36.2,9.0,6.9,1
+SYN_dinner_2026-09-17,Thursday,dinner,21:15-21:20,66,38,703,473,43.0,14.3,27.0,187.0,Roti/Sabzi,231.0,46.2,11.6,2.8,1
+SYN_dinner_2026-09-17,Thursday,dinner,21:20-21:25,40,46,743,519,15.0,5.0,6.0,209.0,Roti/Sabzi,264.0,52.8,13.2,0.0,1
+SYN_dinner_2026-09-17,Thursday,dinner,21:25-21:30,61,45,804,564,,,,,Roti/Sabzi,236.0,47.2,11.8,0.7,1
+SYN_dinner_2026-09-17,Thursday,dinner,21:30-21:35,55,47,859,611,7.0,2.3,3.0,241.0,Roti/Sabzi,255.0,51.0,12.8,0.0,1
+SYN_dinner_2026-09-17,Thursday,dinner,21:35-21:40,49,58,908,669,0.0,0.0,0.0,239.0,Roti/Sabzi,227.0,45.4,11.4,0.0,1
+SYN_dinner_2026-09-17,Thursday,dinner,21:40-21:45,13,56,921,725,0.0,0.0,0.0,196.0,Roti/Sabzi,50.0,10.0,2.5,0.2,1
+SYN_dinner_2026-09-17,Thursday,dinner,21:45-21:50,0,67,921,792,0.0,0.0,0.0,129.0,Roti/Sabzi,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-17,Thursday,dinner,21:50-21:55,0,63,921,855,0.0,0.0,0.0,66.0,Roti/Sabzi,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-17,Thursday,dinner,21:55-22:00,0,38,921,893,0.0,0.0,0.0,28.0,Roti/Sabzi,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-17,Thursday,dinner,22:00-22:05,0,22,921,915,0.0,0.0,0.0,6.0,Roti/Sabzi,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-17,Thursday,dinner,22:05-22:10,0,6,921,921,0.0,0.0,0.0,0.0,Roti/Sabzi,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-18,Friday,breakfast,07:15-07:20,7,0,7,0,0.0,0.0,0.0,7.0,Dosa,13.0,2.6,1.3,0.2,1
+SYN_breakfast_2026-09-18,Friday,breakfast,07:20-07:25,3,0,10,0,0.0,1.0,0.0,10.0,Dosa,7.0,1.4,0.7,1.0,1
+SYN_breakfast_2026-09-18,Friday,breakfast,07:25-07:30,6,0,16,0,0.0,0.0,0.0,16.0,Dosa,10.0,2.0,1.0,0.3,1
+SYN_breakfast_2026-09-18,Friday,breakfast,07:30-07:35,7,1,23,1,0.0,0.0,0.0,22.0,Dosa,14.0,2.8,1.4,0.0,1
+SYN_breakfast_2026-09-18,Friday,breakfast,07:35-07:40,6,7,29,8,0.0,0.0,0.0,21.0,Dosa,12.0,2.4,1.2,0.0,1
+SYN_breakfast_2026-09-18,Friday,breakfast,07:40-07:45,7,4,36,12,0.0,0.0,0.0,24.0,Dosa,12.0,2.4,1.2,0.3,1
+SYN_breakfast_2026-09-18,Friday,breakfast,07:45-07:50,17,5,53,17,0.0,0.0,0.0,36.0,Dosa,34.0,6.8,3.4,0.0,1
+SYN_breakfast_2026-09-18,Friday,breakfast,07:50-07:55,13,2,66,19,0.0,0.0,0.0,47.0,Dosa,27.0,5.4,2.7,0.0,1
+SYN_breakfast_2026-09-18,Friday,breakfast,07:55-08:00,17,8,83,27,0.0,0.0,0.0,56.0,Dosa,33.0,6.6,3.3,0.2,1
+SYN_breakfast_2026-09-18,Friday,breakfast,08:00-08:05,16,8,99,35,0.0,0.0,0.0,64.0,Dosa,33.0,6.6,3.3,0.0,1
+SYN_breakfast_2026-09-18,Friday,breakfast,08:05-08:10,23,16,122,51,0.0,0.0,0.0,71.0,Dosa,47.0,9.4,4.7,0.0,1
+SYN_breakfast_2026-09-18,Friday,breakfast,08:10-08:15,17,15,139,66,0.0,0.0,0.0,73.0,Dosa,35.0,7.0,3.5,0.0,1
+SYN_breakfast_2026-09-18,Friday,breakfast,08:15-08:20,9,18,148,84,0.0,0.0,0.0,64.0,Dosa,19.0,3.8,1.9,0.0,1
+SYN_breakfast_2026-09-18,Friday,breakfast,08:20-08:25,28,16,176,100,0.0,0.0,0.0,76.0,Dosa,55.0,11.0,5.5,0.2,1
+SYN_breakfast_2026-09-18,Friday,breakfast,08:25-08:30,26,23,202,123,0.0,0.0,0.0,79.0,Dosa,52.0,10.4,5.2,0.0,1
+SYN_breakfast_2026-09-18,Friday,breakfast,08:30-08:35,38,12,240,135,3.0,1.0,1.0,102.0,Dosa,65.0,13.0,6.5,1.8,1
+SYN_breakfast_2026-09-18,Friday,breakfast,08:35-08:40,31,21,271,156,0.0,0.0,0.0,115.0,Dosa,73.0,14.6,7.3,0.0,1
+SYN_breakfast_2026-09-18,Friday,breakfast,08:40-08:45,61,25,332,181,12.0,4.0,4.0,139.0,Dosa,97.0,19.4,9.7,4.2,1
+SYN_breakfast_2026-09-18,Friday,breakfast,08:45-08:50,66,25,398,206,30.0,10.0,14.0,162.0,Dosa,101.0,20.2,10.1,5.2,1
+SYN_breakfast_2026-09-18,Friday,breakfast,08:50-08:55,56,33,454,239,29.0,9.7,12.0,186.0,Dosa,,,,,1
+SYN_breakfast_2026-09-18,Friday,breakfast,08:55-09:00,49,33,503,272,11.0,3.7,4.0,220.0,Dosa,132.0,26.4,13.2,0.0,1
+SYN_breakfast_2026-09-18,Friday,breakfast,09:00-09:05,38,52,541,324,2.0,0.7,1.0,215.0,Dosa,94.0,18.8,9.4,0.0,1
+SYN_breakfast_2026-09-18,Friday,breakfast,09:05-09:10,33,47,574,371,0.0,0.0,0.0,203.0,Dosa,69.0,13.8,6.9,0.0,1
+SYN_breakfast_2026-09-18,Friday,breakfast,09:10-09:15,17,55,591,426,0.0,0.0,0.0,165.0,Dosa,33.0,6.6,3.3,0.2,1
+SYN_breakfast_2026-09-18,Friday,breakfast,09:15-09:20,16,59,607,485,0.0,0.0,0.0,122.0,Dosa,34.0,6.8,3.4,0.0,1
+SYN_breakfast_2026-09-18,Friday,breakfast,09:20-09:25,6,49,613,534,0.0,0.0,0.0,79.0,Dosa,11.0,2.2,1.1,0.2,1
+SYN_breakfast_2026-09-18,Friday,breakfast,09:25-09:30,7,27,620,561,0.0,0.0,0.0,59.0,Dosa,14.0,2.8,1.4,0.0,1
+SYN_breakfast_2026-09-18,Friday,breakfast,09:30-09:35,0,26,620,587,0.0,0.0,0.0,33.0,Dosa,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-18,Friday,breakfast,09:35-09:40,0,17,620,604,0.0,0.0,0.0,16.0,Dosa,,,,,1
+SYN_breakfast_2026-09-18,Friday,breakfast,09:40-09:45,0,11,620,615,0.0,0.0,0.0,5.0,Dosa,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-18,Friday,breakfast,09:45-09:50,0,2,620,617,0.0,0.0,0.0,3.0,Dosa,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-18,Friday,breakfast,09:50-09:55,0,3,620,620,0.0,0.0,0.0,0.0,Dosa,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-18,Friday,lunch,12:00-12:05,12,0,12,0,0.0,0.0,0.0,12.0,Rice/Dal/Roti,50.0,10.0,2.5,0.0,1
+SYN_lunch_2026-09-18,Friday,lunch,12:05-12:10,19,0,31,0,0.0,0.0,0.0,31.0,Rice/Dal/Roti,75.0,15.0,3.8,0.1,1
+SYN_lunch_2026-09-18,Friday,lunch,12:10-12:15,22,0,53,0,0.0,0.0,0.0,53.0,Rice/Dal/Roti,87.0,17.4,4.4,0.1,1
+SYN_lunch_2026-09-18,Friday,lunch,12:15-12:20,19,3,72,3,0.0,0.0,0.0,69.0,Rice/Dal/Roti,76.0,15.2,3.8,0.0,1
+SYN_lunch_2026-09-18,Friday,lunch,12:20-12:25,24,7,96,10,0.0,0.0,0.0,86.0,Rice/Dal/Roti,93.0,18.6,4.6,0.2,1
+SYN_lunch_2026-09-18,Friday,lunch,12:25-12:30,20,22,116,32,,,,,Rice/Dal/Roti,79.0,15.8,4.0,0.1,1
+SYN_lunch_2026-09-18,Friday,lunch,12:30-12:35,26,21,142,53,0.0,0.0,0.0,89.0,Rice/Dal/Roti,105.0,21.0,5.2,0.0,1
+SYN_lunch_2026-09-18,Friday,lunch,12:35-12:40,21,24,163,77,0.0,0.0,0.0,86.0,Rice/Dal/Roti,85.0,17.0,4.2,0.0,1
+SYN_lunch_2026-09-18,Friday,lunch,12:40-12:45,43,22,206,99,6.0,2.0,2.0,101.0,Rice/Dal/Roti,149.0,29.8,7.4,1.9,1
+SYN_lunch_2026-09-18,Friday,lunch,12:45-12:50,60,23,266,122,18.0,6.0,8.0,126.0,Rice/Dal/Roti,184.0,36.8,9.2,4.7,1
+SYN_lunch_2026-09-18,Friday,lunch,12:50-12:55,85,17,351,139,47.0,15.7,18.0,165.0,Rice/Dal/Roti,,,,,1
+SYN_lunch_2026-09-18,Friday,lunch,12:55-13:00,98,25,449,164,78.0,26.0,34.0,207.0,Rice/Dal/Roti,265.0,53.0,13.2,10.6,1
+SYN_lunch_2026-09-18,Friday,lunch,13:00-13:05,49,33,498,197,66.0,22.0,24.0,235.0,Rice/Dal/Roti,259.0,51.8,13.0,0.0,1
+SYN_lunch_2026-09-18,Friday,lunch,13:05-13:10,31,53,529,250,30.0,10.0,13.0,249.0,Rice/Dal/Roti,263.0,52.6,13.2,0.0,1
+SYN_lunch_2026-09-18,Friday,lunch,13:10-13:15,38,53,567,303,5.0,1.7,2.0,259.0,Rice/Dal/Roti,245.0,49.0,12.2,0.0,1
+SYN_lunch_2026-09-18,Friday,lunch,13:15-13:20,30,67,597,370,0.0,0.0,0.0,227.0,Rice/Dal/Roti,149.0,29.8,7.4,0.0,1
+SYN_lunch_2026-09-18,Friday,lunch,13:20-13:25,32,61,629,431,0.0,0.0,0.0,198.0,Rice/Dal/Roti,128.0,25.6,6.4,0.0,1
+SYN_lunch_2026-09-18,Friday,lunch,13:25-13:30,26,67,655,498,0.0,0.0,0.0,157.0,Rice/Dal/Roti,103.0,20.6,5.2,0.1,1
+SYN_lunch_2026-09-18,Friday,lunch,13:30-13:35,30,60,685,558,0.0,0.0,0.0,127.0,Rice/Dal/Roti,121.0,24.2,6.0,0.0,1
+SYN_lunch_2026-09-18,Friday,lunch,13:35-13:40,32,37,717,595,0.0,0.0,0.0,122.0,Rice/Dal/Roti,127.0,25.4,6.4,0.1,1
+SYN_lunch_2026-09-18,Friday,lunch,13:40-13:45,39,31,756,626,0.0,0.0,0.0,130.0,Rice/Dal/Roti,157.0,31.4,7.8,0.0,1
+SYN_lunch_2026-09-18,Friday,lunch,13:45-13:50,48,29,804,655,0.0,0.0,0.0,149.0,Rice/Dal/Roti,192.0,38.4,9.6,0.0,1
+SYN_lunch_2026-09-18,Friday,lunch,13:50-13:55,43,36,847,691,0.0,0.0,0.0,156.0,Rice/Dal/Roti,171.0,34.2,8.6,0.1,1
+SYN_lunch_2026-09-18,Friday,lunch,13:55-14:00,68,37,915,728,2.0,0.7,1.0,185.0,Rice/Dal/Roti,253.0,50.6,12.6,1.6,1
+SYN_lunch_2026-09-18,Friday,lunch,14:00-14:05,0,26,915,754,0.0,0.0,0.0,161.0,Rice/Dal/Roti,21.0,4.2,1.0,0.0,1
+SYN_lunch_2026-09-18,Friday,lunch,14:05-14:10,0,44,915,798,0.0,0.0,0.0,117.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-18,Friday,lunch,14:10-14:15,0,48,915,846,0.0,0.0,0.0,69.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-18,Friday,lunch,14:15-14:20,0,49,915,895,0.0,0.0,0.0,20.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-18,Friday,lunch,14:20-14:25,0,16,915,911,0.0,0.0,0.0,4.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-18,Friday,lunch,14:25-14:30,0,3,915,914,0.0,0.0,0.0,1.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-18,Friday,lunch,14:30-14:35,0,1,915,915,0.0,0.0,0.0,0.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-18,Friday,dinner,19:30-19:35,33,0,33,0,1.0,0.3,0.0,32.0,Paneer + Roti (special),125.0,25.0,6.2,0.6,1
+SYN_dinner_2026-09-18,Friday,dinner,19:35-19:40,38,0,71,0,7.0,2.3,3.0,64.0,Paneer + Roti (special),136.0,27.2,6.8,1.3,1
+SYN_dinner_2026-09-18,Friday,dinner,19:40-19:45,29,3,100,3,0.0,0.0,0.0,97.0,Paneer + Roti (special),140.0,28.0,7.0,0.0,1
+SYN_dinner_2026-09-18,Friday,dinner,19:45-19:50,20,3,120,6,0.0,0.0,0.0,114.0,Paneer + Roti (special),80.0,16.0,4.0,0.0,1
+SYN_dinner_2026-09-18,Friday,dinner,19:50-19:55,10,20,130,26,0.0,0.0,0.0,104.0,Paneer + Roti (special),41.0,8.2,2.0,0.0,1
+SYN_dinner_2026-09-18,Friday,dinner,19:55-20:00,2,36,132,62,0.0,1.0,0.0,70.0,Paneer + Roti (special),8.0,1.6,0.4,1.0,1
+SYN_dinner_2026-09-18,Friday,dinner,20:00-20:05,24,29,156,91,0.0,0.0,0.0,65.0,Paneer + Roti (special),97.0,19.4,4.8,0.0,1
+SYN_dinner_2026-09-18,Friday,dinner,20:05-20:10,17,26,173,117,0.0,0.0,0.0,56.0,Paneer + Roti (special),69.0,13.8,3.4,0.0,1
+SYN_dinner_2026-09-18,Friday,dinner,20:10-20:15,22,12,195,129,0.0,0.0,0.0,66.0,Paneer + Roti (special),87.0,17.4,4.4,0.1,1
+SYN_dinner_2026-09-18,Friday,dinner,20:15-20:20,32,10,227,139,1.0,0.3,0.0,87.0,Paneer + Roti (special),124.0,24.8,6.2,0.3,1
+SYN_dinner_2026-09-18,Friday,dinner,20:20-20:25,25,21,252,160,0.0,0.0,0.0,92.0,Paneer + Roti (special),103.0,20.6,5.2,0.0,1
+SYN_dinner_2026-09-18,Friday,dinner,20:25-20:30,27,16,279,176,4.0,1.3,2.0,99.0,Paneer + Roti (special),96.0,19.2,4.8,1.0,1
+SYN_dinner_2026-09-18,Friday,dinner,20:30-20:35,29,26,308,202,0.0,0.0,0.0,106.0,Paneer + Roti (special),129.0,25.8,6.4,0.0,1
+SYN_dinner_2026-09-18,Friday,dinner,20:35-20:40,28,26,336,228,0.0,0.0,0.0,108.0,Paneer + Roti (special),111.0,22.2,5.6,0.1,1
+SYN_dinner_2026-09-18,Friday,dinner,20:40-20:45,26,25,362,253,0.0,0.0,0.0,109.0,Paneer + Roti (special),105.0,21.0,5.2,0.0,1
+SYN_dinner_2026-09-18,Friday,dinner,20:45-20:50,22,25,384,278,0.0,0.0,0.0,106.0,Paneer + Roti (special),87.0,17.4,4.4,0.1,1
+SYN_dinner_2026-09-18,Friday,dinner,20:50-20:55,31,33,415,311,0.0,0.0,0.0,104.0,Paneer + Roti (special),123.0,24.6,6.2,0.1,1
+SYN_dinner_2026-09-18,Friday,dinner,20:55-21:00,24,30,439,341,0.0,0.0,0.0,98.0,Paneer + Roti (special),95.0,19.0,4.8,0.1,1
+SYN_dinner_2026-09-18,Friday,dinner,21:00-21:05,36,23,475,364,7.0,2.3,3.0,104.0,Paneer + Roti (special),128.0,25.6,6.4,1.3,1
+SYN_dinner_2026-09-18,Friday,dinner,21:05-21:10,22,29,497,393,0.0,0.0,0.0,104.0,Paneer + Roti (special),103.0,20.6,5.2,0.0,1
+SYN_dinner_2026-09-18,Friday,dinner,21:10-21:15,38,24,535,417,6.0,2.0,2.0,112.0,Paneer + Roti (special),128.0,25.6,6.4,2.0,1
+SYN_dinner_2026-09-18,Friday,dinner,21:15-21:20,40,24,575,441,5.0,1.7,2.0,129.0,Paneer + Roti (special),152.0,30.4,7.6,0.7,1
+SYN_dinner_2026-09-18,Friday,dinner,21:20-21:25,40,28,615,469,10.0,3.3,4.0,136.0,Paneer + Roti (special),136.0,27.2,6.8,2.0,1
+SYN_dinner_2026-09-18,Friday,dinner,21:25-21:30,49,35,664,504,29.0,9.7,13.0,131.0,Paneer + Roti (special),139.0,27.8,7.0,4.8,1
+SYN_dinner_2026-09-18,Friday,dinner,21:30-21:35,45,31,709,535,37.0,12.3,20.0,137.0,Paneer + Roti (special),140.0,28.0,7.0,3.3,1
+SYN_dinner_2026-09-18,Friday,dinner,21:35-21:40,42,30,751,565,47.0,15.7,18.0,139.0,Paneer + Roti (special),140.0,28.0,7.0,2.3,1
+SYN_dinner_2026-09-18,Friday,dinner,21:40-21:45,13,43,764,608,22.0,7.3,9.0,134.0,Paneer + Roti (special),142.0,28.4,7.1,0.0,1
+SYN_dinner_2026-09-18,Friday,dinner,21:45-21:50,0,27,764,635,0.0,0.0,0.0,129.0,Paneer + Roti (special),89.0,17.8,4.4,0.0,1
+SYN_dinner_2026-09-18,Friday,dinner,21:50-21:55,0,38,764,673,,,,,Paneer + Roti (special),0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-18,Friday,dinner,21:55-22:00,0,28,764,701,0.0,0.0,0.0,63.0,Paneer + Roti (special),0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-18,Friday,dinner,22:00-22:05,0,26,764,727,0.0,0.0,0.0,37.0,Paneer + Roti (special),0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-18,Friday,dinner,22:05-22:10,0,32,764,759,0.0,0.0,0.0,5.0,Paneer + Roti (special),0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-18,Friday,dinner,22:10-22:15,0,4,764,763,0.0,0.0,0.0,1.0,Paneer + Roti (special),0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-18,Friday,dinner,22:15-22:20,0,1,764,764,0.0,0.0,0.0,0.0,Paneer + Roti (special),0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-21,Monday,breakfast,07:15-07:20,8,0,8,0,0.0,0.0,0.0,8.0,Idli/Vada,24.0,4.8,1.6,0.0,1
+SYN_breakfast_2026-09-21,Monday,breakfast,07:20-07:25,4,0,12,0,0.0,0.0,0.0,12.0,Idli/Vada,12.0,2.4,0.8,0.0,1
+SYN_breakfast_2026-09-21,Monday,breakfast,07:25-07:30,6,0,18,0,0.0,0.0,0.0,18.0,Idli/Vada,18.0,3.6,1.2,0.0,1
+SYN_breakfast_2026-09-21,Monday,breakfast,07:30-07:35,5,1,23,1,0.0,0.0,0.0,22.0,Idli/Vada,16.0,3.2,1.1,0.0,1
+SYN_breakfast_2026-09-21,Monday,breakfast,07:35-07:40,8,3,31,4,0.0,0.0,0.0,27.0,Idli/Vada,23.0,4.6,1.5,0.1,1
+SYN_breakfast_2026-09-21,Monday,breakfast,07:40-07:45,4,7,35,11,0.0,0.0,0.0,24.0,Idli/Vada,13.0,2.6,0.9,0.0,1
+SYN_breakfast_2026-09-21,Monday,breakfast,07:45-07:50,17,5,52,16,0.0,0.0,0.0,36.0,Idli/Vada,53.0,10.6,3.5,0.0,1
+SYN_breakfast_2026-09-21,Monday,breakfast,07:50-07:55,21,12,73,28,0.0,0.0,0.0,45.0,Idli/Vada,62.0,12.4,4.1,0.1,1
+SYN_breakfast_2026-09-21,Monday,breakfast,07:55-08:00,28,3,101,31,0.0,0.0,0.0,70.0,Idli/Vada,85.0,17.0,5.7,0.0,1
+SYN_breakfast_2026-09-21,Monday,breakfast,08:00-08:05,21,7,122,38,0.0,0.0,0.0,84.0,Idli/Vada,63.0,12.6,4.2,0.0,1
+SYN_breakfast_2026-09-21,Monday,breakfast,08:05-08:10,22,13,144,51,0.0,0.0,0.0,93.0,Idli/Vada,64.0,12.8,4.3,0.2,1
+SYN_breakfast_2026-09-21,Monday,breakfast,08:10-08:15,22,29,166,80,0.0,0.0,0.0,86.0,Idli/Vada,68.0,13.6,4.5,0.0,1
+SYN_breakfast_2026-09-21,Monday,breakfast,08:15-08:20,17,26,183,106,0.0,0.0,0.0,77.0,Idli/Vada,51.0,10.2,3.4,0.0,1
+SYN_breakfast_2026-09-21,Monday,breakfast,08:20-08:25,40,21,223,127,0.0,0.0,0.0,96.0,Idli/Vada,120.0,24.0,8.0,0.0,1
+SYN_breakfast_2026-09-21,Monday,breakfast,08:25-08:30,25,16,248,143,0.0,0.0,0.0,105.0,Idli/Vada,75.0,15.0,5.0,0.0,1
+SYN_breakfast_2026-09-21,Monday,breakfast,08:30-08:35,46,20,294,163,0.0,0.0,0.0,131.0,Idli/Vada,137.0,27.4,9.1,0.1,1
+SYN_breakfast_2026-09-21,Monday,breakfast,08:35-08:40,51,22,345,185,0.0,0.0,0.0,160.0,Idli/Vada,152.0,30.4,10.1,0.1,1
+SYN_breakfast_2026-09-21,Monday,breakfast,08:40-08:45,78,33,423,218,18.0,6.0,7.0,187.0,Idli/Vada,175.0,35.0,11.7,6.6,1
+SYN_breakfast_2026-09-21,Monday,breakfast,08:45-08:50,84,35,507,253,48.0,16.0,23.0,206.0,Idli/Vada,171.0,34.2,11.4,9.0,1
+SYN_breakfast_2026-09-21,Monday,breakfast,08:50-08:55,90,42,597,295,75.0,25.0,27.0,227.0,Idli/Vada,185.0,37.0,12.3,9.4,1
+SYN_breakfast_2026-09-21,Monday,breakfast,08:55-09:00,38,63,635,358,54.0,18.0,32.0,223.0,Idli/Vada,176.0,35.2,11.7,0.0,1
+SYN_breakfast_2026-09-21,Monday,breakfast,09:00-09:05,43,49,678,407,38.0,12.7,19.0,233.0,Idli/Vada,175.0,35.0,11.7,0.0,1
+SYN_breakfast_2026-09-21,Monday,breakfast,09:05-09:10,22,47,700,454,0.0,0.0,0.0,246.0,Idli/Vada,179.0,35.8,11.9,0.0,1
+SYN_breakfast_2026-09-21,Monday,breakfast,09:10-09:15,22,56,722,510,0.0,0.0,0.0,212.0,Idli/Vada,66.0,13.2,4.4,0.0,1
+SYN_breakfast_2026-09-21,Monday,breakfast,09:15-09:20,9,75,731,585,0.0,0.0,0.0,146.0,Idli/Vada,26.0,5.2,1.7,0.1,1
+SYN_breakfast_2026-09-21,Monday,breakfast,09:20-09:25,2,50,733,635,0.0,1.0,0.0,98.0,Idli/Vada,7.0,1.4,0.5,1.0,1
+SYN_breakfast_2026-09-21,Monday,breakfast,09:25-09:30,1,50,734,685,0.0,1.0,0.0,49.0,Idli/Vada,1.0,0.2,0.1,1.0,1
+SYN_breakfast_2026-09-21,Monday,breakfast,09:30-09:35,0,27,734,712,0.0,0.0,0.0,22.0,Idli/Vada,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-21,Monday,breakfast,09:35-09:40,0,15,734,727,0.0,0.0,0.0,7.0,Idli/Vada,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-21,Monday,breakfast,09:40-09:45,0,6,734,733,0.0,0.0,0.0,1.0,Idli/Vada,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-21,Monday,breakfast,09:45-09:50,0,1,734,734,0.0,0.0,0.0,0.0,Idli/Vada,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-21,Monday,lunch,12:00-12:05,12,0,12,0,0.0,0.0,0.0,12.0,Rice/Dal/Roti,48.0,9.6,2.4,0.0,1
+SYN_lunch_2026-09-21,Monday,lunch,12:05-12:10,25,0,37,0,0.0,0.0,0.0,37.0,Rice/Dal/Roti,101.0,20.2,5.0,0.0,1
+SYN_lunch_2026-09-21,Monday,lunch,12:10-12:15,27,0,64,0,0.0,0.0,0.0,64.0,Rice/Dal/Roti,109.0,21.8,5.4,0.0,1
+SYN_lunch_2026-09-21,Monday,lunch,12:15-12:20,19,5,83,5,0.0,0.0,0.0,78.0,Rice/Dal/Roti,77.0,15.4,3.8,0.0,1
+SYN_lunch_2026-09-21,Monday,lunch,12:20-12:25,30,10,113,15,0.0,0.0,0.0,98.0,Rice/Dal/Roti,121.0,24.2,6.0,0.0,1
+SYN_lunch_2026-09-21,Monday,lunch,12:25-12:30,28,26,141,41,0.0,0.0,0.0,100.0,Rice/Dal/Roti,113.0,22.6,5.6,0.0,1
+SYN_lunch_2026-09-21,Monday,lunch,12:30-12:35,32,19,173,60,0.0,0.0,0.0,113.0,Rice/Dal/Roti,128.0,25.6,6.4,0.0,1
+SYN_lunch_2026-09-21,Monday,lunch,12:35-12:40,32,26,205,86,0.0,0.0,0.0,119.0,Rice/Dal/Roti,128.0,25.6,6.4,0.0,1
+SYN_lunch_2026-09-21,Monday,lunch,12:40-12:45,39,25,244,111,2.0,0.7,1.0,131.0,Rice/Dal/Roti,142.0,28.4,7.1,1.2,1
+SYN_lunch_2026-09-21,Monday,lunch,12:45-12:50,46,34,290,145,6.0,2.0,2.0,139.0,Rice/Dal/Roti,182.0,36.4,9.1,0.2,1
+SYN_lunch_2026-09-21,Monday,lunch,12:50-12:55,35,30,325,175,3.0,1.0,1.0,147.0,Rice/Dal/Roti,151.0,30.2,7.6,0.0,1
+SYN_lunch_2026-09-21,Monday,lunch,12:55-13:00,43,30,368,205,0.0,0.0,0.0,163.0,Rice/Dal/Roti,176.0,35.2,8.8,0.0,1
+SYN_lunch_2026-09-21,Monday,lunch,13:00-13:05,34,38,402,243,0.0,0.0,0.0,159.0,Rice/Dal/Roti,135.0,27.0,6.8,0.1,1
+SYN_lunch_2026-09-21,Monday,lunch,13:05-13:10,35,40,437,283,0.0,0.0,0.0,154.0,Rice/Dal/Roti,141.0,28.2,7.0,0.0,1
+SYN_lunch_2026-09-21,Monday,lunch,13:10-13:15,42,36,479,319,5.0,1.7,2.0,155.0,Rice/Dal/Roti,160.0,32.0,8.0,0.7,1
+SYN_lunch_2026-09-21,Monday,lunch,13:15-13:20,37,41,516,360,1.0,0.3,0.0,155.0,Rice/Dal/Roti,153.0,30.6,7.6,0.0,1
+SYN_lunch_2026-09-21,Monday,lunch,13:20-13:25,41,32,557,392,1.0,0.3,1.0,164.0,Rice/Dal/Roti,156.0,31.2,7.8,0.7,1
+SYN_lunch_2026-09-21,Monday,lunch,13:25-13:30,34,38,591,430,0.0,0.0,0.0,161.0,Rice/Dal/Roti,149.0,29.8,7.4,0.0,1
+SYN_lunch_2026-09-21,Monday,lunch,13:30-13:35,37,44,628,474,0.0,0.0,0.0,154.0,Rice/Dal/Roti,147.0,29.4,7.4,0.1,1
+SYN_lunch_2026-09-21,Monday,lunch,13:35-13:40,36,42,664,516,0.0,0.0,0.0,148.0,Rice/Dal/Roti,144.0,28.8,7.2,0.0,1
+SYN_lunch_2026-09-21,Monday,lunch,13:40-13:45,49,35,713,551,10.0,3.3,4.0,152.0,Rice/Dal/Roti,161.0,32.2,8.0,2.9,1
+SYN_lunch_2026-09-21,Monday,lunch,13:45-13:50,46,32,759,583,7.0,2.3,3.0,169.0,Rice/Dal/Roti,190.0,38.0,9.5,0.0,1
+SYN_lunch_2026-09-21,Monday,lunch,13:50-13:55,54,46,813,629,13.0,4.3,7.0,171.0,Rice/Dal/Roti,188.0,37.6,9.4,2.3,1
+SYN_lunch_2026-09-21,Monday,lunch,13:55-14:00,49,27,862,656,12.0,4.0,4.0,194.0,Rice/Dal/Roti,192.0,38.4,9.6,0.3,1
+SYN_lunch_2026-09-21,Monday,lunch,14:00-14:05,0,47,862,703,0.0,0.0,0.0,159.0,Rice/Dal/Roti,61.0,12.2,3.0,0.0,1
+SYN_lunch_2026-09-21,Monday,lunch,14:05-14:10,0,44,862,747,0.0,0.0,0.0,115.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-21,Monday,lunch,14:10-14:15,0,58,862,805,0.0,0.0,0.0,57.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-21,Monday,lunch,14:15-14:20,0,32,862,837,0.0,0.0,0.0,25.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-21,Monday,lunch,14:20-14:25,0,20,862,857,0.0,0.0,0.0,5.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-21,Monday,lunch,14:25-14:30,0,5,862,862,0.0,0.0,0.0,0.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-21,Monday,dinner,19:30-19:35,5,0,5,0,0.0,0.0,0.0,5.0,Roti/Sabzi,21.0,4.2,1.0,0.0,1
+SYN_dinner_2026-09-21,Monday,dinner,19:35-19:40,4,0,9,0,0.0,0.0,0.0,9.0,Roti/Sabzi,,,,,1
+SYN_dinner_2026-09-21,Monday,dinner,19:40-19:45,4,0,13,0,0.0,0.0,0.0,13.0,Roti/Sabzi,13.0,2.6,0.6,0.2,1
+SYN_dinner_2026-09-21,Monday,dinner,19:45-19:50,5,0,18,0,0.0,0.0,0.0,18.0,Roti/Sabzi,20.0,4.0,1.0,0.0,1
+SYN_dinner_2026-09-21,Monday,dinner,19:50-19:55,3,5,21,5,0.0,1.0,0.0,16.0,Roti/Sabzi,14.0,2.8,0.7,1.0,1
+SYN_dinner_2026-09-21,Monday,dinner,19:55-20:00,1,4,22,9,0.0,1.0,0.0,13.0,Roti/Sabzi,5.0,1.0,0.2,1.0,1
+SYN_dinner_2026-09-21,Monday,dinner,20:00-20:05,32,7,54,16,0.0,0.0,0.0,38.0,Roti/Sabzi,127.0,25.4,6.4,0.1,1
+SYN_dinner_2026-09-21,Monday,dinner,20:05-20:10,34,2,88,18,0.0,0.0,0.0,70.0,Roti/Sabzi,137.0,27.4,6.8,0.0,1
+SYN_dinner_2026-09-21,Monday,dinner,20:10-20:15,41,4,129,22,0.0,0.0,0.0,107.0,Roti/Sabzi,164.0,32.8,8.2,0.0,1
+SYN_dinner_2026-09-21,Monday,dinner,20:15-20:20,42,14,171,36,0.0,0.0,0.0,135.0,Roti/Sabzi,167.0,33.4,8.4,0.1,1
+SYN_dinner_2026-09-21,Monday,dinner,20:20-20:25,47,23,218,59,0.0,0.0,0.0,159.0,Roti/Sabzi,190.0,38.0,9.5,0.0,1
+SYN_dinner_2026-09-21,Monday,dinner,20:25-20:30,39,31,257,90,0.0,0.0,0.0,167.0,Roti/Sabzi,156.0,31.2,7.8,0.0,1
+SYN_dinner_2026-09-21,Monday,dinner,20:30-20:35,37,40,294,130,0.0,0.0,0.0,164.0,Roti/Sabzi,148.0,29.6,7.4,0.0,1
+SYN_dinner_2026-09-21,Monday,dinner,20:35-20:40,37,40,331,170,0.0,0.0,0.0,161.0,Roti/Sabzi,148.0,29.6,7.4,0.0,1
+SYN_dinner_2026-09-21,Monday,dinner,20:40-20:45,42,35,373,205,4.0,1.3,2.0,164.0,Roti/Sabzi,153.0,30.6,7.6,1.2,1
+SYN_dinner_2026-09-21,Monday,dinner,20:45-20:50,20,47,393,252,,,,,Roti/Sabzi,96.0,19.2,4.8,0.0,1
+SYN_dinner_2026-09-21,Monday,dinner,20:50-20:55,29,40,422,292,0.0,0.0,0.0,130.0,Roti/Sabzi,116.0,23.2,5.8,0.0,1
+SYN_dinner_2026-09-21,Monday,dinner,20:55-21:00,31,33,453,325,0.0,0.0,0.0,128.0,Roti/Sabzi,124.0,24.8,6.2,0.0,1
+SYN_dinner_2026-09-21,Monday,dinner,21:00-21:05,27,41,480,366,0.0,0.0,0.0,114.0,Roti/Sabzi,107.0,21.4,5.4,0.1,1
+SYN_dinner_2026-09-21,Monday,dinner,21:05-21:10,37,36,517,402,0.0,0.0,0.0,115.0,Roti/Sabzi,141.0,28.2,7.0,0.6,1
+SYN_dinner_2026-09-21,Monday,dinner,21:10-21:15,31,19,548,421,0.0,0.0,0.0,127.0,Roti/Sabzi,132.0,26.4,6.6,0.0,1
+SYN_dinner_2026-09-21,Monday,dinner,21:15-21:20,47,29,595,450,9.0,3.0,4.0,136.0,Roti/Sabzi,152.0,30.4,7.6,3.0,1
+SYN_dinner_2026-09-21,Monday,dinner,21:20-21:25,39,28,634,478,,,,,Roti/Sabzi,189.0,37.8,9.4,0.0,1
+SYN_dinner_2026-09-21,Monday,dinner,21:25-21:30,30,36,664,514,0.0,0.0,0.0,150.0,Roti/Sabzi,126.0,25.2,6.3,0.0,1
+SYN_dinner_2026-09-21,Monday,dinner,21:30-21:35,40,37,704,551,0.0,0.0,0.0,153.0,Roti/Sabzi,159.0,31.8,8.0,0.1,1
+SYN_dinner_2026-09-21,Monday,dinner,21:35-21:40,31,40,735,591,0.0,0.0,0.0,144.0,Roti/Sabzi,125.0,25.0,6.2,0.0,1
+SYN_dinner_2026-09-21,Monday,dinner,21:40-21:45,18,42,753,633,0.0,0.0,0.0,120.0,Roti/Sabzi,71.0,14.2,3.6,0.1,1
+SYN_dinner_2026-09-21,Monday,dinner,21:45-21:50,0,38,753,671,0.0,0.0,0.0,82.0,Roti/Sabzi,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-21,Monday,dinner,21:50-21:55,0,29,753,700,0.0,0.0,0.0,53.0,Roti/Sabzi,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-21,Monday,dinner,21:55-22:00,0,30,753,730,0.0,0.0,0.0,23.0,Roti/Sabzi,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-21,Monday,dinner,22:00-22:05,0,13,753,743,0.0,0.0,0.0,10.0,Roti/Sabzi,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-21,Monday,dinner,22:05-22:10,0,9,753,752,0.0,0.0,0.0,1.0,Roti/Sabzi,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-21,Monday,dinner,22:10-22:15,0,1,753,753,0.0,0.0,0.0,0.0,Roti/Sabzi,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-22,Tuesday,breakfast,07:15-07:20,9,0,9,0,0.0,0.0,0.0,9.0,Aloo Paratha,17.0,3.4,1.7,0.2,1
+SYN_breakfast_2026-09-22,Tuesday,breakfast,07:20-07:25,3,0,12,0,0.0,1.0,0.0,12.0,Aloo Paratha,6.0,1.2,0.6,1.0,1
+SYN_breakfast_2026-09-22,Tuesday,breakfast,07:25-07:30,9,0,21,0,0.0,0.0,0.0,21.0,Aloo Paratha,18.0,3.6,1.8,0.0,1
+SYN_breakfast_2026-09-22,Tuesday,breakfast,07:30-07:35,5,3,26,3,0.0,0.0,0.0,23.0,Aloo Paratha,11.0,2.2,1.1,0.0,1
+SYN_breakfast_2026-09-22,Tuesday,breakfast,07:35-07:40,11,7,37,10,0.0,0.0,0.0,27.0,Aloo Paratha,20.0,4.0,2.0,0.3,1
+SYN_breakfast_2026-09-22,Tuesday,breakfast,07:40-07:45,5,3,42,13,0.0,0.0,0.0,29.0,Aloo Paratha,10.0,2.0,1.0,0.0,1
+SYN_breakfast_2026-09-22,Tuesday,breakfast,07:45-07:50,17,8,59,21,0.0,0.0,0.0,38.0,Aloo Paratha,32.0,6.4,3.2,0.3,1
+SYN_breakfast_2026-09-22,Tuesday,breakfast,07:50-07:55,19,6,78,27,0.0,0.0,0.0,51.0,Aloo Paratha,37.0,7.4,3.7,0.2,1
+SYN_breakfast_2026-09-22,Tuesday,breakfast,07:55-08:00,23,10,101,37,0.0,0.0,0.0,64.0,Aloo Paratha,46.0,9.2,4.6,0.0,1
+SYN_breakfast_2026-09-22,Tuesday,breakfast,08:00-08:05,26,8,127,45,0.0,0.0,0.0,82.0,Aloo Paratha,53.0,10.6,5.3,0.0,1
+SYN_breakfast_2026-09-22,Tuesday,breakfast,08:05-08:10,20,13,147,58,0.0,0.0,0.0,89.0,Aloo Paratha,40.0,8.0,4.0,0.0,1
+SYN_breakfast_2026-09-22,Tuesday,breakfast,08:10-08:15,31,19,178,77,0.0,0.0,0.0,101.0,Aloo Paratha,62.0,12.4,6.2,0.0,1
+SYN_breakfast_2026-09-22,Tuesday,breakfast,08:15-08:20,26,26,204,103,0.0,0.0,0.0,101.0,Aloo Paratha,51.0,10.2,5.1,0.2,1
+SYN_breakfast_2026-09-22,Tuesday,breakfast,08:20-08:25,32,27,236,130,0.0,0.0,0.0,106.0,Aloo Paratha,64.0,12.8,6.4,0.0,1
+SYN_breakfast_2026-09-22,Tuesday,breakfast,08:25-08:30,36,21,272,151,0.0,0.0,0.0,121.0,Aloo Paratha,72.0,14.4,7.2,0.0,1
+SYN_breakfast_2026-09-22,Tuesday,breakfast,08:30-08:35,37,27,309,178,0.0,0.0,0.0,131.0,Aloo Paratha,74.0,14.8,7.4,0.0,1
+SYN_breakfast_2026-09-22,Tuesday,breakfast,08:35-08:40,41,21,350,199,3.0,1.0,1.0,148.0,Aloo Paratha,79.0,15.8,7.9,0.5,1
+SYN_breakfast_2026-09-22,Tuesday,breakfast,08:40-08:45,62,42,412,241,18.0,6.0,6.0,153.0,Aloo Paratha,97.0,19.4,9.7,4.5,1
+SYN_breakfast_2026-09-22,Tuesday,breakfast,08:45-08:50,78,29,490,270,46.0,15.3,17.0,174.0,Aloo Paratha,96.0,19.2,9.6,10.0,1
+SYN_breakfast_2026-09-22,Tuesday,breakfast,08:50-08:55,87,31,577,301,81.0,27.0,32.0,195.0,Aloo Paratha,94.0,18.8,9.4,13.3,1
+SYN_breakfast_2026-09-22,Tuesday,breakfast,08:55-09:00,63,49,640,350,81.0,27.0,32.0,209.0,Aloo Paratha,91.0,18.2,9.1,5.8,1
+SYN_breakfast_2026-09-22,Tuesday,breakfast,09:00-09:05,60,47,700,397,81.0,27.0,32.0,222.0,Aloo Paratha,100.0,20.0,10.0,3.3,1
+SYN_breakfast_2026-09-22,Tuesday,breakfast,09:05-09:10,39,44,739,441,80.0,26.7,32.0,218.0,Aloo Paratha,99.0,19.8,9.9,0.0,1
+SYN_breakfast_2026-09-22,Tuesday,breakfast,09:10-09:15,19,48,758,489,74.0,24.7,31.0,195.0,Aloo Paratha,93.0,18.6,9.3,0.0,1
+SYN_breakfast_2026-09-22,Tuesday,breakfast,09:15-09:20,15,50,773,539,44.0,14.7,19.0,190.0,Aloo Paratha,96.0,19.2,9.6,0.0,1
+SYN_breakfast_2026-09-22,Tuesday,breakfast,09:20-09:25,7,44,780,583,0.0,0.0,0.0,197.0,Aloo Paratha,99.0,19.8,9.9,0.0,1
+SYN_breakfast_2026-09-22,Tuesday,breakfast,09:25-09:30,2,51,782,634,0.0,1.0,0.0,148.0,Aloo Paratha,4.0,0.8,0.4,1.0,1
+SYN_breakfast_2026-09-22,Tuesday,breakfast,09:30-09:35,0,51,782,685,0.0,0.0,0.0,97.0,Aloo Paratha,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-22,Tuesday,breakfast,09:35-09:40,0,49,782,734,0.0,0.0,0.0,48.0,Aloo Paratha,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-22,Tuesday,breakfast,09:40-09:45,0,31,782,765,0.0,0.0,0.0,17.0,Aloo Paratha,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-22,Tuesday,breakfast,09:45-09:50,0,12,782,777,0.0,0.0,0.0,5.0,Aloo Paratha,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-22,Tuesday,breakfast,09:50-09:55,0,5,782,782,0.0,0.0,0.0,0.0,Aloo Paratha,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-22,Tuesday,lunch,12:00-12:05,25,0,25,0,0.0,0.0,0.0,25.0,Rice/Dal/Roti,101.0,20.2,5.0,0.0,1
+SYN_lunch_2026-09-22,Tuesday,lunch,12:05-12:10,25,0,50,0,0.0,0.0,0.0,50.0,Rice/Dal/Roti,101.0,20.2,5.0,0.0,1
+SYN_lunch_2026-09-22,Tuesday,lunch,12:10-12:15,15,0,65,0,0.0,0.0,0.0,65.0,Rice/Dal/Roti,60.0,12.0,3.0,0.0,1
+SYN_lunch_2026-09-22,Tuesday,lunch,12:15-12:20,21,2,86,2,0.0,0.0,0.0,84.0,Rice/Dal/Roti,83.0,16.6,4.2,0.1,1
+SYN_lunch_2026-09-22,Tuesday,lunch,12:20-12:25,25,19,111,21,0.0,0.0,0.0,90.0,Rice/Dal/Roti,100.0,20.0,5.0,0.0,1
+SYN_lunch_2026-09-22,Tuesday,lunch,12:25-12:30,29,22,140,43,0.0,0.0,0.0,97.0,Rice/Dal/Roti,,,,,1
+SYN_lunch_2026-09-22,Tuesday,lunch,12:30-12:35,27,24,167,67,,,,,Rice/Dal/Roti,108.0,21.6,5.4,0.0,1
+SYN_lunch_2026-09-22,Tuesday,lunch,12:35-12:40,30,22,197,89,0.0,0.0,0.0,108.0,Rice/Dal/Roti,121.0,24.2,6.0,0.0,1
+SYN_lunch_2026-09-22,Tuesday,lunch,12:40-12:45,44,26,241,115,0.0,0.0,0.0,126.0,Rice/Dal/Roti,176.0,35.2,8.8,0.0,1
+SYN_lunch_2026-09-22,Tuesday,lunch,12:45-12:50,39,26,280,141,0.0,0.0,0.0,139.0,Rice/Dal/Roti,157.0,31.4,7.8,0.0,1
+SYN_lunch_2026-09-22,Tuesday,lunch,12:50-12:55,33,24,313,165,0.0,0.0,0.0,148.0,Rice/Dal/Roti,131.0,26.2,6.6,0.1,1
+SYN_lunch_2026-09-22,Tuesday,lunch,12:55-13:00,38,34,351,199,0.0,0.0,0.0,152.0,Rice/Dal/Roti,152.0,30.4,7.6,0.0,1
+SYN_lunch_2026-09-22,Tuesday,lunch,13:00-13:05,35,37,386,236,0.0,0.0,0.0,150.0,Rice/Dal/Roti,139.0,27.8,7.0,0.1,1
+SYN_lunch_2026-09-22,Tuesday,lunch,13:05-13:10,31,45,417,281,0.0,0.0,0.0,136.0,Rice/Dal/Roti,,,,,1
+SYN_lunch_2026-09-22,Tuesday,lunch,13:10-13:15,28,33,445,314,0.0,0.0,0.0,131.0,Rice/Dal/Roti,112.0,22.4,5.6,0.0,1
+SYN_lunch_2026-09-22,Tuesday,lunch,13:15-13:20,36,40,481,354,0.0,0.0,0.0,127.0,Rice/Dal/Roti,144.0,28.8,7.2,0.0,1
+SYN_lunch_2026-09-22,Tuesday,lunch,13:20-13:25,26,33,507,387,0.0,0.0,0.0,120.0,Rice/Dal/Roti,104.0,20.8,5.2,0.0,1
+SYN_lunch_2026-09-22,Tuesday,lunch,13:25-13:30,52,32,559,419,2.0,0.7,1.0,138.0,Rice/Dal/Roti,197.0,39.4,9.8,0.9,1
+SYN_lunch_2026-09-22,Tuesday,lunch,13:30-13:35,32,27,591,446,0.0,0.0,0.0,145.0,Rice/Dal/Roti,140.0,28.0,7.0,0.0,1
+SYN_lunch_2026-09-22,Tuesday,lunch,13:35-13:40,34,28,625,474,0.0,0.0,0.0,151.0,Rice/Dal/Roti,135.0,27.0,6.8,0.1,1
+SYN_lunch_2026-09-22,Tuesday,lunch,13:40-13:45,44,38,669,512,4.0,1.3,2.0,153.0,Rice/Dal/Roti,164.0,32.8,8.2,1.0,1
+SYN_lunch_2026-09-22,Tuesday,lunch,13:45-13:50,58,37,727,549,14.0,4.7,5.0,164.0,Rice/Dal/Roti,192.0,38.4,9.6,3.3,1
+SYN_lunch_2026-09-22,Tuesday,lunch,13:50-13:55,58,46,785,595,23.0,7.7,9.0,167.0,Rice/Dal/Roti,192.0,38.4,9.6,3.3,1
+SYN_lunch_2026-09-22,Tuesday,lunch,13:55-14:00,57,34,842,629,34.0,11.3,14.0,179.0,Rice/Dal/Roti,184.0,36.8,9.2,3.7,1
+SYN_lunch_2026-09-22,Tuesday,lunch,14:00-14:05,0,41,842,670,0.0,0.0,0.0,172.0,Rice/Dal/Roti,136.0,27.2,6.8,0.0,1
+SYN_lunch_2026-09-22,Tuesday,lunch,14:05-14:10,0,56,842,726,0.0,0.0,0.0,116.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-22,Tuesday,lunch,14:10-14:15,0,35,842,761,0.0,0.0,0.0,81.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-22,Tuesday,lunch,14:15-14:20,0,40,842,801,0.0,0.0,0.0,41.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-22,Tuesday,lunch,14:20-14:25,0,28,842,829,0.0,0.0,0.0,13.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-22,Tuesday,lunch,14:25-14:30,0,12,842,841,0.0,0.0,0.0,1.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-22,Tuesday,lunch,14:30-14:35,0,1,842,842,0.0,0.0,0.0,0.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-22,Tuesday,dinner,19:30-19:35,4,0,4,0,0.0,0.0,0.0,4.0,Roti/Sabzi,13.0,2.6,0.6,0.2,1
+SYN_dinner_2026-09-22,Tuesday,dinner,19:35-19:40,4,0,8,0,0.0,0.0,0.0,8.0,Roti/Sabzi,15.0,3.0,0.8,0.1,1
+SYN_dinner_2026-09-22,Tuesday,dinner,19:40-19:45,1,0,9,0,0.0,1.0,0.0,9.0,Roti/Sabzi,4.0,0.8,0.2,1.0,1
+SYN_dinner_2026-09-22,Tuesday,dinner,19:45-19:50,5,0,14,0,0.0,0.0,0.0,14.0,Roti/Sabzi,20.0,4.0,1.0,0.0,1
+SYN_dinner_2026-09-22,Tuesday,dinner,19:50-19:55,6,2,20,2,0.0,0.0,0.0,18.0,Roti/Sabzi,,,,,1
+SYN_dinner_2026-09-22,Tuesday,dinner,19:55-20:00,6,5,26,7,0.0,0.0,0.0,19.0,Roti/Sabzi,,,,,1
+SYN_dinner_2026-09-22,Tuesday,dinner,20:00-20:05,38,4,64,11,0.0,0.0,0.0,53.0,Roti/Sabzi,152.0,30.4,7.6,0.0,1
+SYN_dinner_2026-09-22,Tuesday,dinner,20:05-20:10,43,3,107,14,3.0,1.0,1.0,90.0,Roti/Sabzi,163.0,32.6,8.2,0.8,1
+SYN_dinner_2026-09-22,Tuesday,dinner,20:10-20:15,16,5,123,19,0.0,0.0,0.0,104.0,Roti/Sabzi,72.0,14.4,3.6,0.0,1
+SYN_dinner_2026-09-22,Tuesday,dinner,20:15-20:20,43,16,166,35,1.0,0.3,0.0,130.0,Roti/Sabzi,167.0,33.4,8.4,0.4,1
+SYN_dinner_2026-09-22,Tuesday,dinner,20:20-20:25,24,25,190,60,0.0,0.0,0.0,130.0,Roti/Sabzi,98.0,19.6,4.9,0.0,1
+SYN_dinner_2026-09-22,Tuesday,dinner,20:25-20:30,25,34,215,94,0.0,0.0,0.0,121.0,Roti/Sabzi,100.0,20.0,5.0,0.0,1
+SYN_dinner_2026-09-22,Tuesday,dinner,20:30-20:35,28,39,243,133,0.0,0.0,0.0,110.0,Roti/Sabzi,113.0,22.6,5.6,0.0,1
+SYN_dinner_2026-09-22,Tuesday,dinner,20:35-20:40,26,31,269,164,0.0,0.0,0.0,105.0,Roti/Sabzi,105.0,21.0,5.2,0.0,1
+SYN_dinner_2026-09-22,Tuesday,dinner,20:40-20:45,37,30,306,194,0.0,0.0,0.0,112.0,Roti/Sabzi,149.0,29.8,7.4,0.0,1
+SYN_dinner_2026-09-22,Tuesday,dinner,20:45-20:50,27,30,333,224,0.0,0.0,0.0,109.0,Roti/Sabzi,108.0,21.6,5.4,0.0,1
+SYN_dinner_2026-09-22,Tuesday,dinner,20:50-20:55,30,23,363,247,0.0,0.0,0.0,116.0,Roti/Sabzi,119.0,23.8,6.0,0.1,1
+SYN_dinner_2026-09-22,Tuesday,dinner,20:55-21:00,31,24,394,271,0.0,0.0,0.0,123.0,Roti/Sabzi,124.0,24.8,6.2,0.0,1
+SYN_dinner_2026-09-22,Tuesday,dinner,21:00-21:05,28,26,422,297,0.0,0.0,0.0,125.0,Roti/Sabzi,113.0,22.6,5.6,0.0,1
+SYN_dinner_2026-09-22,Tuesday,dinner,21:05-21:10,51,41,473,338,8.0,2.7,3.0,127.0,Roti/Sabzi,176.0,35.2,8.8,2.3,1
+SYN_dinner_2026-09-22,Tuesday,dinner,21:10-21:15,50,23,523,361,13.0,4.3,6.0,149.0,Roti/Sabzi,180.0,36.0,9.0,1.7,1
+SYN_dinner_2026-09-22,Tuesday,dinner,21:15-21:20,51,29,574,390,17.0,5.7,9.0,167.0,Roti/Sabzi,180.0,36.0,9.0,2.0,1
+SYN_dinner_2026-09-22,Tuesday,dinner,21:20-21:25,46,34,620,424,20.0,6.7,7.0,176.0,Roti/Sabzi,172.0,34.4,8.6,1.0,1
+SYN_dinner_2026-09-22,Tuesday,dinner,21:25-21:30,41,40,661,464,15.0,5.0,6.0,182.0,Roti/Sabzi,180.0,36.0,9.0,0.0,1
+SYN_dinner_2026-09-22,Tuesday,dinner,21:30-21:35,31,50,692,514,3.0,1.0,1.0,175.0,Roti/Sabzi,184.0,36.8,9.2,0.0,1
+SYN_dinner_2026-09-22,Tuesday,dinner,21:35-21:40,31,42,723,556,0.0,0.0,0.0,167.0,Roti/Sabzi,132.0,26.4,6.6,0.0,1
+SYN_dinner_2026-09-22,Tuesday,dinner,21:40-21:45,18,46,741,602,0.0,0.0,0.0,139.0,Roti/Sabzi,71.0,14.2,3.6,0.1,1
+SYN_dinner_2026-09-22,Tuesday,dinner,21:45-21:50,0,44,741,646,0.0,0.0,0.0,95.0,Roti/Sabzi,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-22,Tuesday,dinner,21:50-21:55,0,33,741,679,0.0,0.0,0.0,62.0,Roti/Sabzi,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-22,Tuesday,dinner,21:55-22:00,0,35,741,714,0.0,0.0,0.0,27.0,Roti/Sabzi,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-22,Tuesday,dinner,22:00-22:05,0,18,741,732,0.0,0.0,0.0,9.0,Roti/Sabzi,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-22,Tuesday,dinner,22:05-22:10,0,9,741,741,0.0,0.0,0.0,0.0,Roti/Sabzi,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-23,Wednesday,breakfast,07:15-07:20,4,0,4,0,0.0,0.0,0.0,4.0,Dosa,9.0,1.8,0.9,0.0,1
+SYN_breakfast_2026-09-23,Wednesday,breakfast,07:20-07:25,7,0,11,0,0.0,0.0,0.0,11.0,Dosa,13.0,2.6,1.3,0.2,1
+SYN_breakfast_2026-09-23,Wednesday,breakfast,07:25-07:30,8,0,19,0,0.0,0.0,0.0,19.0,Dosa,17.0,3.4,1.7,0.0,1
+SYN_breakfast_2026-09-23,Wednesday,breakfast,07:30-07:35,5,2,24,2,0.0,0.0,0.0,22.0,Dosa,,,,,1
+SYN_breakfast_2026-09-23,Wednesday,breakfast,07:35-07:40,3,4,27,6,0.0,1.0,0.0,21.0,Dosa,6.0,1.2,0.6,1.0,1
+SYN_breakfast_2026-09-23,Wednesday,breakfast,07:40-07:45,5,6,32,12,0.0,0.0,0.0,20.0,Dosa,10.0,2.0,1.0,0.0,1
+SYN_breakfast_2026-09-23,Wednesday,breakfast,07:45-07:50,13,5,45,17,0.0,0.0,0.0,28.0,Dosa,27.0,5.4,2.7,0.0,1
+SYN_breakfast_2026-09-23,Wednesday,breakfast,07:50-07:55,29,8,74,25,0.0,0.0,0.0,49.0,Dosa,56.0,11.2,5.6,0.3,1
+SYN_breakfast_2026-09-23,Wednesday,breakfast,07:55-08:00,18,3,92,28,0.0,0.0,0.0,64.0,Dosa,36.0,7.2,3.6,0.0,1
+SYN_breakfast_2026-09-23,Wednesday,breakfast,08:00-08:05,19,9,111,37,0.0,0.0,0.0,74.0,Dosa,38.0,7.6,3.8,0.0,1
+SYN_breakfast_2026-09-23,Wednesday,breakfast,08:05-08:10,19,13,130,50,0.0,0.0,0.0,80.0,Dosa,39.0,7.8,3.9,0.0,1
+SYN_breakfast_2026-09-23,Wednesday,breakfast,08:10-08:15,16,21,146,71,0.0,0.0,0.0,75.0,Dosa,31.0,6.2,3.1,0.2,1
+SYN_breakfast_2026-09-23,Wednesday,breakfast,08:15-08:20,26,20,172,91,0.0,0.0,0.0,81.0,Dosa,51.0,10.2,5.1,0.2,1
+SYN_breakfast_2026-09-23,Wednesday,breakfast,08:20-08:25,30,18,202,109,0.0,0.0,0.0,93.0,Dosa,58.0,11.6,5.8,0.3,1
+SYN_breakfast_2026-09-23,Wednesday,breakfast,08:25-08:30,20,17,222,126,0.0,0.0,0.0,96.0,Dosa,39.0,7.8,3.9,0.2,1
+SYN_breakfast_2026-09-23,Wednesday,breakfast,08:30-08:35,31,25,253,151,0.0,0.0,0.0,102.0,Dosa,60.0,12.0,6.0,0.3,1
+SYN_breakfast_2026-09-23,Wednesday,breakfast,08:35-08:40,55,21,308,172,11.0,3.7,4.0,125.0,Dosa,96.0,19.2,9.6,2.3,1
+SYN_breakfast_2026-09-23,Wednesday,breakfast,08:40-08:45,62,28,370,200,17.0,5.7,7.0,153.0,Dosa,105.0,21.0,10.5,3.2,1
+SYN_breakfast_2026-09-23,Wednesday,breakfast,08:45-08:50,72,23,442,223,32.0,10.7,12.0,187.0,Dosa,107.0,21.4,10.7,6.2,1
+SYN_breakfast_2026-09-23,Wednesday,breakfast,08:50-08:55,76,39,518,262,51.0,17.0,18.0,205.0,Dosa,118.0,23.6,11.8,5.7,1
+SYN_breakfast_2026-09-23,Wednesday,breakfast,08:55-09:00,52,45,570,307,38.0,12.7,17.0,225.0,Dosa,128.0,25.6,12.8,0.0,1
+SYN_breakfast_2026-09-23,Wednesday,breakfast,09:00-09:05,67,52,637,359,38.0,12.7,14.0,240.0,Dosa,132.0,26.4,13.2,0.3,1
+SYN_breakfast_2026-09-23,Wednesday,breakfast,09:05-09:10,34,50,671,409,9.0,3.0,4.0,253.0,Dosa,127.0,25.4,12.7,0.0,1
+SYN_breakfast_2026-09-23,Wednesday,breakfast,09:10-09:15,30,63,701,472,0.0,0.0,0.0,229.0,Dosa,82.0,16.4,8.2,0.0,1
+SYN_breakfast_2026-09-23,Wednesday,breakfast,09:15-09:20,15,63,716,535,0.0,0.0,0.0,181.0,Dosa,30.0,6.0,3.0,0.0,1
+SYN_breakfast_2026-09-23,Wednesday,breakfast,09:20-09:25,6,64,722,599,0.0,0.0,0.0,123.0,Dosa,12.0,2.4,1.2,0.0,1
+SYN_breakfast_2026-09-23,Wednesday,breakfast,09:25-09:30,1,53,723,652,0.0,1.0,0.0,71.0,Dosa,1.0,0.2,0.1,1.0,1
+SYN_breakfast_2026-09-23,Wednesday,breakfast,09:30-09:35,0,41,723,693,0.0,0.0,0.0,30.0,Dosa,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-23,Wednesday,breakfast,09:35-09:40,0,21,723,714,0.0,0.0,0.0,9.0,Dosa,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-23,Wednesday,breakfast,09:40-09:45,0,7,723,721,0.0,0.0,0.0,2.0,Dosa,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-23,Wednesday,breakfast,09:45-09:50,0,2,723,723,0.0,0.0,0.0,0.0,Dosa,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-23,Wednesday,lunch,12:00-12:05,15,0,15,0,0.0,0.0,0.0,15.0,Rice/Dal/Roti,62.0,12.4,3.1,0.0,1
+SYN_lunch_2026-09-23,Wednesday,lunch,12:05-12:10,17,0,32,0,0.0,0.0,0.0,32.0,Rice/Dal/Roti,69.0,13.8,3.4,0.0,1
+SYN_lunch_2026-09-23,Wednesday,lunch,12:10-12:15,12,0,44,0,0.0,0.0,0.0,44.0,Rice/Dal/Roti,46.0,9.2,2.3,0.2,1
+SYN_lunch_2026-09-23,Wednesday,lunch,12:15-12:20,12,2,56,2,0.0,0.0,0.0,54.0,Rice/Dal/Roti,48.0,9.6,2.4,0.0,1
+SYN_lunch_2026-09-23,Wednesday,lunch,12:20-12:25,12,13,68,15,0.0,0.0,0.0,53.0,Rice/Dal/Roti,48.0,9.6,2.4,0.0,1
+SYN_lunch_2026-09-23,Wednesday,lunch,12:25-12:30,31,14,99,29,0.0,0.0,0.0,70.0,Rice/Dal/Roti,123.0,24.6,6.2,0.1,1
+SYN_lunch_2026-09-23,Wednesday,lunch,12:30-12:35,26,12,125,41,0.0,0.0,0.0,84.0,Rice/Dal/Roti,103.0,20.6,5.2,0.1,1
+SYN_lunch_2026-09-23,Wednesday,lunch,12:35-12:40,32,14,157,55,0.0,0.0,0.0,102.0,Rice/Dal/Roti,128.0,25.6,6.4,0.0,1
+SYN_lunch_2026-09-23,Wednesday,lunch,12:40-12:45,60,16,217,71,12.0,4.0,6.0,134.0,Rice/Dal/Roti,194.0,38.8,9.7,3.8,1
+SYN_lunch_2026-09-23,Wednesday,lunch,12:45-12:50,70,26,287,97,33.0,11.0,17.0,157.0,Rice/Dal/Roti,193.0,38.6,9.6,7.2,1
+SYN_lunch_2026-09-23,Wednesday,lunch,12:50-12:55,80,31,367,128,64.0,21.3,26.0,175.0,Rice/Dal/Roti,200.0,40.0,10.0,10.0,1
+SYN_lunch_2026-09-23,Wednesday,lunch,12:55-13:00,46,30,413,158,60.0,20.0,30.0,195.0,Rice/Dal/Roti,186.0,37.2,9.3,0.0,1
+SYN_lunch_2026-09-23,Wednesday,lunch,13:00-13:05,35,47,448,205,50.0,16.7,20.0,193.0,Rice/Dal/Roti,183.0,36.6,9.2,0.0,1
+SYN_lunch_2026-09-23,Wednesday,lunch,13:05-13:10,35,48,483,253,36.0,12.0,16.0,194.0,Rice/Dal/Roti,191.0,38.2,9.6,0.0,1
+SYN_lunch_2026-09-23,Wednesday,lunch,13:10-13:15,43,59,526,312,29.0,9.7,14.0,185.0,Rice/Dal/Roti,204.0,40.8,10.2,0.0,1
+SYN_lunch_2026-09-23,Wednesday,lunch,13:15-13:20,31,44,557,356,10.0,3.3,5.0,191.0,Rice/Dal/Roti,204.0,40.8,10.2,0.0,1
+SYN_lunch_2026-09-23,Wednesday,lunch,13:20-13:25,32,47,589,403,0.0,0.0,0.0,186.0,Rice/Dal/Roti,163.0,32.6,8.2,0.0,1
+SYN_lunch_2026-09-23,Wednesday,lunch,13:25-13:30,26,48,615,451,0.0,0.0,0.0,164.0,Rice/Dal/Roti,104.0,20.8,5.2,0.0,1
+SYN_lunch_2026-09-23,Wednesday,lunch,13:30-13:35,31,51,646,502,3.0,1.0,1.0,141.0,Rice/Dal/Roti,114.0,22.8,5.7,0.8,1
+SYN_lunch_2026-09-23,Wednesday,lunch,13:35-13:40,26,33,672,535,,,,,Rice/Dal/Roti,115.0,23.0,5.8,0.0,1
+SYN_lunch_2026-09-23,Wednesday,lunch,13:40-13:45,31,45,703,580,0.0,0.0,0.0,123.0,Rice/Dal/Roti,124.0,24.8,6.2,0.0,1
+SYN_lunch_2026-09-23,Wednesday,lunch,13:45-13:50,47,29,750,609,4.0,1.3,2.0,137.0,Rice/Dal/Roti,168.0,33.6,8.4,1.7,1
+SYN_lunch_2026-09-23,Wednesday,lunch,13:50-13:55,50,36,800,645,9.0,3.0,5.0,146.0,Rice/Dal/Roti,184.0,36.8,9.2,1.3,1
+SYN_lunch_2026-09-23,Wednesday,lunch,13:55-14:00,44,27,844,672,2.0,0.7,1.0,170.0,Rice/Dal/Roti,201.0,40.2,10.0,0.0,1
+SYN_lunch_2026-09-23,Wednesday,lunch,14:00-14:05,0,39,844,711,0.0,0.0,0.0,133.0,Rice/Dal/Roti,13.0,2.6,0.6,0.0,1
+SYN_lunch_2026-09-23,Wednesday,lunch,14:05-14:10,0,36,844,747,0.0,0.0,0.0,97.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-23,Wednesday,lunch,14:10-14:15,0,46,844,793,0.0,0.0,0.0,51.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-23,Wednesday,lunch,14:15-14:20,0,35,844,828,0.0,0.0,0.0,16.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-23,Wednesday,lunch,14:20-14:25,0,15,844,843,0.0,0.0,0.0,1.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-23,Wednesday,lunch,14:25-14:30,0,1,844,844,,,,,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-23,Wednesday,dinner,19:30-19:35,24,0,24,0,0.0,0.0,0.0,24.0,Veg Biryani (special),27.0,5.4,5.4,0.0,1
+SYN_dinner_2026-09-23,Wednesday,dinner,19:35-19:40,34,0,58,0,0.0,0.0,0.0,58.0,Veg Biryani (special),35.0,7.0,7.0,0.0,1
+SYN_dinner_2026-09-23,Wednesday,dinner,19:40-19:45,29,0,87,0,0.0,0.0,0.0,87.0,Veg Biryani (special),29.0,5.8,5.8,0.0,1
+SYN_dinner_2026-09-23,Wednesday,dinner,19:45-19:50,22,4,109,4,,,,,Veg Biryani (special),22.0,4.4,4.4,0.0,1
+SYN_dinner_2026-09-23,Wednesday,dinner,19:50-19:55,10,18,119,22,0.0,0.0,0.0,97.0,Veg Biryani (special),12.0,2.4,2.4,0.0,1
+SYN_dinner_2026-09-23,Wednesday,dinner,19:55-20:00,7,31,126,53,0.0,0.0,0.0,73.0,Veg Biryani (special),7.0,1.4,1.4,0.0,1
+SYN_dinner_2026-09-23,Wednesday,dinner,20:00-20:05,38,30,164,83,0.0,0.0,0.0,81.0,Veg Biryani (special),,,,,1
+SYN_dinner_2026-09-23,Wednesday,dinner,20:05-20:10,30,24,194,107,,,,,Veg Biryani (special),31.0,6.2,6.2,0.0,1
+SYN_dinner_2026-09-23,Wednesday,dinner,20:10-20:15,47,12,241,119,9.0,3.0,4.0,113.0,Veg Biryani (special),37.0,7.4,7.4,3.3,1
+SYN_dinner_2026-09-23,Wednesday,dinner,20:15-20:20,23,19,264,138,0.0,0.0,0.0,126.0,Veg Biryani (special),34.0,6.8,6.8,0.0,1
+SYN_dinner_2026-09-23,Wednesday,dinner,20:20-20:25,32,27,296,165,0.0,0.0,0.0,131.0,Veg Biryani (special),33.0,6.6,6.6,0.0,1
+SYN_dinner_2026-09-23,Wednesday,dinner,20:25-20:30,36,29,332,194,0.0,0.0,0.0,138.0,Veg Biryani (special),38.0,7.6,7.6,0.0,1
+SYN_dinner_2026-09-23,Wednesday,dinner,20:30-20:35,30,38,362,232,0.0,0.0,0.0,130.0,Veg Biryani (special),30.0,6.0,6.0,0.0,1
+SYN_dinner_2026-09-23,Wednesday,dinner,20:35-20:40,31,28,393,260,0.0,0.0,0.0,133.0,Veg Biryani (special),29.0,5.8,5.8,0.7,1
+SYN_dinner_2026-09-23,Wednesday,dinner,20:40-20:45,37,35,430,295,2.0,0.7,1.0,133.0,Veg Biryani (special),37.0,7.4,7.4,0.0,1
+SYN_dinner_2026-09-23,Wednesday,dinner,20:45-20:50,35,33,465,328,3.0,1.0,2.0,134.0,Veg Biryani (special),34.0,6.8,6.8,0.3,1
+SYN_dinner_2026-09-23,Wednesday,dinner,20:50-20:55,24,30,489,358,0.0,0.0,0.0,131.0,Veg Biryani (special),29.0,5.8,5.8,0.0,1
+SYN_dinner_2026-09-23,Wednesday,dinner,20:55-21:00,30,30,519,388,0.0,0.0,0.0,131.0,Veg Biryani (special),29.0,5.8,5.8,0.3,1
+SYN_dinner_2026-09-23,Wednesday,dinner,21:00-21:05,29,39,548,427,0.0,0.0,0.0,121.0,Veg Biryani (special),,,,,1
+SYN_dinner_2026-09-23,Wednesday,dinner,21:05-21:10,25,38,573,465,0.0,0.0,0.0,108.0,Veg Biryani (special),25.0,5.0,5.0,0.0,1
+SYN_dinner_2026-09-23,Wednesday,dinner,21:10-21:15,36,26,609,491,0.0,0.0,0.0,118.0,Veg Biryani (special),34.0,6.8,6.8,0.7,1
+SYN_dinner_2026-09-23,Wednesday,dinner,21:15-21:20,37,24,646,515,4.0,1.3,1.0,127.0,Veg Biryani (special),35.0,7.0,7.0,0.7,1
+SYN_dinner_2026-09-23,Wednesday,dinner,21:20-21:25,38,32,684,547,0.0,0.0,0.0,137.0,Veg Biryani (special),37.0,7.4,7.4,0.3,1
+SYN_dinner_2026-09-23,Wednesday,dinner,21:25-21:30,35,25,719,572,2.0,0.7,1.0,145.0,Veg Biryani (special),36.0,7.2,7.2,0.0,1
+SYN_dinner_2026-09-23,Wednesday,dinner,21:30-21:35,40,38,759,610,2.0,0.7,1.0,147.0,Veg Biryani (special),39.0,7.8,7.8,0.3,1
+SYN_dinner_2026-09-23,Wednesday,dinner,21:35-21:40,35,34,794,644,0.0,0.0,0.0,150.0,Veg Biryani (special),38.0,7.6,7.6,0.0,1
+SYN_dinner_2026-09-23,Wednesday,dinner,21:40-21:45,15,37,809,681,0.0,0.0,0.0,128.0,Veg Biryani (special),15.0,3.0,3.0,0.0,1
+SYN_dinner_2026-09-23,Wednesday,dinner,21:45-21:50,0,42,809,723,0.0,0.0,0.0,86.0,Veg Biryani (special),0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-23,Wednesday,dinner,21:50-21:55,0,42,809,765,0.0,0.0,0.0,44.0,Veg Biryani (special),0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-23,Wednesday,dinner,21:55-22:00,0,22,809,787,0.0,0.0,0.0,22.0,Veg Biryani (special),0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-23,Wednesday,dinner,22:00-22:05,0,16,809,803,0.0,0.0,0.0,6.0,Veg Biryani (special),0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-23,Wednesday,dinner,22:05-22:10,0,6,809,809,0.0,0.0,0.0,0.0,Veg Biryani (special),0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-24,Thursday,breakfast,07:15-07:20,5,0,5,0,0.0,0.0,0.0,5.0,Poha,6.0,1.2,1.2,0.0,1
+SYN_breakfast_2026-09-24,Thursday,breakfast,07:20-07:25,4,0,9,0,0.0,0.0,0.0,9.0,Poha,4.0,0.8,0.8,0.0,1
+SYN_breakfast_2026-09-24,Thursday,breakfast,07:25-07:30,4,0,13,0,0.0,0.0,0.0,13.0,Poha,3.0,0.6,0.6,0.3,1
+SYN_breakfast_2026-09-24,Thursday,breakfast,07:30-07:35,4,0,17,0,0.0,0.0,0.0,17.0,Poha,3.0,0.6,0.6,0.3,1
+SYN_breakfast_2026-09-24,Thursday,breakfast,07:35-07:40,3,4,20,4,0.0,1.0,0.0,16.0,Poha,3.0,0.6,0.6,1.0,1
+SYN_breakfast_2026-09-24,Thursday,breakfast,07:40-07:45,4,4,24,8,0.0,0.0,0.0,16.0,Poha,5.0,1.0,1.0,0.0,1
+SYN_breakfast_2026-09-24,Thursday,breakfast,07:45-07:50,17,5,41,13,0.0,0.0,0.0,28.0,Poha,16.0,3.2,3.2,0.3,1
+SYN_breakfast_2026-09-24,Thursday,breakfast,07:50-07:55,12,3,53,16,0.0,0.0,0.0,37.0,Poha,,,,,1
+SYN_breakfast_2026-09-24,Thursday,breakfast,07:55-08:00,24,6,77,22,0.0,0.0,0.0,55.0,Poha,23.0,4.6,4.6,0.3,1
+SYN_breakfast_2026-09-24,Thursday,breakfast,08:00-08:05,27,5,104,27,0.0,0.0,0.0,77.0,Poha,27.0,5.4,5.4,0.0,1
+SYN_breakfast_2026-09-24,Thursday,breakfast,08:05-08:10,30,10,134,37,0.0,0.0,0.0,97.0,Poha,31.0,6.2,6.2,0.0,1
+SYN_breakfast_2026-09-24,Thursday,breakfast,08:10-08:15,15,19,149,56,0.0,0.0,0.0,93.0,Poha,16.0,3.2,3.2,0.0,1
+SYN_breakfast_2026-09-24,Thursday,breakfast,08:15-08:20,25,14,174,70,0.0,0.0,0.0,104.0,Poha,25.0,5.0,5.0,0.0,1
+SYN_breakfast_2026-09-24,Thursday,breakfast,08:20-08:25,31,28,205,98,0.0,0.0,0.0,107.0,Poha,31.0,6.2,6.2,0.0,1
+SYN_breakfast_2026-09-24,Thursday,breakfast,08:25-08:30,29,27,234,125,0.0,0.0,0.0,109.0,Poha,30.0,6.0,6.0,0.0,1
+SYN_breakfast_2026-09-24,Thursday,breakfast,08:30-08:35,44,24,278,149,0.0,0.0,0.0,129.0,Poha,45.0,9.0,9.0,0.0,1
+SYN_breakfast_2026-09-24,Thursday,breakfast,08:35-08:40,50,20,328,169,0.0,0.0,0.0,159.0,Poha,49.0,9.8,9.8,0.3,1
+SYN_breakfast_2026-09-24,Thursday,breakfast,08:40-08:45,87,32,415,201,19.0,6.3,8.0,195.0,Poha,70.0,14.0,14.0,5.7,1
+SYN_breakfast_2026-09-24,Thursday,breakfast,08:45-08:50,65,32,480,233,19.0,6.3,10.0,228.0,Poha,64.0,12.8,12.8,0.3,1
+SYN_breakfast_2026-09-24,Thursday,breakfast,08:50-08:55,78,44,558,277,27.0,9.0,14.0,254.0,Poha,71.0,14.2,14.2,2.3,1
+SYN_breakfast_2026-09-24,Thursday,breakfast,08:55-09:00,52,51,610,328,8.0,2.7,4.0,274.0,Poha,70.0,14.0,14.0,0.0,1
+SYN_breakfast_2026-09-24,Thursday,breakfast,09:00-09:05,48,64,658,392,0.0,0.0,0.0,266.0,Poha,55.0,11.0,11.0,0.0,1
+SYN_breakfast_2026-09-24,Thursday,breakfast,09:05-09:10,46,77,704,469,0.0,0.0,0.0,235.0,Poha,46.0,9.2,9.2,0.0,1
+SYN_breakfast_2026-09-24,Thursday,breakfast,09:10-09:15,21,66,725,535,0.0,0.0,0.0,190.0,Poha,21.0,4.2,4.2,0.0,1
+SYN_breakfast_2026-09-24,Thursday,breakfast,09:15-09:20,10,68,735,603,0.0,0.0,0.0,132.0,Poha,10.0,2.0,2.0,0.0,1
+SYN_breakfast_2026-09-24,Thursday,breakfast,09:20-09:25,1,57,736,660,,1.0,,,Poha,1.0,0.2,0.2,1.0,1
+SYN_breakfast_2026-09-24,Thursday,breakfast,09:25-09:30,0,41,736,701,0.0,0.0,0.0,35.0,Poha,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-24,Thursday,breakfast,09:30-09:35,0,24,736,725,0.0,0.0,0.0,11.0,Poha,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-24,Thursday,breakfast,09:35-09:40,0,7,736,732,0.0,0.0,0.0,4.0,Poha,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-24,Thursday,breakfast,09:40-09:45,0,4,736,736,0.0,0.0,0.0,0.0,Poha,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-24,Thursday,lunch,12:00-12:05,10,0,10,0,0.0,0.0,0.0,10.0,Rice/Dal/Roti,40.0,8.0,2.0,0.0,1
+SYN_lunch_2026-09-24,Thursday,lunch,12:05-12:10,19,0,29,0,0.0,0.0,0.0,29.0,Rice/Dal/Roti,75.0,15.0,3.8,0.1,1
+SYN_lunch_2026-09-24,Thursday,lunch,12:10-12:15,18,0,47,0,0.0,0.0,0.0,47.0,Rice/Dal/Roti,72.0,14.4,3.6,0.0,1
+SYN_lunch_2026-09-24,Thursday,lunch,12:15-12:20,31,2,78,2,0.0,0.0,0.0,76.0,Rice/Dal/Roti,123.0,24.6,6.2,0.1,1
+SYN_lunch_2026-09-24,Thursday,lunch,12:20-12:25,26,12,104,14,0.0,0.0,0.0,90.0,Rice/Dal/Roti,106.0,21.2,5.3,0.0,1
+SYN_lunch_2026-09-24,Thursday,lunch,12:25-12:30,27,10,131,24,0.0,0.0,0.0,107.0,Rice/Dal/Roti,108.0,21.6,5.4,0.0,1
+SYN_lunch_2026-09-24,Thursday,lunch,12:30-12:35,21,27,152,51,0.0,0.0,0.0,101.0,Rice/Dal/Roti,84.0,16.8,4.2,0.0,1
+SYN_lunch_2026-09-24,Thursday,lunch,12:35-12:40,38,31,190,82,0.0,0.0,0.0,108.0,Rice/Dal/Roti,151.0,30.2,7.6,0.1,1
+SYN_lunch_2026-09-24,Thursday,lunch,12:40-12:45,48,24,238,106,9.0,3.0,5.0,123.0,Rice/Dal/Roti,160.0,32.0,8.0,2.7,1
+SYN_lunch_2026-09-24,Thursday,lunch,12:45-12:50,59,31,297,137,23.0,7.7,11.0,137.0,Rice/Dal/Roti,188.0,37.6,9.4,4.0,1
+SYN_lunch_2026-09-24,Thursday,lunch,12:50-12:55,92,22,389,159,66.0,22.0,42.0,164.0,Rice/Dal/Roti,193.0,38.6,9.6,14.6,1
+SYN_lunch_2026-09-24,Thursday,lunch,12:55-13:00,79,37,468,196,81.0,27.0,32.0,191.0,Rice/Dal/Roti,194.0,38.8,9.7,10.2,1
+SYN_lunch_2026-09-24,Thursday,lunch,13:00-13:05,37,32,505,228,82.0,27.3,33.0,195.0,Rice/Dal/Roti,188.0,37.6,9.4,0.0,1
+SYN_lunch_2026-09-24,Thursday,lunch,13:05-13:10,39,42,544,270,78.0,26.0,33.0,196.0,Rice/Dal/Roti,185.0,37.0,9.2,0.0,1
+SYN_lunch_2026-09-24,Thursday,lunch,13:10-13:15,39,61,583,331,68.0,22.7,26.0,184.0,Rice/Dal/Roti,188.0,37.6,9.4,0.0,1
+SYN_lunch_2026-09-24,Thursday,lunch,13:15-13:20,41,38,624,369,63.0,21.0,26.0,192.0,Rice/Dal/Roti,184.0,36.8,9.2,0.0,1
+SYN_lunch_2026-09-24,Thursday,lunch,13:20-13:25,32,46,656,415,52.0,17.3,19.0,189.0,Rice/Dal/Roti,176.0,35.2,8.8,0.0,1
+SYN_lunch_2026-09-24,Thursday,lunch,13:25-13:30,40,51,696,466,45.0,15.0,24.0,185.0,Rice/Dal/Roti,192.0,38.4,9.6,0.0,1
+SYN_lunch_2026-09-24,Thursday,lunch,13:30-13:35,38,44,734,510,33.0,11.0,12.0,191.0,Rice/Dal/Roti,,,,,1
+SYN_lunch_2026-09-24,Thursday,lunch,13:35-13:40,24,51,758,561,12.0,4.0,4.0,185.0,Rice/Dal/Roti,193.0,38.6,9.6,0.0,1
+SYN_lunch_2026-09-24,Thursday,lunch,13:40-13:45,55,45,813,606,15.0,5.0,7.0,192.0,Rice/Dal/Roti,196.0,39.2,9.8,2.0,1
+SYN_lunch_2026-09-24,Thursday,lunch,13:45-13:50,41,44,854,650,,,,,Rice/Dal/Roti,200.0,40.0,10.0,0.0,1
+SYN_lunch_2026-09-24,Thursday,lunch,13:50-13:55,46,50,900,700,2.0,0.7,1.0,198.0,Rice/Dal/Roti,199.0,39.8,10.0,0.0,1
+SYN_lunch_2026-09-24,Thursday,lunch,13:55-14:00,42,47,942,747,0.0,0.0,0.0,195.0,Rice/Dal/Roti,176.0,35.2,8.8,0.0,1
+SYN_lunch_2026-09-24,Thursday,lunch,14:00-14:05,0,58,942,805,0.0,0.0,0.0,137.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-24,Thursday,lunch,14:05-14:10,0,46,942,851,0.0,0.0,0.0,91.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-24,Thursday,lunch,14:10-14:15,0,36,942,887,0.0,0.0,0.0,55.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-24,Thursday,lunch,14:15-14:20,0,42,942,929,0.0,0.0,0.0,13.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-24,Thursday,lunch,14:20-14:25,0,10,942,939,0.0,0.0,0.0,3.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-24,Thursday,lunch,14:25-14:30,0,2,942,941,0.0,0.0,0.0,1.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-24,Thursday,lunch,14:30-14:35,0,1,942,942,,,,,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-24,Thursday,dinner,19:30-19:35,5,0,5,0,0.0,0.0,0.0,5.0,Roti/Sabzi,18.0,3.6,0.9,0.2,1
+SYN_dinner_2026-09-24,Thursday,dinner,19:35-19:40,3,0,8,0,0.0,1.0,0.0,8.0,Roti/Sabzi,13.0,2.6,0.6,1.0,1
+SYN_dinner_2026-09-24,Thursday,dinner,19:40-19:45,6,0,14,0,0.0,0.0,0.0,14.0,Roti/Sabzi,24.0,4.8,1.2,0.0,1
+SYN_dinner_2026-09-24,Thursday,dinner,19:45-19:50,7,3,21,3,0.0,0.0,0.0,18.0,Roti/Sabzi,,,,,1
+SYN_dinner_2026-09-24,Thursday,dinner,19:50-19:55,2,1,23,4,0.0,1.0,0.0,19.0,Roti/Sabzi,10.0,2.0,0.5,1.0,1
+SYN_dinner_2026-09-24,Thursday,dinner,19:55-20:00,6,5,29,9,0.0,0.0,0.0,20.0,Roti/Sabzi,23.0,4.6,1.2,0.1,1
+SYN_dinner_2026-09-24,Thursday,dinner,20:00-20:05,33,8,62,17,0.0,0.0,0.0,45.0,Roti/Sabzi,132.0,26.4,6.6,0.0,1
+SYN_dinner_2026-09-24,Thursday,dinner,20:05-20:10,37,4,99,21,0.0,0.0,0.0,78.0,Roti/Sabzi,148.0,29.6,7.4,0.0,1
+SYN_dinner_2026-09-24,Thursday,dinner,20:10-20:15,31,4,130,25,0.0,0.0,0.0,105.0,Roti/Sabzi,125.0,25.0,6.2,0.0,1
+SYN_dinner_2026-09-24,Thursday,dinner,20:15-20:20,24,10,154,35,,,,,Roti/Sabzi,95.0,19.0,4.8,0.1,1
+SYN_dinner_2026-09-24,Thursday,dinner,20:20-20:25,29,36,183,71,0.0,0.0,0.0,112.0,Roti/Sabzi,118.0,23.6,5.9,0.0,1
+SYN_dinner_2026-09-24,Thursday,dinner,20:25-20:30,34,30,217,101,0.0,0.0,0.0,116.0,Roti/Sabzi,137.0,27.4,6.8,0.0,1
+SYN_dinner_2026-09-24,Thursday,dinner,20:30-20:35,36,27,253,128,1.0,0.3,0.0,124.0,Roti/Sabzi,141.0,28.2,7.0,0.2,1
+SYN_dinner_2026-09-24,Thursday,dinner,20:35-20:40,35,21,288,149,0.0,0.0,0.0,139.0,Roti/Sabzi,143.0,28.6,7.2,0.0,1
+SYN_dinner_2026-09-24,Thursday,dinner,20:40-20:45,36,33,324,182,0.0,0.0,0.0,142.0,Roti/Sabzi,145.0,29.0,7.2,0.0,1
+SYN_dinner_2026-09-24,Thursday,dinner,20:45-20:50,31,36,355,218,0.0,0.0,0.0,137.0,Roti/Sabzi,124.0,24.8,6.2,0.0,1
+SYN_dinner_2026-09-24,Thursday,dinner,20:50-20:55,32,33,387,251,0.0,0.0,0.0,136.0,Roti/Sabzi,129.0,25.8,6.4,0.0,1
+SYN_dinner_2026-09-24,Thursday,dinner,20:55-21:00,45,38,432,289,4.0,1.3,2.0,139.0,Roti/Sabzi,174.0,34.8,8.7,0.5,1
+SYN_dinner_2026-09-24,Thursday,dinner,21:00-21:05,43,35,475,324,4.0,1.3,2.0,147.0,Roti/Sabzi,156.0,31.2,7.8,1.3,1
+SYN_dinner_2026-09-24,Thursday,dinner,21:05-21:10,49,36,524,360,8.0,2.7,3.0,156.0,Roti/Sabzi,176.0,35.2,8.8,1.7,1
+SYN_dinner_2026-09-24,Thursday,dinner,21:10-21:15,49,38,573,398,16.0,5.3,7.0,159.0,Roti/Sabzi,179.0,35.8,9.0,1.4,1
+SYN_dinner_2026-09-24,Thursday,dinner,21:15-21:20,51,32,624,430,18.0,6.0,9.0,176.0,Roti/Sabzi,183.0,36.6,9.2,1.8,1
+SYN_dinner_2026-09-24,Thursday,dinner,21:20-21:25,49,41,673,471,22.0,7.3,9.0,180.0,Roti/Sabzi,192.0,38.4,9.6,0.3,1
+SYN_dinner_2026-09-24,Thursday,dinner,21:25-21:30,51,44,724,515,26.0,8.7,10.0,183.0,Roti/Sabzi,183.0,36.6,9.2,1.8,1
+SYN_dinner_2026-09-24,Thursday,dinner,21:30-21:35,59,51,783,566,40.0,13.3,19.0,177.0,Roti/Sabzi,179.0,35.8,9.0,4.8,1
+SYN_dinner_2026-09-24,Thursday,dinner,21:35-21:40,29,43,812,609,25.0,8.3,10.0,178.0,Roti/Sabzi,179.0,35.8,9.0,0.0,1
+SYN_dinner_2026-09-24,Thursday,dinner,21:40-21:45,12,41,824,650,0.0,0.0,0.0,174.0,Roti/Sabzi,143.0,28.6,7.2,0.0,1
+SYN_dinner_2026-09-24,Thursday,dinner,21:45-21:50,0,49,824,699,0.0,0.0,0.0,125.0,Roti/Sabzi,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-24,Thursday,dinner,21:50-21:55,0,44,824,743,0.0,0.0,0.0,81.0,Roti/Sabzi,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-24,Thursday,dinner,21:55-22:00,0,42,824,785,0.0,0.0,0.0,39.0,Roti/Sabzi,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-24,Thursday,dinner,22:00-22:05,0,28,824,813,0.0,0.0,0.0,11.0,Roti/Sabzi,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-24,Thursday,dinner,22:05-22:10,0,10,824,823,0.0,0.0,0.0,1.0,Roti/Sabzi,,,,,1
+SYN_dinner_2026-09-24,Thursday,dinner,22:10-22:15,0,1,824,824,0.0,0.0,0.0,0.0,Roti/Sabzi,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-25,Friday,breakfast,07:15-07:20,3,0,3,0,0.0,1.0,0.0,3.0,Dosa,5.0,1.0,0.5,1.0,1
+SYN_breakfast_2026-09-25,Friday,breakfast,07:20-07:25,8,0,11,0,0.0,0.0,0.0,11.0,Dosa,18.0,3.6,1.8,0.0,1
+SYN_breakfast_2026-09-25,Friday,breakfast,07:25-07:30,3,0,14,0,0.0,1.0,0.0,14.0,Dosa,7.0,1.4,0.7,1.0,1
+SYN_breakfast_2026-09-25,Friday,breakfast,07:30-07:35,3,1,17,1,0.0,1.0,0.0,16.0,Dosa,6.0,1.2,0.6,1.0,1
+SYN_breakfast_2026-09-25,Friday,breakfast,07:35-07:40,4,5,21,6,0.0,0.0,0.0,15.0,Dosa,,,,,1
+SYN_breakfast_2026-09-25,Friday,breakfast,07:40-07:45,11,3,32,9,0.0,0.0,0.0,23.0,Dosa,22.0,4.4,2.2,0.0,1
+SYN_breakfast_2026-09-25,Friday,breakfast,07:45-07:50,16,5,48,14,0.0,0.0,0.0,34.0,Dosa,33.0,6.6,3.3,0.0,1
+SYN_breakfast_2026-09-25,Friday,breakfast,07:50-07:55,19,2,67,16,0.0,0.0,0.0,51.0,Dosa,36.0,7.2,3.6,0.3,1
+SYN_breakfast_2026-09-25,Friday,breakfast,07:55-08:00,27,9,94,25,0.0,0.0,0.0,69.0,Dosa,55.0,11.0,5.5,0.0,1
+SYN_breakfast_2026-09-25,Friday,breakfast,08:00-08:05,26,11,120,36,0.0,0.0,0.0,84.0,Dosa,52.0,10.4,5.2,0.0,1
+SYN_breakfast_2026-09-25,Friday,breakfast,08:05-08:10,24,18,144,54,0.0,0.0,0.0,90.0,Dosa,47.0,9.4,4.7,0.2,1
+SYN_breakfast_2026-09-25,Friday,breakfast,08:10-08:15,10,18,154,72,0.0,0.0,0.0,82.0,Dosa,19.0,3.8,1.9,0.2,1
+SYN_breakfast_2026-09-25,Friday,breakfast,08:15-08:20,26,18,180,90,0.0,0.0,0.0,90.0,Dosa,52.0,10.4,5.2,0.0,1
+SYN_breakfast_2026-09-25,Friday,breakfast,08:20-08:25,30,28,210,118,0.0,0.0,0.0,92.0,Dosa,60.0,12.0,6.0,0.0,1
+SYN_breakfast_2026-09-25,Friday,breakfast,08:25-08:30,27,24,237,142,0.0,0.0,0.0,95.0,Dosa,53.0,10.6,5.3,0.2,1
+SYN_breakfast_2026-09-25,Friday,breakfast,08:30-08:35,26,18,263,160,0.0,0.0,0.0,103.0,Dosa,49.0,9.8,4.9,0.5,1
+SYN_breakfast_2026-09-25,Friday,breakfast,08:35-08:40,53,17,316,177,6.0,2.0,3.0,133.0,Dosa,99.0,19.8,9.9,1.2,1
+SYN_breakfast_2026-09-25,Friday,breakfast,08:40-08:45,63,37,379,214,16.0,5.3,7.0,149.0,Dosa,,,,,1
+SYN_breakfast_2026-09-25,Friday,breakfast,08:45-08:50,80,27,459,241,40.0,13.3,17.0,178.0,Dosa,110.0,22.0,11.0,8.3,1
+SYN_breakfast_2026-09-25,Friday,breakfast,08:50-08:55,83,29,542,270,56.0,18.7,24.0,216.0,Dosa,130.0,26.0,13.0,6.0,1
+SYN_breakfast_2026-09-25,Friday,breakfast,08:55-09:00,63,45,605,315,57.0,19.0,33.0,233.0,Dosa,124.0,24.8,12.4,0.3,1
+SYN_breakfast_2026-09-25,Friday,breakfast,09:00-09:05,58,55,663,370,53.0,17.7,19.0,240.0,Dosa,126.0,25.2,12.6,0.0,1
+SYN_breakfast_2026-09-25,Friday,breakfast,09:05-09:10,53,50,716,420,41.0,13.7,20.0,255.0,Dosa,129.0,25.8,12.9,0.0,1
+SYN_breakfast_2026-09-25,Friday,breakfast,09:10-09:15,40,66,756,486,12.0,4.0,5.0,258.0,Dosa,131.0,26.2,13.1,0.0,1
+SYN_breakfast_2026-09-25,Friday,breakfast,09:15-09:20,28,62,784,548,0.0,0.0,0.0,236.0,Dosa,82.0,16.4,8.2,0.0,1
+SYN_breakfast_2026-09-25,Friday,breakfast,09:20-09:25,12,65,796,613,0.0,0.0,0.0,183.0,Dosa,23.0,4.6,2.3,0.2,1
+SYN_breakfast_2026-09-25,Friday,breakfast,09:25-09:30,1,65,797,678,0.0,1.0,0.0,119.0,Dosa,2.0,0.4,0.2,1.0,1
+SYN_breakfast_2026-09-25,Friday,breakfast,09:30-09:35,0,59,797,737,,,,,Dosa,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-25,Friday,breakfast,09:35-09:40,0,35,797,772,0.0,0.0,0.0,25.0,Dosa,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-25,Friday,breakfast,09:40-09:45,0,20,797,792,0.0,0.0,0.0,5.0,Dosa,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-25,Friday,breakfast,09:45-09:50,0,4,797,796,0.0,0.0,0.0,1.0,Dosa,0.0,0.0,0.0,0.0,1
+SYN_breakfast_2026-09-25,Friday,breakfast,09:50-09:55,0,1,797,797,0.0,0.0,0.0,0.0,Dosa,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-25,Friday,lunch,12:00-12:05,21,0,21,0,0.0,0.0,0.0,21.0,Rice/Dal/Roti,82.0,16.4,4.1,0.2,1
+SYN_lunch_2026-09-25,Friday,lunch,12:05-12:10,13,0,34,0,0.0,0.0,0.0,34.0,Rice/Dal/Roti,51.0,10.2,2.6,0.1,1
+SYN_lunch_2026-09-25,Friday,lunch,12:10-12:15,14,1,48,1,0.0,0.0,0.0,47.0,Rice/Dal/Roti,56.0,11.2,2.8,0.0,1
+SYN_lunch_2026-09-25,Friday,lunch,12:15-12:20,26,4,74,5,0.0,0.0,0.0,69.0,Rice/Dal/Roti,104.0,20.8,5.2,0.0,1
+SYN_lunch_2026-09-25,Friday,lunch,12:20-12:25,19,12,93,17,0.0,0.0,0.0,76.0,Rice/Dal/Roti,75.0,15.0,3.8,0.1,1
+SYN_lunch_2026-09-25,Friday,lunch,12:25-12:30,19,18,112,35,0.0,0.0,0.0,77.0,Rice/Dal/Roti,77.0,15.4,3.8,0.0,1
+SYN_lunch_2026-09-25,Friday,lunch,12:30-12:35,32,10,144,45,0.0,0.0,0.0,99.0,Rice/Dal/Roti,129.0,25.8,6.4,0.0,1
+SYN_lunch_2026-09-25,Friday,lunch,12:35-12:40,30,20,174,65,0.0,0.0,0.0,109.0,Rice/Dal/Roti,120.0,24.0,6.0,0.0,1
+SYN_lunch_2026-09-25,Friday,lunch,12:40-12:45,45,26,219,91,2.0,0.7,1.0,126.0,Rice/Dal/Roti,176.0,35.2,8.8,0.3,1
+SYN_lunch_2026-09-25,Friday,lunch,12:45-12:50,49,27,268,118,7.0,2.3,3.0,143.0,Rice/Dal/Roti,171.0,34.2,8.6,2.1,1
+SYN_lunch_2026-09-25,Friday,lunch,12:50-12:55,57,26,325,144,20.0,6.7,8.0,161.0,Rice/Dal/Roti,185.0,37.0,9.2,3.6,1
+SYN_lunch_2026-09-25,Friday,lunch,12:55-13:00,70,36,395,180,35.0,11.7,19.0,180.0,Rice/Dal/Roti,216.0,43.2,10.8,5.3,1
+SYN_lunch_2026-09-25,Friday,lunch,13:00-13:05,60,43,455,223,33.0,11.0,13.0,199.0,Rice/Dal/Roti,245.0,49.0,12.2,0.0,1
+SYN_lunch_2026-09-25,Friday,lunch,13:05-13:10,36,39,491,262,6.0,2.0,3.0,223.0,Rice/Dal/Roti,260.0,52.0,13.0,0.0,1
+SYN_lunch_2026-09-25,Friday,lunch,13:10-13:15,31,48,522,310,0.0,0.0,0.0,212.0,Rice/Dal/Roti,140.0,28.0,7.0,0.0,1
+SYN_lunch_2026-09-25,Friday,lunch,13:15-13:20,37,52,559,362,0.0,0.0,0.0,197.0,Rice/Dal/Roti,149.0,29.8,7.4,0.0,1
+SYN_lunch_2026-09-25,Friday,lunch,13:20-13:25,27,64,586,426,0.0,0.0,0.0,160.0,Rice/Dal/Roti,109.0,21.8,5.4,0.0,1
+SYN_lunch_2026-09-25,Friday,lunch,13:25-13:30,22,52,608,478,0.0,0.0,0.0,130.0,Rice/Dal/Roti,88.0,17.6,4.4,0.0,1
+SYN_lunch_2026-09-25,Friday,lunch,13:30-13:35,31,41,639,519,,,,,Rice/Dal/Roti,123.0,24.6,6.2,0.1,1
+SYN_lunch_2026-09-25,Friday,lunch,13:35-13:40,20,36,659,555,0.0,0.0,0.0,104.0,Rice/Dal/Roti,81.0,16.2,4.0,0.0,1
+SYN_lunch_2026-09-25,Friday,lunch,13:40-13:45,26,29,685,584,0.0,0.0,0.0,101.0,Rice/Dal/Roti,,,,,1
+SYN_lunch_2026-09-25,Friday,lunch,13:45-13:50,37,28,722,612,0.0,0.0,0.0,110.0,Rice/Dal/Roti,148.0,29.6,7.4,0.0,1
+SYN_lunch_2026-09-25,Friday,lunch,13:50-13:55,45,24,767,636,0.0,0.0,0.0,131.0,Rice/Dal/Roti,179.0,35.8,9.0,0.1,1
+SYN_lunch_2026-09-25,Friday,lunch,13:55-14:00,50,24,817,660,0.0,0.0,0.0,157.0,Rice/Dal/Roti,200.0,40.0,10.0,0.0,1
+SYN_lunch_2026-09-25,Friday,lunch,14:00-14:05,0,25,817,685,0.0,0.0,0.0,132.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-25,Friday,lunch,14:05-14:10,0,40,817,725,0.0,0.0,0.0,92.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-25,Friday,lunch,14:10-14:15,0,35,817,760,0.0,0.0,0.0,57.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-25,Friday,lunch,14:15-14:20,0,39,817,799,0.0,0.0,0.0,18.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-25,Friday,lunch,14:20-14:25,0,14,817,813,0.0,0.0,0.0,4.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_lunch_2026-09-25,Friday,lunch,14:25-14:30,0,4,817,817,0.0,0.0,0.0,0.0,Rice/Dal/Roti,0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-25,Friday,dinner,19:30-19:35,32,0,32,0,3.0,1.0,1.0,29.0,Paneer + Roti (special),116.0,23.2,5.8,1.0,1
+SYN_dinner_2026-09-25,Friday,dinner,19:35-19:40,38,0,70,0,4.0,1.3,2.0,66.0,Paneer + Roti (special),149.0,29.8,7.4,0.2,1
+SYN_dinner_2026-09-25,Friday,dinner,19:40-19:45,31,2,101,2,0.0,0.0,0.0,99.0,Paneer + Roti (special),140.0,28.0,7.0,0.0,1
+SYN_dinner_2026-09-25,Friday,dinner,19:45-19:50,16,9,117,11,0.0,0.0,0.0,106.0,Paneer + Roti (special),63.0,12.6,3.2,0.1,1
+SYN_dinner_2026-09-25,Friday,dinner,19:50-19:55,7,22,124,33,0.0,0.0,0.0,91.0,Paneer + Roti (special),29.0,5.8,1.4,0.0,1
+SYN_dinner_2026-09-25,Friday,dinner,19:55-20:00,5,31,129,64,0.0,0.0,0.0,65.0,Paneer + Roti (special),18.0,3.6,0.9,0.2,1
+SYN_dinner_2026-09-25,Friday,dinner,20:00-20:05,30,30,159,94,0.0,0.0,0.0,65.0,Paneer + Roti (special),120.0,24.0,6.0,0.0,1
+SYN_dinner_2026-09-25,Friday,dinner,20:05-20:10,35,20,194,114,6.0,2.0,2.0,74.0,Paneer + Roti (special),130.0,26.0,6.5,0.8,1
+SYN_dinner_2026-09-25,Friday,dinner,20:10-20:15,27,11,221,125,3.0,1.0,1.0,93.0,Paneer + Roti (special),109.0,21.8,5.4,0.0,1
+SYN_dinner_2026-09-25,Friday,dinner,20:15-20:20,36,15,257,140,7.0,2.3,3.0,110.0,Paneer + Roti (special),134.0,26.8,6.7,0.8,1
+SYN_dinner_2026-09-25,Friday,dinner,20:20-20:25,39,18,296,158,11.0,3.7,5.0,127.0,Paneer + Roti (special),138.0,27.6,6.9,1.5,1
+SYN_dinner_2026-09-25,Friday,dinner,20:25-20:30,36,34,332,192,13.0,4.3,5.0,127.0,Paneer + Roti (special),138.0,27.6,6.9,0.5,1
+SYN_dinner_2026-09-25,Friday,dinner,20:30-20:35,40,23,372,215,17.0,5.7,8.0,140.0,Paneer + Roti (special),140.0,28.0,7.0,1.7,1
+SYN_dinner_2026-09-25,Friday,dinner,20:35-20:40,30,37,402,252,12.0,4.0,5.0,138.0,Paneer + Roti (special),141.0,28.2,7.0,0.0,1
+SYN_dinner_2026-09-25,Friday,dinner,20:40-20:45,41,34,443,286,,,,,Paneer + Roti (special),143.0,28.6,7.2,1.8,1
+SYN_dinner_2026-09-25,Friday,dinner,20:45-20:50,30,27,473,313,11.0,3.7,4.0,149.0,Paneer + Roti (special),146.0,29.2,7.3,0.0,1
+SYN_dinner_2026-09-25,Friday,dinner,20:50-20:55,21,32,494,345,0.0,0.0,0.0,149.0,Paneer + Roti (special),127.0,25.4,6.4,0.0,1
+SYN_dinner_2026-09-25,Friday,dinner,20:55-21:00,29,42,523,387,0.0,0.0,0.0,136.0,Paneer + Roti (special),117.0,23.4,5.8,0.0,1
+SYN_dinner_2026-09-25,Friday,dinner,21:00-21:05,34,32,557,419,8.0,2.7,4.0,130.0,Paneer + Roti (special),114.0,22.8,5.7,1.8,1
+SYN_dinner_2026-09-25,Friday,dinner,21:05-21:10,44,48,601,467,13.0,4.3,5.0,121.0,Paneer + Roti (special),143.0,28.6,7.2,2.8,1
+SYN_dinner_2026-09-25,Friday,dinner,21:10-21:15,59,29,660,496,34.0,11.3,17.0,130.0,Paneer + Roti (special),143.0,28.6,7.2,7.8,1
+SYN_dinner_2026-09-25,Friday,dinner,21:15-21:20,41,31,701,527,39.0,13.0,18.0,135.0,Paneer + Roti (special),153.0,30.6,7.6,0.9,1
+SYN_dinner_2026-09-25,Friday,dinner,21:20-21:25,49,29,750,556,55.0,18.3,24.0,139.0,Paneer + Roti (special),143.0,28.6,7.2,4.4,1
+SYN_dinner_2026-09-25,Friday,dinner,21:25-21:30,58,32,808,588,74.0,24.7,33.0,146.0,Paneer + Roti (special),141.0,28.2,7.0,7.6,1
+SYN_dinner_2026-09-25,Friday,dinner,21:30-21:35,37,37,845,625,77.0,25.7,36.0,143.0,Paneer + Roti (special),148.0,29.6,7.4,0.0,1
+SYN_dinner_2026-09-25,Friday,dinner,21:35-21:40,40,38,885,663,82.0,27.3,39.0,140.0,Paneer + Roti (special),141.0,28.2,7.0,1.6,1
+SYN_dinner_2026-09-25,Friday,dinner,21:40-21:45,27,42,912,705,71.0,23.7,27.0,136.0,Paneer + Roti (special),139.0,27.8,7.0,0.0,1
+SYN_dinner_2026-09-25,Friday,dinner,21:45-21:50,0,34,912,739,38.0,12.7,20.0,135.0,Paneer + Roti (special),143.0,28.6,7.2,0.0,1
+SYN_dinner_2026-09-25,Friday,dinner,21:50-21:55,0,34,912,773,3.0,1.0,1.0,136.0,Paneer + Roti (special),139.0,27.8,7.0,0.0,1
+SYN_dinner_2026-09-25,Friday,dinner,21:55-22:00,0,40,912,813,0.0,0.0,0.0,99.0,Paneer + Roti (special),3.0,0.6,0.2,0.0,1
+SYN_dinner_2026-09-25,Friday,dinner,22:00-22:05,0,29,912,842,0.0,0.0,0.0,70.0,Paneer + Roti (special),0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-25,Friday,dinner,22:05-22:10,0,36,912,878,0.0,0.0,0.0,34.0,Paneer + Roti (special),0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-25,Friday,dinner,22:10-22:15,0,26,912,904,0.0,0.0,0.0,8.0,Paneer + Roti (special),0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-25,Friday,dinner,22:15-22:20,0,6,912,910,0.0,0.0,0.0,2.0,Paneer + Roti (special),0.0,0.0,0.0,0.0,1
+SYN_dinner_2026-09-25,Friday,dinner,22:20-22:25,0,2,912,912,0.0,0.0,0.0,0.0,Paneer + Roti (special),0.0,0.0,0.0,0.0,1

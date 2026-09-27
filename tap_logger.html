@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Mess Tap Logger</title>
+<style>
+  :root { --bg:#f8f9fa; --ink:#212529; --muted:#6c757d; --acc:#d9480f; --ok:#2b8a3e; --line:#dee2e6; --card:#fff; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#101418; --ink:#e9ecef; --muted:#adb5bd; --line:#343a40; --card:#1b2026; } }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:-apple-system,system-ui,Segoe UI,Roboto,sans-serif; background:var(--bg); color:var(--ink); }
+  header { padding:12px 16px; border-bottom:1px solid var(--line); display:flex; justify-content:space-between; align-items:center; }
+  header b { font-size:17px; } #clock { font-variant-numeric:tabular-nums; font-size:20px; font-weight:700; }
+  main { padding:16px; max-width:560px; margin:0 auto; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px; margin-bottom:14px; }
+  label { display:block; font-size:13px; color:var(--muted); margin:8px 0 4px; }
+  input, select { width:100%; padding:10px; font-size:16px; border:1px solid var(--line); border-radius:8px; background:var(--card); color:var(--ink); }
+  .row { display:flex; gap:10px; } .row > * { flex:1; }
+  button { font-size:16px; padding:12px; border-radius:10px; border:1px solid var(--line); background:var(--card); color:var(--ink); width:100%; }
+  button.big { font-size:34px; font-weight:800; padding:40px 10px; border:none; color:#fff; }
+  .in { background:var(--ok); } .out { background:#1c7ed6; } .acc { background:var(--acc); color:#fff; border:none; }
+  .tabs { display:flex; gap:6px; margin-bottom:14px; } .tabs button { padding:10px 6px; font-size:14px; }
+  .tabs button.on { background:var(--ink); color:var(--bg); }
+  .count { font-size:44px; font-weight:800; text-align:center; font-variant-numeric:tabular-nums; }
+  .muted { color:var(--muted); font-size:13px; } .hidden { display:none; }
+  table { width:100%; border-collapse:collapse; font-size:13px; } td, th { padding:4px 6px; border-bottom:1px solid var(--line); text-align:left; }
+  .pill { display:inline-block; padding:2px 8px; border-radius:99px; background:var(--line); font-size:12px; }
+</style>
+</head>
+<body>
+<header><b>Mess Tap Logger</b><span id="clock">--:--:--</span></header>
+<main>
+  <div class="tabs">
+    <button data-tab="setup" class="on">Setup</button>
+    <button data-tab="door">Door</button>
+    <button data-tab="counter">Counter</button>
+    <button data-tab="watch">Stopwatch</button>
+    <button data-tab="export">Export</button>
+  </div>
+
+  <section id="setup" class="card">
+    <div class="row">
+      <div><label>Mess code</label><input id="mess" value="MESSA"></div>
+      <div><label>Meal</label><select id="meal"><option>breakfast</option><option>lunch</option><option>dinner</option></select></div>
+    </div>
+    <div class="row">
+      <div><label>Date</label><input id="date" type="date"></div>
+      <div><label>Opens (HH:MM)</label><input id="open" value="07:15"></div>
+      <div><label>Closes</label><input id="close" value="09:30"></div>
+    </div>
+    <div class="row">
+      <div><label>Main dish</label><input id="dish" placeholder="e.g. Dosa"></div>
+      <div><label>Units per plate</label><input id="ipp" type="number" min="1" value="2"></div>
+    </div>
+    <label>Observer initials + role (e.g. SA-door)</label><input id="obs" placeholder="SA-door">
+    <label>Notes</label><input id="notes" placeholder="anything unusual">
+    <p class="muted">Session id: <b id="sid"></b></p>
+    <button class="acc" id="save">Save setup</button>
+    <p class="muted">Every tap is stored on this phone immediately and survives a reload. Use one phone per role; each exports its own file.</p>
+  </section>
+
+  <section id="door" class="hidden">
+    <div class="card"><div class="row">
+      <div><div class="muted">IN</div><div class="count" id="nIn">0</div></div>
+      <div><div class="muted">OUT</div><div class="count" id="nOut">0</div></div>
+      <div><div class="muted">Inside</div><div class="count" id="nHall">0</div></div>
+    </div></div>
+    <div class="row" style="margin-bottom:12px">
+      <button class="big in" id="tapIn">IN</button>
+      <button class="big out" id="tapOut">OUT</button>
+    </div>
+    <button id="undoDoor">Undo last tap</button>
+  </section>
+
+  <section id="counter" class="hidden">
+    <div class="card">
+      <div class="muted">Current 5-min interval</div>
+      <div class="count" id="ivLabel">--</div>
+      <div class="muted" style="text-align:center">closes in <b id="ivLeft">--</b></div>
+    </div>
+    <div class="card">
+      <div class="muted">Units of the main dish made this interval</div>
+      <div class="count" id="items">0</div>
+      <div class="row"><button class="acc" id="plus1">+1</button><button id="plus5">+5</button><button id="minus1">-1</button></div>
+    </div>
+    <div class="card">
+      <label>People in the main-dish line at the end of the interval</label>
+      <input id="qlen" type="number" min="0" inputmode="numeric" placeholder="count at the bell">
+      <p class="muted">The phone vibrates at each 5-minute mark. Count the line, type it, press Record. Missed it? Press Missed: the cell stays blank. Never guess.</p>
+      <div class="row"><button class="acc" id="record">Record interval</button><button id="missed">Missed</button></div>
+    </div>
+    <div class="card"><table id="ivTable"><thead><tr><th>interval</th><th>queue</th><th>items</th></tr></thead><tbody></tbody></table></div>
+  </section>
+
+  <section id="watch" class="hidden">
+    <div class="card">
+      <p class="muted">Pick someone as they join the main-dish line. Press Start. Press their tag when they get the dish. Aim for 10+ per meal. No names or photos.</p>
+      <button class="acc" id="wStart">Start - person joined line</button>
+    </div>
+    <div class="card"><div class="muted">Waiting</div><div id="pending"></div></div>
+    <div class="card"><table id="wTable"><thead><tr><th>tag</th><th>joined</th><th>served</th><th>min</th></tr></thead><tbody></tbody></table></div>
+  </section>
+
+  <section id="export" class="hidden card">
+    <p>Files use the exact dataset format. Put them in <b>data/real/</b> (inout/, intervals/, waits/) and add the meta row to <b>data/real/sessions_meta.csv</b>.</p>
+    <button class="acc" id="exIo">Download inout/&lt;session&gt;.csv</button><br><br>
+    <button class="acc" id="exIv">Download intervals/&lt;session&gt;.csv</button><br><br>
+    <button class="acc" id="exW">Download waits/&lt;session&gt;.csv</button><br><br>
+    <button id="exMeta">Download sessions_meta row</button><br><br>
+    <button id="reset" style="color:#c92a2a">Clear this session from the phone</button>
+    <p class="muted" id="exInfo"></p>
+  </section>
+</main>
+<script>
+const $ = id => document.getElementById(id);
+const pad = n => String(n).padStart(2, "0");
+const stamp = d => `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())} ${pad(d.getHours())}:${pad(d.getMinutes())}:${pad(d.getSeconds())}`;
+const today = () => { const d = new Date(); return `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`; };
+const KEY = "messTapLogger.v1";
+let S;
+try { S = JSON.parse(localStorage.getItem(KEY)) || null; } catch (e) { S = null; }
+if (!S) S = { meta: { mess:"MESSA", meal:"breakfast", date:today(), open:"07:15", close:"09:30", dish:"", ipp:2, obs:"", notes:"" },
+              io: [], iv: [], items: 0, waits: [], seq: 0 };
+const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) {} };
+const sid = () => `${S.meta.mess}_${S.meta.meal}_${S.meta.date}`;
+
+// ---------- tabs
+document.querySelectorAll(".tabs button").forEach(b => b.onclick = () => {
+  document.querySelectorAll(".tabs button").forEach(x => x.classList.toggle("on", x === b));
+  ["setup","door","counter","watch","export"].forEach(t => $(t).classList.toggle("hidden", t !== b.dataset.tab));
+  render();
+});
+
+// ---------- setup
+const F = ["mess","meal","date","open","close","dish","ipp","obs","notes"];
+F.forEach(k => { $(k).value = S.meta[k]; $(k).oninput = () => { $("sid").textContent = `${$("mess").value}_${$("meal").value}_${$("date").value}`; }; });
+$("sid").textContent = sid();
+$("save").onclick = () => { F.forEach(k => S.meta[k] = $(k).value.trim()); S.meta.ipp = Number(S.meta.ipp) || 1; save(); $("sid").textContent = sid(); alertless("Saved"); };
+function alertless(msg) { $("exInfo").textContent = msg; const b = $("save"); const t = b.textContent; b.textContent = msg; setTimeout(() => b.textContent = t, 900); }
+
+// ---------- door
+function tap(ev) { S.io.push([stamp(new Date()), ev]); save(); if (navigator.vibrate) navigator.vibrate(25); render(); }
+$("tapIn").onclick = () => tap("IN"); $("tapOut").onclick = () => tap("OUT");
+$("undoDoor").onclick = () => { S.io.pop(); save(); render(); };
+
+// ---------- counter (5-minute grid anchored at opening time)
+function ivStart(now) {
+  const [h, m] = S.meta.open.split(":").map(Number);
+  const o = new Date(`${S.meta.date}T${pad(h)}:${pad(m)}:00`);
+  const k = Math.max(0, Math.floor((now - o) / 300000));
+  return new Date(o.getTime() + k * 300000);
+}
+let lastIv = null;
+$("plus1").onclick = () => { S.items += 1; save(); render(); };
+$("plus5").onclick = () => { S.items += 5; save(); render(); };
+$("minus1").onclick = () => { S.items = Math.max(0, S.items - 1); save(); render(); };
+function record(missed) {
+  const now = new Date();
+  // the interval that just ended (recording happens at or just after the bell)
+  let st = ivStart(new Date(now.getTime() - 60000));
+  const en = new Date(st.getTime() + 300000);
+  const q = missed ? "" : $("qlen").value.trim();
+  const row = [stamp(st), stamp(en), q, String(S.items)];
+  const i = S.iv.findIndex(r => r[0] === row[0]);
+  if (i >= 0) S.iv[i] = row; else S.iv.push(row);
+  S.iv.sort((a, b) => a[0] < b[0] ? -1 : 1);
+  S.items = 0; $("qlen").value = ""; save(); render();
+}
+$("record").onclick = () => record(false); $("missed").onclick = () => record(true);
+
+// ---------- stopwatch
+$("wStart").onclick = () => { S.seq += 1; S.waits.push([`S${pad(S.seq)}`, stamp(new Date()), ""]); save(); render(); };
+function served(tag) { const w = S.waits.find(r => r[0] === tag); if (w && !w[2]) { w[2] = stamp(new Date()); save(); render(); } }
+
+// ---------- export
+function download(name, rows) {
+  const blob = new Blob([rows.map(r => r.join(",")).join("\n") + "\n"], { type: "text/csv" });
+  const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = name; a.click();
+}
+$("exIo").onclick = () => download(`${sid()}.csv`, [["ts","event"], ...S.io]);
+$("exIv").onclick = () => download(`${sid()}.csv`, [["interval_start","interval_end","queue_len","items_made"], ...S.iv]);
+$("exW").onclick = () => download(`${sid()}.csv`, [["tag","join_ts","served_ts"], ...S.waits.filter(r => r[2])]);
+$("exMeta").onclick = () => {
+  const m = S.meta, wd = new Date(m.date + "T12:00:00").toLocaleDateString("en-US", { weekday: "long" });
+  const q = s => `"${String(s).replace(/"/g, '""')}"`;
+  download(`${sid()}_meta.csv`, [["session_id","date","weekday","meal","mess","open_time","close_time","main_dish","items_per_person","interval_min","observers","is_synthetic","notes"],
+    [sid(), m.date, wd, m.meal, m.mess, m.open, m.close, q(m.dish), m.ipp, 5, q(m.obs), 0, q(m.notes)]]);
+};
+$("reset").onclick = () => { if (prompt("Type CLEAR to delete this session's taps from the phone") === "CLEAR") {
+  S.io = []; S.iv = []; S.items = 0; S.waits = []; S.seq = 0; save(); render(); } };
+
+// ---------- render + clock
+function render() {
+  const nIn = S.io.filter(r => r[1] === "IN").length, nOut = S.io.length - nIn;
+  $("nIn").textContent = nIn; $("nOut").textContent = nOut; $("nHall").textContent = nIn - nOut;
+  $("items").textContent = S.items;
+  $("ivTable").querySelector("tbody").innerHTML = S.iv.slice(-8).reverse()
+    .map(r => `<tr><td>${r[0].slice(11,16)}-${r[1].slice(11,16)}</td><td>${r[2] === "" ? "<span class=pill>missed</span>" : r[2]}</td><td>${r[3]}</td></tr>`).join("");
+  $("pending").innerHTML = S.waits.filter(r => !r[2]).map(r =>
+    `<button style="margin:4px 0" onclick="served('${r[0]}')">${r[0]} joined ${r[1].slice(11,19)} - tap when served</button>`).join("") || '<span class="muted">none</span>';
+  $("wTable").querySelector("tbody").innerHTML = S.waits.filter(r => r[2]).slice(-10).reverse().map(r => {
+    const m = ((new Date(r[2].replace(" ","T")) - new Date(r[1].replace(" ","T"))) / 60000).toFixed(1);
+    return `<tr><td>${r[0]}</td><td>${r[1].slice(11)}</td><td>${r[2].slice(11)}</td><td>${m}</td></tr>`; }).join("");
+  $("exInfo").textContent = `${sid()}: ${S.io.length} door taps, ${S.iv.length} intervals, ${S.waits.filter(r => r[2]).length} stopwatch samples`;
+}
+setInterval(() => {
+  const now = new Date(); $("clock").textContent = stamp(now).slice(11);
+  const st = ivStart(now), en = new Date(st.getTime() + 300000), left = Math.max(0, Math.round((en - now) / 1000));
+  $("ivLabel").textContent = `${stamp(st).slice(11,16)}-${stamp(en).slice(11,16)}`;
+  $("ivLeft").textContent = `${Math.floor(left/60)}:${pad(left%60)}`;
+  const key = stamp(st);
+  if (lastIv && lastIv !== key && navigator.vibrate) navigator.vibrate([200, 100, 200]);
+  lastIv = key;
+}, 500);
+render();
+</script>
+</body>
+</html>

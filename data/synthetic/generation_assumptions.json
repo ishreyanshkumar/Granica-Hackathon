@@ -1,0 +1,110 @@
+{
+  "diners_per_meal": {
+    "breakfast": [
+      650,
+      800
+    ],
+    "lunch": [
+      800,
+      950
+    ],
+    "dinner": [
+      750,
+      900
+    ]
+  },
+  "eating_time_min": "Normal(mean 20, sd 4), clipped 12-35 (nobody leaves in their first 10 min)",
+  "line_capacity_people": 90,
+  "line_capacity_note": "the main-dish line holds at most 90 people (hall space); extra arrivals wait at tables and join as space frees - they count as sitting, not queue",
+  "weekday_note": "weekday meals use the patterns in the module docstring",
+  "stations": {
+    "breakfast": 4,
+    "lunch": 3,
+    "dinner": 3
+  },
+  "stations_note": "not recorded by observers; kitchen may add one station (prob 0.5 per meal) when line > 35",
+  "service_people_per_min_per_station": {
+    "Idli/Vada": 3.0,
+    "Poha": 3.4,
+    "Dosa": 2.6,
+    "Aloo Paratha": 2.4,
+    "Upma": 3.4,
+    "Rice/Dal/Roti": 3.2,
+    "Veg Biryani (special)": 2.6,
+    "Paneer + Roti (special)": 2.4,
+    "Roti/Sabzi": 3.0
+  },
+  "items_per_person": {
+    "Idli/Vada": 3,
+    "Poha": 1,
+    "Dosa": 2,
+    "Aloo Paratha": 2,
+    "Upma": 1,
+    "Rice/Dal/Roti": 4,
+    "Veg Biryani (special)": 1,
+    "Paneer + Roti (special)": 4,
+    "Roti/Sabzi": 4
+  },
+  "menu_by_weekday": {
+    "breakfast": [
+      "Idli/Vada",
+      "Aloo Paratha",
+      "Dosa",
+      "Poha",
+      "Dosa"
+    ],
+    "lunch": [
+      "Rice/Dal/Roti",
+      "Rice/Dal/Roti",
+      "Rice/Dal/Roti",
+      "Rice/Dal/Roti",
+      "Rice/Dal/Roti"
+    ],
+    "dinner": [
+      "Roti/Sabzi",
+      "Roti/Sabzi",
+      "Veg Biryani (special)",
+      "Roti/Sabzi",
+      "Paneer + Roti (special)"
+    ]
+  },
+  "after_close": "no new entries; counter keeps serving until the line is empty; people finish eating and leave",
+  "queue_count_noise_sd": 1.5,
+  "items_count_noise_sd": 1.0,
+  "missed_queue_count_rate": 0.03,
+  "missed_items_count_rate": 0.02,
+  "stopwatch_every_min": 7,
+  "stopwatch_note": "one person timed from joining the line to receiving the main dish, about every 7 min",
+  "weekend": {
+    "dates": [
+      "2026-09-26",
+      "2026-09-27"
+    ],
+    "counters": 3,
+    "meals": {
+      "breakfast": {
+        "open": "08:00",
+        "minutes": 135,
+        "diners": 800,
+        "dish": "Dosa",
+        "people_per_min_per_counter": 2.6
+      },
+      "lunch": {
+        "open": "12:15",
+        "minutes": 135,
+        "diners": 850,
+        "dish": "Rice/Dal/Roti",
+        "people_per_min_per_counter": 3.1
+      },
+      "dinner": {
+        "open": "20:00",
+        "minutes": 120,
+        "diners": 938,
+        "dish": "Roti/Sabzi",
+        "people_per_min_per_counter": 3.5
+      }
+    },
+    "day_variation": "diners x U(0.97, 1.03), peak timing +/- 3 min, counter speed x U(0.95, 1.05)",
+    "per_counter_split": "Dirichlet(8,8,8) share of the line per counter each interval (uneven counters)"
+  }
+}

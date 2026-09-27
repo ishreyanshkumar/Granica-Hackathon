@@ -1,0 +1,384 @@
+{
+  "dataset": "smartmess-mess-a",
+  "version": "1.0",
+  "tables": [
+    {
+      "file": "data/parquet/inout.parquet",
+      "rows": 82362,
+      "title": "One row per person crossing the dining-hall door.",
+      "grain": "event",
+      "columns": [
+        {
+          "name": "session_id",
+          "type": "large_string",
+          "description": "meal session id <MESS>_<meal>_<YYYY-MM-DD>; SYN_ prefix = synthetic"
+        },
+        {
+          "name": "ts",
+          "type": "timestamp[us]",
+          "description": "tap time, IST, second precision"
+        },
+        {
+          "name": "event",
+          "type": "large_string",
+          "description": "IN = entered the hall, OUT = left the hall"
+        },
+        {
+          "name": "is_synthetic",
+          "type": "int64",
+          "description": "1 = simulated row, 0 = counted in the mess"
+        }
+      ]
+    },
+    {
+      "file": "data/parquet/intervals.parquet",
+      "rows": 1616,
+      "title": "One row per 5-minute interval at the main-dish counter.",
+      "grain": "5 min",
+      "columns": [
+        {
+          "name": "session_id",
+          "type": "large_string",
+          "description": "meal session id"
+        },
+        {
+          "name": "interval_start",
+          "type": "timestamp[us]",
+          "description": "start of the 5-minute window, IST"
+        },
+        {
+          "name": "interval_end",
+          "type": "timestamp[us]",
+          "description": "end of the window, IST; the line is counted at this moment"
+        },
+        {
+          "name": "queue_len",
+          "type": "int64",
+          "description": "people standing in the main-dish line at interval_end (null = count missed)"
+        },
+        {
+          "name": "items_made",
+          "type": "int64",
+          "description": "main-dish units made in the window, e.g. dosas (null = count missed)"
+        },
+        {
+          "name": "is_synthetic",
+          "type": "int64",
+          "description": "1 = simulated row, 0 = counted in the mess"
+        }
+      ]
+    },
+    {
+      "file": "data/parquet/waits.parquet",
+      "rows": 849,
+      "title": "One row per stopwatch sample: one person timed from joining the line to getting the dish.",
+      "grain": "person",
+      "columns": [
+        {
+          "name": "session_id",
+          "type": "large_string",
+          "description": "meal session id"
+        },
+        {
+          "name": "tag",
+          "type": "large_string",
+          "description": "anonymous label (S01, S02...)"
+        },
+        {
+          "name": "join_ts",
+          "type": "timestamp[us]",
+          "description": "person joined the main-dish line, IST"
+        },
+        {
+          "name": "served_ts",
+          "type": "timestamp[us]",
+          "description": "person received the main dish, IST"
+        },
+        {
+          "name": "wait_min",
+          "type": "double",
+          "description": "served_ts - join_ts in minutes (inferred)"
+        },
+        {
+          "name": "is_synthetic",
+          "type": "int64",
+          "description": "1 = simulated, 0 = measured"
+        }
+      ]
+    },
+    {
+      "file": "data/parquet/sessions_meta.parquet",
+      "rows": 51,
+      "title": "One row per meal session.",
+      "grain": "meal",
+      "columns": [
+        {
+          "name": "session_id",
+          "type": "large_string",
+          "description": "meal session id"
+        },
+        {
+          "name": "date",
+          "type": "date32[day]",
+          "description": "calendar date"
+        },
+        {
+          "name": "weekday",
+          "type": "large_string",
+          "description": "day name"
+        },
+        {
+          "name": "meal",
+          "type": "large_string",
+          "description": "breakfast / lunch / dinner"
+        },
+        {
+          "name": "mess",
+          "type": "large_string",
+          "description": "mess code"
+        },
+        {
+          "name": "open_time",
+          "type": "large_string",
+          "description": "official opening HH:MM"
+        },
+        {
+          "name": "close_time",
+          "type": "large_string",
+          "description": "official closing HH:MM"
+        },
+        {
+          "name": "main_dish",
+          "type": "large_string",
+          "description": "the meal's main (bottleneck) dish"
+        },
+        {
+          "name": "items_per_person",
+          "type": "int64",
+          "description": "units of the main dish per plate"
+        },
+        {
+          "name": "interval_min",
+          "type": "int64",
+          "description": "counter-count cadence in minutes"
+        },
+        {
+          "name": "observers",
+          "type": "large_string",
+          "description": "initials + roles (real sessions)"
+        },
+        {
+          "name": "is_synthetic",
+          "type": "int64",
+          "description": "1 = simulated session"
+        },
+        {
+          "name": "notes",
+          "type": "large_string",
+          "description": "anything unusual; provenance for synthetic sessions"
+        }
+      ]
+    },
+    {
+      "file": "data/parquet/slot_tables.parquet",
+      "rows": 1616,
+      "title": "Per-5-minute view of each meal: in, out, running totals, queue, sitting, serving rate.",
+      "grain": "5 min",
+      "columns": [
+        {
+          "name": "session_id",
+          "type": "large_string",
+          "description": "meal session id"
+        },
+        {
+          "name": "day",
+          "type": "large_string",
+          "description": "day name"
+        },
+        {
+          "name": "meal",
+          "type": "large_string",
+          "description": "meal"
+        },
+        {
+          "name": "time_slot",
+          "type": "large_string",
+          "description": "HH:MM-HH:MM"
+        },
+        {
+          "name": "people_in",
+          "type": "int64",
+          "description": "people entering in the slot"
+        },
+        {
+          "name": "people_out",
+          "type": "int64",
+          "description": "people leaving in the slot"
+        },
+        {
+          "name": "cumulative_in",
+          "type": "int64",
+          "description": "running total of people_in"
+        },
+        {
+          "name": "cumulative_out",
+          "type": "int64",
+          "description": "running total of people_out"
+        },
+        {
+          "name": "queue_total",
+          "type": "double",
+          "description": "people in the main-dish line at slot end (null = missed)"
+        },
+        {
+          "name": "avg_queue_per_counter",
+          "type": "double",
+          "description": "queue_total over 3 counters, averaged; 1 when 0 < people_in < 4"
+        },
+        {
+          "name": "longest_counter_queue",
+          "type": "double",
+          "description": "longest of the 3 counters"
+        },
+        {
+          "name": "sitting",
+          "type": "double",
+          "description": "cumulative_in - cumulative_out - queue_total (in the hall, not in line)"
+        },
+        {
+          "name": "main_dish",
+          "type": "large_string",
+          "description": "main dish"
+        },
+        {
+          "name": "items_made_5min",
+          "type": "double",
+          "description": "main-dish units made in the slot"
+        },
+        {
+          "name": "serving_rate_items_per_min",
+          "type": "double",
+          "description": "items_made_5min / 5"
+        },
+        {
+          "name": "serving_rate_people_per_min",
+          "type": "double",
+          "description": "/ items_per_person"
+        },
+        {
+          "name": "formula_estimate_per_counter",
+          "type": "double",
+          "description": "team's first formula (in - served)/3 without carry-over, for comparison"
+        },
+        {
+          "name": "is_synthetic",
+          "type": "int64",
+          "description": "1 = simulated row"
+        }
+      ]
+    },
+    {
+      "file": "data/parquet/sessions_5min.parquet",
+      "rows": 1616,
+      "title": "Modelling table built by src/ingest.py: door counts joined onto the 5-minute counter log.",
+      "grain": "5 min",
+      "columns": [
+        {
+          "name": "session_id",
+          "type": "large_string",
+          "description": "meal session id"
+        },
+        {
+          "name": "interval_start",
+          "type": "timestamp[us]",
+          "description": "window start, IST"
+        },
+        {
+          "name": "interval_end",
+          "type": "timestamp[us]",
+          "description": "window end, IST"
+        },
+        {
+          "name": "in_count",
+          "type": "int64",
+          "description": "IN taps in the window (observed)"
+        },
+        {
+          "name": "out_count",
+          "type": "int64",
+          "description": "OUT taps in the window (observed)"
+        },
+        {
+          "name": "queue_len",
+          "type": "double",
+          "description": "line at interval_end (observed; null = missed)"
+        },
+        {
+          "name": "items_made",
+          "type": "double",
+          "description": "units made (observed; null = missed)"
+        },
+        {
+          "name": "service_rate_items_per_min",
+          "type": "double",
+          "description": "items_made / 5 (inferred)"
+        },
+        {
+          "name": "service_rate_people_per_min",
+          "type": "double",
+          "description": "/ items_per_person (inferred)"
+        },
+        {
+          "name": "main_dish",
+          "type": "large_string",
+          "description": "from meta (observed)"
+        },
+        {
+          "name": "items_per_person",
+          "type": "double",
+          "description": "from meta (observed)"
+        },
+        {
+          "name": "meal",
+          "type": "large_string",
+          "description": "from meta"
+        },
+        {
+          "name": "weekday",
+          "type": "large_string",
+          "description": "from meta"
+        },
+        {
+          "name": "slot_idx",
+          "type": "int64",
+          "description": "interval index since opening (inferred)"
+        },
+        {
+          "name": "tod_min",
+          "type": "int32",
+          "description": "minutes since midnight (inferred)"
+        },
+        {
+          "name": "after_close",
+          "type": "int64",
+          "description": "1 = window starts after closing time (inferred)"
+        },
+        {
+          "name": "queue_missing",
+          "type": "int64",
+          "description": "1 = line count missed (inferred)"
+        },
+        {
+          "name": "items_missing",
+          "type": "int64",
+          "description": "1 = item count missed (inferred)"
+        },
+        {
+          "name": "is_synthetic",
+          "type": "int64",
+          "description": "1 = simulated row"
+        }
+      ]
+    }
+  ]
+}

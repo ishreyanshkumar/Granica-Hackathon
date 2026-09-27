@@ -1,0 +1,46 @@
+session_id,date,weekday,meal,mess,open_time,close_time,main_dish,items_per_person,interval_min,observers,is_synthetic,notes
+SYN_breakfast_2026-09-07,2026-09-07,Monday,breakfast,MESS_A,07:15,09:30,Idli/Vada,3,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
+SYN_lunch_2026-09-07,2026-09-07,Monday,lunch,MESS_A,12:00,14:00,Rice/Dal/Roti,4,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
+SYN_dinner_2026-09-07,2026-09-07,Monday,dinner,MESS_A,19:30,21:45,Roti/Sabzi,4,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
+SYN_breakfast_2026-09-08,2026-09-08,Tuesday,breakfast,MESS_A,07:15,09:30,Aloo Paratha,2,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
+SYN_lunch_2026-09-08,2026-09-08,Tuesday,lunch,MESS_A,12:00,14:00,Rice/Dal/Roti,4,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
+SYN_dinner_2026-09-08,2026-09-08,Tuesday,dinner,MESS_A,19:30,21:45,Roti/Sabzi,4,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
+SYN_breakfast_2026-09-09,2026-09-09,Wednesday,breakfast,MESS_A,07:15,09:30,Dosa,2,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
+SYN_lunch_2026-09-09,2026-09-09,Wednesday,lunch,MESS_A,12:00,14:00,Rice/Dal/Roti,4,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
+SYN_dinner_2026-09-09,2026-09-09,Wednesday,dinner,MESS_A,19:30,21:45,Veg Biryani (special),1,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
+SYN_breakfast_2026-09-10,2026-09-10,Thursday,breakfast,MESS_A,07:15,09:30,Poha,1,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
+SYN_lunch_2026-09-10,2026-09-10,Thursday,lunch,MESS_A,12:00,14:00,Rice/Dal/Roti,4,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
+SYN_dinner_2026-09-10,2026-09-10,Thursday,dinner,MESS_A,19:30,21:45,Roti/Sabzi,4,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
+SYN_breakfast_2026-09-11,2026-09-11,Friday,breakfast,MESS_A,07:15,09:30,Dosa,2,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
+SYN_lunch_2026-09-11,2026-09-11,Friday,lunch,MESS_A,12:00,14:00,Rice/Dal/Roti,4,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
+SYN_dinner_2026-09-11,2026-09-11,Friday,dinner,MESS_A,19:30,21:45,Paneer + Roti (special),4,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
+SYN_breakfast_2026-09-14,2026-09-14,Monday,breakfast,MESS_A,07:15,09:30,Idli/Vada,3,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
+SYN_lunch_2026-09-14,2026-09-14,Monday,lunch,MESS_A,12:00,14:00,Rice/Dal/Roti,4,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
+SYN_dinner_2026-09-14,2026-09-14,Monday,dinner,MESS_A,19:30,21:45,Roti/Sabzi,4,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
+SYN_breakfast_2026-09-15,2026-09-15,Tuesday,breakfast,MESS_A,07:15,09:30,Aloo Paratha,2,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
+SYN_lunch_2026-09-15,2026-09-15,Tuesday,lunch,MESS_A,12:00,14:00,Rice/Dal/Roti,4,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
+SYN_dinner_2026-09-15,2026-09-15,Tuesday,dinner,MESS_A,19:30,21:45,Roti/Sabzi,4,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
+SYN_breakfast_2026-09-16,2026-09-16,Wednesday,breakfast,MESS_A,07:15,09:30,Dosa,2,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
+SYN_lunch_2026-09-16,2026-09-16,Wednesday,lunch,MESS_A,12:00,14:00,Rice/Dal/Roti,4,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
+SYN_dinner_2026-09-16,2026-09-16,Wednesday,dinner,MESS_A,19:30,21:45,Veg Biryani (special),1,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
+SYN_breakfast_2026-09-17,2026-09-17,Thursday,breakfast,MESS_A,07:15,09:30,Poha,1,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
+SYN_lunch_2026-09-17,2026-09-17,Thursday,lunch,MESS_A,12:00,14:00,Rice/Dal/Roti,4,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
+SYN_dinner_2026-09-17,2026-09-17,Thursday,dinner,MESS_A,19:30,21:45,Roti/Sabzi,4,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
+SYN_breakfast_2026-09-18,2026-09-18,Friday,breakfast,MESS_A,07:15,09:30,Dosa,2,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
+SYN_lunch_2026-09-18,2026-09-18,Friday,lunch,MESS_A,12:00,14:00,Rice/Dal/Roti,4,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
+SYN_dinner_2026-09-18,2026-09-18,Friday,dinner,MESS_A,19:30,21:45,Paneer + Roti (special),4,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
+SYN_breakfast_2026-09-21,2026-09-21,Monday,breakfast,MESS_A,07:15,09:30,Idli/Vada,3,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
+SYN_lunch_2026-09-21,2026-09-21,Monday,lunch,MESS_A,12:00,14:00,Rice/Dal/Roti,4,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
+SYN_dinner_2026-09-21,2026-09-21,Monday,dinner,MESS_A,19:30,21:45,Roti/Sabzi,4,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
+SYN_breakfast_2026-09-22,2026-09-22,Tuesday,breakfast,MESS_A,07:15,09:30,Aloo Paratha,2,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
+SYN_lunch_2026-09-22,2026-09-22,Tuesday,lunch,MESS_A,12:00,14:00,Rice/Dal/Roti,4,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
+SYN_dinner_2026-09-22,2026-09-22,Tuesday,dinner,MESS_A,19:30,21:45,Roti/Sabzi,4,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
+SYN_breakfast_2026-09-23,2026-09-23,Wednesday,breakfast,MESS_A,07:15,09:30,Dosa,2,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
+SYN_lunch_2026-09-23,2026-09-23,Wednesday,lunch,MESS_A,12:00,14:00,Rice/Dal/Roti,4,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
+SYN_dinner_2026-09-23,2026-09-23,Wednesday,dinner,MESS_A,19:30,21:45,Veg Biryani (special),1,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
+SYN_breakfast_2026-09-24,2026-09-24,Thursday,breakfast,MESS_A,07:15,09:30,Poha,1,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
+SYN_lunch_2026-09-24,2026-09-24,Thursday,lunch,MESS_A,12:00,14:00,Rice/Dal/Roti,4,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
+SYN_dinner_2026-09-24,2026-09-24,Thursday,dinner,MESS_A,19:30,21:45,Roti/Sabzi,4,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
+SYN_breakfast_2026-09-25,2026-09-25,Friday,breakfast,MESS_A,07:15,09:30,Dosa,2,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
+SYN_lunch_2026-09-25,2026-09-25,Friday,lunch,MESS_A,12:00,14:00,Rice/Dal/Roti,4,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json
+SYN_dinner_2026-09-25,2026-09-25,Friday,dinner,MESS_A,19:30,21:45,Paneer + Roti (special),4,5,none (synthetic),1,weekday synthetic from observed crowd patterns; see generation_assumptions.json

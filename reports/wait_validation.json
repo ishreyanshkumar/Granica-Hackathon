@@ -1,0 +1,20 @@
+{
+  "real": {
+    "n": 97,
+    "mae_min": 0.35,
+    "bias_min": -0.18,
+    "within_2min": 1.0,
+    "corr": 0.933,
+    "mae_when_wait_over_3min": 0.63,
+    "naive_mean_wait_mae": 0.86
+  },
+  "synthetic": {
+    "n": 752,
+    "mae_min": 0.38,
+    "bias_min": -0.25,
+    "within_2min": 1.0,
+    "corr": 0.956,
+    "mae_when_wait_over_3min": 0.55,
+    "naive_mean_wait_mae": 0.89
+  }
+}
